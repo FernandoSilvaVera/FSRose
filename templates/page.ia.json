@@ -2,6 +2,14 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        ".chat-box {height: 50vh; \/* Altura del cuadro de mensajes *\/ overflow-y: auto; border: 1px solid #ccc; padding: 15px; }",
+        " .message {margin-bottom: 10px; padding: 10px; border-radius: 10px; }",
+        " .user {background-color: #f1f1f1; }",
+        " .assistant {background-color: #d4edff; }",
+        " .user-input {margin-top: 15px; }",
+        " .chat-container {position: relative; overflow-y: auto; }"
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
