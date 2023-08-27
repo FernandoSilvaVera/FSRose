@@ -7,40 +7,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "ead78f70-62c6-4fa8-8abd-6912ac83bcaa": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19132085403972__ead78f70-62c6-4fa8-8abd-6912ac83bcaa-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Quiénes Somos<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--19132085403972__ead78f70-62c6-4fa8-8abd-6912ac83bcaa-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>¡Saludos! Soy Fernando, el corazón detrás de FS Rose. Permíteme llevarte a un viaje a través de nuestra historia y la pasión que nos impulsa a brindarte lo mejor en rosas preservadas.<\/p><p>Nacido en Ecuador, un país donde las rosas tienen un lugar especial en el corazón de la gente, siempre he sentido una conexión profunda con la belleza y el significado de estas flores. Mi amor por las rosas preservadas en cúpulas de cristal comenzó a florecer desde temprana edad, cuando me di cuenta de la magia de preservar la elegancia y fragilidad de una rosa natural en una forma que dura para siempre.<\/p><p>Más que un simple objeto decorativo, las rosas preservadas han sido mi regalo favorito para expresar gestos románticos a lo largo de los años. La combinación de su durabilidad eterna y la asombrosa belleza de una rosa fresca capturada en el tiempo es simplemente fascinante.<\/p><p>Con el deseo de compartir esta pasión y permitir que otros experimenten la alegría de regalar algo especial, fundé FS Rose. Nuestro nombre, que lleva mis iniciales \"FS\", refleja mi compromiso personal con cada rosa que ofrecemos. Cada rosa que sale de nuestra tienda lleva consigo ese toque personal y dedicación que es tan importante para mí.<\/p><p>En FS Rose, no solo ofrecemos rosas preservadas exquisitas, sino que también brindamos la oportunidad de crear momentos memorables. Ya sea para expresar amor, celebrar ocasiones especiales o simplemente agregar un toque de elegancia a tu hogar, nuestras rosas están aquí para ser parte de tu historia.<\/p><p>Te invito a explorar nuestra selección cuidadosamente curada y a ser parte de la experiencia FS Rose. ¡Bienvenidos a nuestra tienda, donde la belleza eterna encuentra su hogar en cada rosa preservada!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19132085403972__ead78f70-62c6-4fa8-8abd-6912ac83bcaa-heading-1",
-        "template--19132085403972__ead78f70-62c6-4fa8-8abd-6912ac83bcaa-text-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "ead78f70-62c6-4fa8-8abd-6912ac83bcaa"
+    "main"
   ]
 }
