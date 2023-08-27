@@ -359,10 +359,7 @@
                         {% endif %}
                           {{ item.original_line_price | money }}
                         </span>
-                        {% assign savings = item.variant.compare_at_price | minus: item.final_price %}
                         
-                        <span style="font-size: 12px; margin-top: 10px;">¡Estás ahorrando {{ savings }}!</span>
-
                       {%- endif -%}
                       {%- if item.variant.available and item.unit_price_measurement -%}
                         <div class="unit-price caption">
