@@ -30,7 +30,7 @@
 
   {% assign next_monday = now | date: '%s' | plus: 432000 %}
   {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
-  {% capture next_monday %}{{ next_monday | remove_first: "0" }}{% endcapture %}
+  {% capture next_monday %}{{ next_monday | replace_first: "^0", "" }}{% endcapture %}
 
   {% assign next_tuesday = now | date: '%s' | plus: 518400 %}
   {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
@@ -84,11 +84,11 @@
   {% elsif current_day == 5 %}
     {% assign next_monday = now | date: '%s' | plus: 259200 %}
     {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
-  {% capture next_monday %}{{ next_monday | remove_first: "0" }}{% endcapture %}
+  {% capture next_monday %}{{ next_monday | replace_first: "^0", "" }}{% endcapture %}
     
     {% assign next_tuesday = now | date: '%s' | plus: 345600 %}
     {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
-  {% capture next_tuesday %}{{ next_tuesday | remove_first: "0" }}{% endcapture %}
+  {% capture next_tuesday %}{{ next_tuesday | replace_first: "^0", "" }}{% endcapture %}
 
       {% assign next_wednesday = now | date: '%s' | plus: 432000 %}
     {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
@@ -106,11 +106,11 @@
   {% elsif current_day == 6 %}
     {% assign next_tuesday = now | date: '%s' | plus: 259200 %}
     {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
-  {% capture next_tuesday %}{{ next_tuesday | remove_first: "0" }}{% endcapture %}
+  {% capture next_tuesday %}{{ next_tuesday | replace_first: "^0", "" }}{% endcapture %}
     
     {% assign next_wednesday = now | date: '%s' | plus: 345600 %}
     {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
-  {% capture next_wednesday %}{{ next_wednesday | remove_first: "0" }}{% endcapture %}
+  {% capture next_wednesday %}{{ next_wednesday | replace_first: "^0", "" }}{% endcapture %}
 
       Entrega GRATIS <b>{{ next_tuesday }} o {{ next_wednesday }}</b>
   
@@ -122,8 +122,8 @@
     {% assign next_wednesday = now | date: '%s' | plus: 259200 %}
     {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
       
-  {% capture next_tuesday %}{{ next_tuesday | remove_first: "0" }}{% endcapture %}
-  {% capture next_wednesday %}{{ next_wednesday | remove_first: "0" }}{% endcapture %}
+  {% capture next_tuesday %}{{ next_tuesday | replace_first: "^0", "" }}{% endcapture %}
+  {% capture next_wednesday %}{{ next_wednesday | replace_first: "^0", "" }}{% endcapture %}
 
       
       Entrega GRATIS el <b>{{ next_tuesday }} o {{ next_wednesday }}</b>
