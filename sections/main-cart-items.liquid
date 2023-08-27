@@ -176,7 +176,7 @@
                 {% assign product_id = 8610497528132 %}
 {% assign product = routes.all_products[product_id] %}
 
-                {{ product | json }}
+                {{ routes.all_products_collection_url | json }}
                 
                                 {% render 'fsrose_stock_main_product', card_product:product %}
 
