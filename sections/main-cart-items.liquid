@@ -175,6 +175,8 @@
 
                 {% assign product_id = 46949732417860 %}
 {% assign product = all_products[product_id] %}
+
+                {{ product | json }}
                 
                                 {% render 'fsrose_stock_main_product', card_product:product %}
 
