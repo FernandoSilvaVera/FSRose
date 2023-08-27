@@ -138,7 +138,7 @@ function obtenerFechaEntrega() {
     let nextWednesday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
-    return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
+    return `Entrega GRATIS el <b>${nextTuesday} o ${nextWednesday}</b>`;
   }
 }
 
