@@ -82,45 +82,68 @@ function obtenerFechaEntrega() {
       if (currentHour < 16 && currentMonth !== 'agosto') {
         return `Entrega GRATIS MAÑANA o ${nextMonday}`;
       } else {
-        return `Entrega GRATIS el ${nextMonday} o ${nextTuesday}`;
+        return `Entrega GRATIS el ${dayAfterTomorrow} o ${nextMonday}`;
       }
     }
   } else if (currentDay === 4) {
-    let nextThursday = new Date(now.getTime() + 6 * 24 * 60 * 60 * 1000);
-    nextThursday = nextThursday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    let nextMonday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
+    nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
-    // Lógica para el día jueves
+    let nextTuesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
+    let nextWednesday = new Date(now.getTime() + 6 * 24 * 60 * 60 * 1000);
+    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
     if (today < 20) {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
     } else {
       if (currentHour < 16 && currentMonth !== 'agosto') {
         return `Entrega GRATIS MAÑANA o ${nextMonday}`;
       } else {
-        return `Entrega GRATIS el ${nextMonday} o ${nextThursday}`;
+        return `Entrega GRATIS el ${nextMonday} o ${nextTuesday}`;
       }
     }
   } else if (currentDay === 5) {
-    let nextFriday = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
-    nextFriday = nextFriday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    let nextMonday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
+    nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
-    // Lógica para el día viernes
+    let nextTuesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
+    let nextWednesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
+    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
     if (today < 20) {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
     } else {
       if (currentHour < 16 && currentMonth !== 'agosto') {
         return `Entrega GRATIS MAÑANA o ${nextMonday}`;
       } else {
-        return `Entrega GRATIS el ${nextMonday} o ${nextFriday}`;
+        return `Entrega GRATIS el ${nextMonday} o ${nextTuesday}`;
       }
     }
   } else if (currentDay === 6) {
-    // Lógica para el día sábado
+    let nextTuesday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
+    let nextWednesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
+    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
     return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
   } else if (currentDay === 0) {
-    // Lógica para el día domingo
+    let nextTuesday = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
+    let nextWednesday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
+    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+
     return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
   }
 }
+
+console.log(obtenerFechaEntrega());
+
 
 console.log(obtenerFechaEntrega());
 
