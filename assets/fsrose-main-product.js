@@ -34,7 +34,7 @@ function obtenerFechaEntrega() {
 }
 
 var messageDeliveryElement = document.getElementById("messageDelivery");
-messageDeliveryElement.textContent = obtenerFechaEntrega();
+messageDeliveryElement.innerHTML  = obtenerFechaEntrega();
 
 
 
