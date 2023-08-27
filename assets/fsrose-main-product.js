@@ -21,12 +21,22 @@ function obtenerMensajeEntrega() {
     
     // JUEVES
     else if (currentDay === 4) {
-        // Lógica para el jueves
+
+         if (currentHour < 22) {
+            const remainingHours = 21 - currentHour; // 22:00 - currentHour
+            const remainingMinutes = 60 - currentMinute;
+            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas ${remainingMinutes} mins`;
+        }     
+      
     }
     
     // VIERNES
     else if (currentDay === 5) {
-        // Lógica para el viernes
+        if (currentHour < 22) {
+            const remainingHours = 21 - currentHour; // 22:00 - currentHour
+            const remainingMinutes = 60 - currentMinute;
+            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas ${remainingMinutes} mins`;
+        }
     }
     
     // SÁBADO
@@ -40,7 +50,7 @@ function obtenerMensajeEntrega() {
     
     // DOMINGO
     else if (currentDay === 0) {
-        if (currentHour < 20) {
+        if (currentHour < 22) {
             const remainingHours = 19 - currentHour; // 20:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas ${remainingMinutes} mins`;
