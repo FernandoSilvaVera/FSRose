@@ -51,7 +51,7 @@ function obtenerMensajeEntrega() {
     // DOMINGO
     else if (currentDay === 0) {
         if (currentHour < 22) {
-            const remainingHours = 19 - currentHour; // 20:00 - currentHour
+            const remainingHours = 21 - currentHour; // 20:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas ${remainingMinutes} mins`;
         }
