@@ -10,12 +10,12 @@ function obtenerMensajeEntrega() {
         if (currentHour > 8 && currentHour < 15) {
             const remainingHours = 14 - currentHour; // 15:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}h y ${remainingMinutes} minutos`;
+            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas y ${remainingMinutes} mins`;
         }
         if (currentHour > 15 && currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}h y ${remainingMinutes} minutos`;
+            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas y ${remainingMinutes} mins`;
         }
     }
     
@@ -34,7 +34,7 @@ function obtenerMensajeEntrega() {
         if (currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}h ${remainingMinutes} minutos`;
+            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas ${remainingMinutes} mins`;
         }
     }
     
@@ -43,7 +43,7 @@ function obtenerMensajeEntrega() {
         if (currentHour < 20) {
             const remainingHours = 19 - currentHour; // 20:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}h ${remainingMinutes} minutos`;
+            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas ${remainingMinutes} mins`;
         }
     }
     
