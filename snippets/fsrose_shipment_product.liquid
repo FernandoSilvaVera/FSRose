@@ -1,0 +1,73 @@
+{% assign now = 'now' %}
+{% assign current_day = now | date: "%w" | plus: 0 %}
+{% assign current_hour = "now" | date: "%H" | plus: 0 %}
+
+
+{% comment %} LUNES - MIERCOLES {% endcomment %}
+{% if current_day >= 1 and current_day <= 3 %}
+
+  {% if current_hour > 8 and current_hour < 15 %}
+    
+    <br>
+    <span style="color: #007600!important; font-size: 90%;">Entrega más rápida. Haz el pedido antes de las 15:00</span>  
+  
+  {% endif %}
+
+
+  
+{% if current_hour > 15 and current_hour < 22 %}
+  
+  <br>
+  <span style="color: #007600!important; font-size: 90%;">Entrega más rápida. Haz el pedido antes de las 22:00</span>  
+
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+{% comment %} JUEVES {% endcomment %}
+{% elsif current_day == 4 %}
+
+
+
+
+
+
+{% comment %} VIERNES {% endcomment %}
+  {% elsif current_day == 5 %}
+
+
+
+
+
+  
+{% comment %} SÁBADO {% endcomment %}
+  {% elsif current_day == 6 %}
+
+  {% if current_hour < 22 %}
+  
+    <br>
+    <span style="color: #007600!important; font-size: 90%;">Entrega más rápida. Haz el pedido antes de las 22:00</span>  
+
+  {% endif %}
+
+
+
+  
+{% comment %} DOMINGO {% endcomment %}
+  {% elsif current_day == 0 %}
+
+  {% if current_hour < 20 %}
+  
+    <br>
+    <span style="color: #007600!important; font-size: 90%;">Entrega más rápida. Haz el pedido antes de las 20:00</span>  
+
+  {% endif %}
+  
+{% endif %}

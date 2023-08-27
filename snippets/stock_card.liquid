@@ -1,0 +1,9 @@
+{% assign inventory_quantity = card_product.selected_or_first_available_variant.inventory_quantity %}
+
+{% if inventory_quantity < 10 %}
+  <span class="shipment_text_card">
+    <span style="color:#B12704">
+      <b>Sólo queda(n) {{ inventory_quantity }} en stock</b>
+    </span>
+  </span>
+{% endif %}

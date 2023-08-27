@@ -1,0 +1,42 @@
+{% schema %}
+{
+  "name": "Info product like amazon",
+  "settings": []
+}
+{% endschema %}
+
+{% stylesheet %}
+/* Estilos CSS personalizados */
+.my-custom-section {
+  /* Estilos para el contenedor span */
+}
+
+.my-custom-section b {
+  /* Estilos para el elemento b dentro del span */
+}
+{% endstylesheet %}
+
+{% javascript %}
+/* Código JavaScript personalizado */
+console.log("¡Hola desde mi sección personalizada!");
+{% endjavascript %}
+
+<!-- Código HTML personalizado -->
+<span>
+  <b>Devoluciones GRATIS</b>
+  {% render 'free_delivery_conditions' %}
+</span>
+
+{%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+  {%- if shop.taxes_included -%}
+    <span>
+      <br>
+      <b>{{ shop.metaobjects.text["web_texts"].iva_info}}</b>
+    </span>
+    <span>
+      <br>
+      <b>{% render 'shipment' %}</b>
+    </span>
+    {% render 'fsrose_shipment_product' %}
+  {%- endif -%}
+{%- endif -%}
