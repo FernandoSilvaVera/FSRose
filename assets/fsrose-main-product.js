@@ -89,7 +89,7 @@ function obtenerFechaEntrega() {
 
 
 var messageDeliveryElement = document.getElementById("messageDelivery");
-messageDeliveryElement.textContent = obtenerMensajeEntrega();
+messageDeliveryElement.textContent = obtenerFechaEntrega();
 
 
 
