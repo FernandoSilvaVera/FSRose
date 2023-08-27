@@ -99,5 +99,9 @@ function obtenerFechaEntrega() {
         deliveryElement.parentNode.insertBefore(newSpanElement, deliveryElement.nextSibling);
 
 
+var messageDeliveryElement = document.getElementById("messageDelivery");
+messageDeliveryElement.innerHTML = obtenerMensajeEntrega();
+
+
 
 
