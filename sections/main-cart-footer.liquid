@@ -49,6 +49,15 @@
                   {%- endif -%}
                 </div>
 
+
+                <small class="tax-note caption-large rte">
+
+                </small>
+
+                <small class="tax-note caption-large rte">
+
+                </small>
+                
                 <small class="tax-note caption-large rte">
                   {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
                     {% render 'fsrose_shipment' %}
@@ -60,6 +69,8 @@
                     {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
                   {%- endif -%}
                 </small>
+
+                
               </div>
             {%- else -%}
               <div class="cart__ctas" {{ block.shopify_attributes }}>
