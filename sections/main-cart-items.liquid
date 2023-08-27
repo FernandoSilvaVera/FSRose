@@ -172,14 +172,6 @@
                         <li class="discounts__discount">
                           {%- render 'icon-discount' -%}
                           ¡OFERTA DE VERANO!
-
-                {% assign product_id = 8610497528132 %}
-{% assign product = routes.all_products[product_id] %}
-
-                {{ routes.all_products_collection_url | json }}
-                
-                                {% render 'fsrose_stock_main_product', card_product:product %}
-
                         </li>
                 
                       {%- for discount in item.discounts -%}
