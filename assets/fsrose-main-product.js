@@ -85,28 +85,7 @@ function obtenerFechaEntrega() {
     return ''; // En caso de no cumplir ninguna condición
 }
 
-      
-
-// Obtener el elemento con el ID "deliveryDate"
-const deliveryDateElement = document.getElementById('deliveryDate');
-
-// Verificar si el elemento fue encontrado
-if (deliveryDateElement) {
-    // Obtener el contenido HTML dentro del elemento
-    const deliveryDateContent = deliveryDateElement.innerHTML;
-
-    // Buscar el elemento con el ID "freeReturns"
-    const freeReturnsElement = document.getElementById('freeReturns');
-
-    // Verificar si se encontró el elemento "freeReturns"
-    if (freeReturnsElement) {
-        // Tu lógica aquí para manipular el elemento "freeReturns", por ejemplo:
-        freeReturnsElement.textContent = '¡Devoluciones gratuitas disponibles!';
-    }
-}
-
-
-
+    
         // Obtener una referencia al elemento con el ID "deliveryDate"
         var deliveryElement = document.getElementById('deliveryDate');
         
