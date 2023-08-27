@@ -50,6 +50,60 @@ function obtenerMensajeEntrega() {
     return ''; // En caso de no cumplir ninguna condición
 }
 
+function obtenerFechaEntrega() {
+    const now = new Date();
+    const currentDay = now.getDay();
+    const currentHour = now.getHours();
+    const currentMonth = now.toLocaleString('default', { month: 'long' });
+    const today = now.getDate();
+
+    if (currentDay >= 1 && currentDay <= 2) {
+        const dayAfterTomorrow = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
+        const twoDaysAfterTomorrow = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
+
+        if (currentHour < 16 && currentMonth !== 'agosto') {
+            return `Entrega GRATIS <b>MAÑANA o ${dayAfterTomorrow.toLocaleString('es-ES', { weekday: 'short', day: 'numeric' })}</b>`;
+        } else {
+            return `Entrega GRATIS <b>entre el ${dayAfterTomorrow.toLocaleString('es-ES', { weekday: 'short', day: 'numeric' })} o ${twoDaysAfterTomorrow.toLocaleString('es-ES', { weekday: 'short', day: 'numeric' })}</b>`;
+        }
+    } else if (currentDay === 3) {
+        // Lógica para miércoles
+    } else if (currentDay === 4) {
+        // Lógica para jueves
+    } else if (currentDay === 5) {
+        // Lógica para viernes
+    } else if (currentDay === 6) {
+        const nextTuesday = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
+        const nextWednesday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
+        return `Entrega GRATIS <b>${nextTuesday.toLocaleString('es-ES', { weekday: 'short', day: 'numeric' })} o ${nextWednesday.toLocaleString('es-ES', { weekday: 'short', day: 'numeric' })}</b>`;
+    } else if (currentDay === 0) {
+        const nextTuesday = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
+        const nextWednesday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
+        return `Entrega GRATIS el <b>${nextTuesday.toLocaleString('es-ES', { weekday: 'short', day: 'numeric' })} o ${nextWednesday.toLocaleString('es-ES', { weekday: 'short', day: 'numeric' })}</b>`;
+    }
+
+    return ''; // En caso de no cumplir ninguna condición
+}
+
+      
+
+// Obtener el elemento con el ID "deliveryDate"
+const deliveryDateElement = document.getElementById('deliveryDate');
+
+// Verificar si el elemento fue encontrado
+if (deliveryDateElement) {
+    // Obtener el contenido HTML dentro del elemento
+    const deliveryDateContent = deliveryDateElement.innerHTML;
+
+    // Buscar el elemento con el ID "freeReturns"
+    const freeReturnsElement = document.getElementById('freeReturns');
+
+    // Verificar si se encontró el elemento "freeReturns"
+    if (freeReturnsElement) {
+        // Tu lógica aquí para manipular el elemento "freeReturns", por ejemplo:
+        freeReturnsElement.textContent = '¡Devoluciones gratuitas disponibles!';
+    }
+}
 
 
 
@@ -64,3 +118,7 @@ function obtenerMensajeEntrega() {
         
         // Insertar el nuevo elemento <span> después del elemento con el ID "deliveryDate"
         deliveryElement.parentNode.insertBefore(newSpanElement, deliveryElement.nextSibling);
+
+
+
+
