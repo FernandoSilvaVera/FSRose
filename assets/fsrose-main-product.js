@@ -33,8 +33,12 @@ function obtenerFechaEntrega() {
     return ''; // En caso de no cumplir ninguna condición
 }
 
+var a = obtenerFechaEntrega()
+
+console.log(a)
+
 var messageDeliveryElement = document.getElementById("messageDelivery");
-messageDeliveryElement.innerHTML  = obtenerFechaEntrega();
+messageDeliveryElement.innerHTML  = a
 
 
 
