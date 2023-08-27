@@ -118,9 +118,9 @@ function obtenerFechaEntrega() {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
     } else {
       if (currentHour < 16 && currentMonth !== 'agosto') {
-        return `Entrega GRATIS MAÑANA o ${nextMonday}`;
+        return `Entrega GRATIS <b>MAÑANA o ${nextMonday}</b>`;
       } else {
-        return `Entrega GRATIS el ${nextMonday} o ${nextTuesday}`;
+        return `Entrega GRATIS el <b>${nextMonday} o ${nextTuesday}</b>`;
       }
     }
   } else if (currentDay === 6) {
@@ -130,7 +130,7 @@ function obtenerFechaEntrega() {
     let nextWednesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
-    return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
+    return `Entrega GRATIS el <b>${nextTuesday} o ${nextWednesday}</b>`;
   } else if (currentDay === 0) {
     let nextTuesday = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
     nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
@@ -142,18 +142,8 @@ function obtenerFechaEntrega() {
   }
 }
 
-console.log(obtenerFechaEntrega());
-
-
-console.log(obtenerFechaEntrega());
-
-
 var messageDeliveryElement = document.getElementById("messageDelivery");
 messageDeliveryElement.innerHTML = obtenerMensajeEntrega();
 
 var deliveryDateElement = document.getElementById("deliveryDate");
 deliveryDateElement.innerHTML = obtenerFechaEntrega();
-
-
-
-
