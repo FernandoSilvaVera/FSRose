@@ -79,7 +79,7 @@ function obtenerFechaEntrega() {
   nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
   if (currentDay >= 1 && currentDay <= 2) {
-    if (currentHour < 16 && currentMonth !== 'agosto') {
+    if (currentHour < 12 ) {
       return `Entrega GRATIS MAÑANA o ${dayAfterTomorrow}`;
     } else {
       return `Entrega GRATIS entre el ${dayAfterTomorrow} o ${nextMonday}`;
@@ -88,7 +88,7 @@ function obtenerFechaEntrega() {
     if (today < 20) {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
     } else {
-      if (currentHour < 16 && currentMonth !== 'agosto') {
+      if (currentHour < 12) {
         return `Entrega GRATIS MAÑANA o ${nextMonday}`;
       } else {
         return `Entrega GRATIS el ${dayAfterTomorrow} o ${nextMonday}`;
@@ -107,7 +107,7 @@ function obtenerFechaEntrega() {
     if (today < 20) {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
     } else {
-      if (currentHour < 16 && currentMonth !== 'agosto') {
+      if (currentHour < 12) {
         return `Entrega GRATIS MAÑANA o ${nextMonday}`;
       } else {
         return `Entrega GRATIS el ${nextMonday} o ${nextTuesday}`;
@@ -126,7 +126,7 @@ function obtenerFechaEntrega() {
     if (today < 20) {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
     } else {
-      if (currentHour < 16 && currentMonth !== 'agosto') {
+      if (currentHour < 12 && false) {
         return `Entrega GRATIS <b>MAÑANA o ${nextMonday}</b>`;
       } else {
         return `Entrega GRATIS el <b>${nextMonday} o ${nextTuesday}</b>`;
