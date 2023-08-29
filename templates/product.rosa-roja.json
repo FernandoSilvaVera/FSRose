@@ -197,7 +197,7 @@
             "image": "shopify:\/\/shop_images\/11.png",
             "caption": "",
             "heading": "Rosas de alta calidad",
-            "text": "<p>Solo las rosas más bonitas son preservadas<\/p>",
+            "text": "<p>Seleccionamos cuidadosamente solo las rosas más hermosas para nuestro proceso de preservación. Cada rosa que ofrecemos ha sido elegida por su belleza excepcional.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -208,7 +208,7 @@
             "image": "shopify:\/\/shop_images\/5_5967f8e7-8f0d-4ff9-afcf-bbdcea3baf8b.png",
             "caption": "",
             "heading": "Nuestros clientes son nuestra prioridad",
-            "text": "<ul><li>Si no estas conforme con tu compra tienes 30 días para devolver el producto de forma <strong>GRATUITA <\/strong>y sin dar explicaciones.<\/li><li>Envíos <strong>GRATUITOS <\/strong>y rápidos por medio de <strong>CORREOS EXPRESS<\/strong><\/li><\/ul>",
+            "text": "<p>Entendemos que tu satisfacción es lo más importante. Si no estás conforme con tu compra, <strong>tienes 30 días para devolver el producto de forma GRATUITA y sin dar explicaciones<\/strong>. Además, ofrecemos <strong>envíos GRATUITOS <\/strong>y rápidos a través de CORREOS EXPRESS para que disfrutes de tus rosas cuanto antes.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -219,8 +219,8 @@
             "image": "shopify:\/\/shop_images\/30.png",
             "caption": "",
             "heading": "Servicio al cliente explendido",
-            "text": "<p>Nos podéis contactar al WhatsApp para cualquier duda o consultar el estado de vuestros pedidos <\/p><p><strong>+34 646124371<\/strong><\/p>",
-            "button_label": "Button label",
+            "text": "<p>Estamos aquí para ti. Nuestro equipo de servicio al cliente está listo para ayudarte en todo momento. Si tienes alguna pregunta o deseas consultar el estado de tus pedidos, no dudes en contactarnos a través de <strong>WhatsApp al +34 646124371.<\/strong><\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
