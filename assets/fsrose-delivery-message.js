@@ -82,16 +82,16 @@ function obtenerFechaEntrega() {
     if (currentHour < 12 ) {
       return `Entrega GRATIS <b>MAÑANA o ${dayAfterTomorrow}</b>`;
     } else {
-      return `Entrega GRATIS entre el ${dayAfterTomorrow} o ${nextMonday}`;
+      return `Entrega GRATIS <b>entre el ${dayAfterTomorrow} o ${nextMonday}</b>`;
     }
   } else if (currentDay === 3) {
     if (today < 20 ) {
-      return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
+      return `Entrega GRATIS el <b>${nextTuesday} o ${nextWednesday}</b>`;
     } else {
       if (currentHour < 12) {
-        return `Entrega GRATIS MAÑANA o ${nextMonday}`;
+        return `Entrega GRATIS <b>MAÑANA o ${nextMonday}</b>`;
       } else {
-        return `Entrega GRATIS el ${dayAfterTomorrow} o ${nextMonday}`;
+        return `Entrega GRATIS <b>el ${dayAfterTomorrow} o ${nextMonday}</b>`;
       }
     }
   } else if (currentDay === 4) {
