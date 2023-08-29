@@ -45,6 +45,7 @@
         "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-text-1",
         "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-button-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
