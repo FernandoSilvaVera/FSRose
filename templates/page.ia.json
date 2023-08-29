@@ -14,53 +14,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "198e69d6-a3ca-4dcb-958e-841442c6b7c1": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Más información",
-            "button_link": "shopify:\/\/products\/bella-y-la-bestia-rosa-preservada-en-cupula-de-cristal"
-          }
-        }
-      },
-      "block_order": [
-        "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-heading-1",
-        "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-text-1",
-        "template--19550141382980__198e69d6-a3ca-4dcb-958e-841442c6b7c1-button-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "main",
-    "198e69d6-a3ca-4dcb-958e-841442c6b7c1"
+    "main"
   ]
 }
