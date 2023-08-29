@@ -227,26 +227,19 @@
         "padding_bottom": 36
       }
     },
-    "83cdb8ee-46e6-4527-b463-8a5ca700011c": {
+    "3772dcc5-d899-49e3-bb09-de98dc494c23": {
       "type": "rich-text",
       "blocks": {
-        "template--19132085305668__83cdb8ee-46e6-4527-b463-8a5ca700011c-heading-1": {
+        "template--19549260939588__3772dcc5-d899-49e3-bb09-de98dc494c23-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Nuestra Historia: Donde el Amor y la Eternidad Se Unen<\/strong><\/p>",
+            "heading": "<h1>¿Por que comprar en FS Rose?<\/h1>",
             "heading_size": "h1"
-          }
-        },
-        "template--19132085305668__83cdb8ee-46e6-4527-b463-8a5ca700011c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>FS Rose encuentra su origen en un amor que perdura inquebrantable. Las rosas solían ser mi regalo a mi amada, pero su marchitez me dejaba un rastro de melancolía. Anhelaba una manera de expresar un amor eterno, y así nació la visión de las Rosas Eternas. Cada cúpula de cristal encarna un compromiso perdurable, un sentimiento que perdura tanto como nuestras flores.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--19132085305668__83cdb8ee-46e6-4527-b463-8a5ca700011c-heading-1",
-        "template--19132085305668__83cdb8ee-46e6-4527-b463-8a5ca700011c-text-1"
+        "template--19549260939588__3772dcc5-d899-49e3-bb09-de98dc494c23-heading-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -255,6 +248,64 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "2eb22227-04e2-412e-a227-47fd0dd9ab34": {
+      "type": "multirow",
+      "blocks": {
+        "template--19549260939588__2eb22227-04e2-412e-a227-47fd0dd9ab34-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_989d0441-fd42-4031-9f07-d286c6e5bdee.png",
+            "caption": "",
+            "heading": "Rosas de alta calidad",
+            "text": "<p>Seleccionamos cuidadosamente solo las rosas más hermosas para nuestro proceso de preservación. Cada rosa que ofrecemos ha sido elegida por su belleza excepcional.<\/p>",
+            "button_label": "Rosa bella y la bestia",
+            "button_link": "shopify:\/\/products\/bella-y-la-bestia-rosa-preservada-en-cupula-de-cristal"
+          }
+        },
+        "template--19549260939588__2eb22227-04e2-412e-a227-47fd0dd9ab34-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_5967f8e7-8f0d-4ff9-afcf-bbdcea3baf8b.png",
+            "caption": "Caption",
+            "heading": "Nuestros clientes son nuestra prioridad",
+            "text": "<p>Entendemos que tu satisfacción es lo más importante. Si no estás conforme con tu compra, <strong>tienes 30 días para devolver el producto de forma GRATUITA y sin dar explicaciones<\/strong>. Además, ofrecemos <strong>envíos GRATUITOS <\/strong>y rápidos a través de CORREOS EXPRESS para que disfrutes de tus rosas cuanto antes.<\/p>",
+            "button_label": "Rosa preservada forma de corazón",
+            "button_link": ""
+          }
+        },
+        "template--19549260939588__2eb22227-04e2-412e-a227-47fd0dd9ab34-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/30.png",
+            "caption": "",
+            "heading": "Servicio al cliente explendido",
+            "text": "<p>Estamos aquí para ti. Nuestro equipo de servicio al cliente está listo para ayudarte en todo momento. Si tienes alguna pregunta o deseas consultar el estado de tus pedidos, no dudes en contactarnos a través de <strong>WhatsApp al +34 646124371.<\/strong><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19549260939588__2eb22227-04e2-412e-a227-47fd0dd9ab34-row-1",
+        "template--19549260939588__2eb22227-04e2-412e-a227-47fd0dd9ab34-row-2",
+        "template--19549260939588__2eb22227-04e2-412e-a227-47fd0dd9ab34-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16876453759c9d7565": {
@@ -324,7 +375,8 @@
     "169279378532527924",
     "01ab40bc-f547-4650-a6cf-d0ad0895f711",
     "1d19d750-8f09-44c8-bb02-1ae4857cb9db",
-    "83cdb8ee-46e6-4527-b463-8a5ca700011c",
+    "3772dcc5-d899-49e3-bb09-de98dc494c23",
+    "2eb22227-04e2-412e-a227-47fd0dd9ab34",
     "16876453759c9d7565",
     "7b957f5e-0a58-4a04-b13c-25d8af47005d"
   ]
