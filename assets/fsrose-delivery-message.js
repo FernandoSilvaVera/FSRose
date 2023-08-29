@@ -80,7 +80,7 @@ function obtenerFechaEntrega() {
 
   if (currentDay >= 1 && currentDay <= 2) {
     if (currentHour < 12 ) {
-      return `Entrega GRATIS MAÑANA o ${dayAfterTomorrow}`;
+      return `Entrega GRATIS <b>MAÑANA o ${dayAfterTomorrow}</b>`;
     } else {
       return `Entrega GRATIS entre el ${dayAfterTomorrow} o ${nextMonday}`;
     }
