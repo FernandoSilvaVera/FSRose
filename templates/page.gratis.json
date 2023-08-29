@@ -1,1 +1,142 @@
-{"sections":{"4419ef5e-f232-47f0-99e4-e6a27956a304":{"type":"rich-text","blocks":{"template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-heading-1":{"type":"heading","settings":{"heading":"<p>¡OFERTA LÍMITADA A LOS 100 PRIMEROS!<\/p>","heading_size":"h1"}},"template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-text-1":{"type":"text","settings":{"text":"<p>¡No te Pierdas esta Oportunidad Única!<\/p>"}}},"block_order":["template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-heading-1","template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-text-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"97dacb6f-9f93-481c-9666-6fc481eefac8":{"type":"multicolumn","blocks":{"template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-1":{"type":"column","settings":{"title":"Explora Nuestra Colección","text":"<p>Echa un vistazo a nuestra cuidadosamente seleccionada colección de productos premium que se encuentra más abajo.<\/p>","link_label":"","link":""}},"template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-2":{"type":"column","settings":{"title":"Elige tu Favorito","text":"<p>Selecciona el producto que más te encante de nuestra variedad de opciones.<\/p>","link_label":"","link":""}},"template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Captura.png","title":"Aplica el Código","text":"<p>Al finalizar tu pedido, utiliza el código \"<strong>CUPULA_GRATIS<\/strong>\" para obtener tu producto sin costo.<\/p>","link_label":"","link":""}},"8336f690-b5c3-4a4b-8fa0-4515e8c0ee7a":{"type":"column","settings":{"title":"¡Listo para Disfrutar!","text":"<p>Solo paga 5€ por los gastos de envío y prepárate para recibir tu producto de alta calidad directamente en tu puerta.<\/p>","link_label":"","link":""}}},"block_order":["template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-1","template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-2","template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-3","8336f690-b5c3-4a4b-8fa0-4515e8c0ee7a"],"settings":{"title":"Cómo Funciona:","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"7b17c95d-0c7d-4a3b-a954-5947f9d286f1":{"type":"featured-collection","custom_css":[".loox-rating {font-size: 16px;}",".color-background-2 {background: #cc0c39; color: #ffffff;}"],"settings":{"title":"","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"gratis","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["4419ef5e-f232-47f0-99e4-e6a27956a304","main","97dacb6f-9f93-481c-9666-6fc481eefac8","7b17c95d-0c7d-4a3b-a954-5947f9d286f1"]}
+{
+  "sections": {
+    "4419ef5e-f232-47f0-99e4-e6a27956a304": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>¡OFERTA LÍMITADA A LOS 100 PRIMEROS!<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¡No te Pierdas esta Oportunidad Única!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-heading-1",
+        "template--19525344723268__4419ef5e-f232-47f0-99e4-e6a27956a304-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "97dacb6f-9f93-481c-9666-6fc481eefac8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Explora Nuestra Colección",
+            "text": "<p>Echa un vistazo a nuestra cuidadosamente seleccionada colección de productos premium que se encuentra más abajo.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Elige tu Favorito",
+            "text": "<p>Selecciona el producto que más te encante de nuestra variedad de opciones.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Aplica el Código",
+            "text": "<p>Al finalizar tu pedido, utiliza el código \"<strong>CUPULA_GRATIS<\/strong>\" para obtener tu producto sin costo.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8336f690-b5c3-4a4b-8fa0-4515e8c0ee7a": {
+          "type": "column",
+          "settings": {
+            "title": "¡Listo para Disfrutar!",
+            "text": "<p>Solo paga 5€ por los gastos de envío y prepárate para recibir tu producto de alta calidad directamente en tu puerta.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-1",
+        "template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-2",
+        "template--19525344723268__97dacb6f-9f93-481c-9666-6fc481eefac8-column-3",
+        "8336f690-b5c3-4a4b-8fa0-4515e8c0ee7a"
+      ],
+      "settings": {
+        "title": "Cómo Funciona:",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7b17c95d-0c7d-4a3b-a954-5947f9d286f1": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".loox-rating {font-size: 16px;}",
+        ".color-background-2 {background: #cc0c39; color: #ffffff;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gratis",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "4419ef5e-f232-47f0-99e4-e6a27956a304",
+    "main",
+    "97dacb6f-9f93-481c-9666-6fc481eefac8",
+    "7b17c95d-0c7d-4a3b-a954-5947f9d286f1"
+  ]
+}
