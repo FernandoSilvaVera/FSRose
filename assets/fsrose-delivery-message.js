@@ -6,8 +6,8 @@ function obtenerMensajeEntrega() {
     
     // LUNES - MIÉRCOLES
     if (currentDay >= 1 && currentDay <= 3) {
-        if (currentHour > 8 && currentHour < 15) {
-            const remainingHours = 14 - currentHour; // 15:00 - currentHour
+        if (currentHour > 8 && currentHour < 12) {
+            const remainingHours = 11 - currentHour; // 15:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas y ${remainingMinutes} mins`;
         }
