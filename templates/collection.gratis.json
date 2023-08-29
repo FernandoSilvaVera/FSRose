@@ -46,7 +46,7 @@
           "type": "column",
           "settings": {
             "title": "Elige tu Favorito",
-            "text": "<p>Selecciona el color que más te guste. (<strong>Oferta válida a 1 solo producto<\/strong>)<\/p>",
+            "text": "<p>Selecciona el color que más te guste. (<strong>Oferta válida a 1 solo producto y 1 por cliente<\/strong>)<\/p>",
             "link_label": "",
             "link": ""
           }
