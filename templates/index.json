@@ -47,13 +47,20 @@
         "template--19132085305668__cb84dcd6-283a-44c4-b145-89d171734139-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Rosas Eternas: El Regalo Perfecto para Hacerla Feliz<\/strong><\/p>",
+            "heading": "<p>Regálale algo especial<\/p>",
             "heading_size": "h1"
+          }
+        },
+        "71f87e43-dcae-4968-85c2-fad204f0c2f3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ella se lo merece<\/strong><\/p>"
           }
         }
       },
       "block_order": [
-        "template--19132085305668__cb84dcd6-283a-44c4-b145-89d171734139-heading-1"
+        "template--19132085305668__cb84dcd6-283a-44c4-b145-89d171734139-heading-1",
+        "71f87e43-dcae-4968-85c2-fad204f0c2f3"
       ],
       "settings": {
         "desktop_content_position": "center",
