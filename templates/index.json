@@ -47,14 +47,14 @@
         "template--19132085305668__cb84dcd6-283a-44c4-b145-89d171734139-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Regálale algo especial<\/p>",
+            "heading": "<h1>Regálale algo especial<\/h1>",
             "heading_size": "h1"
           }
         },
         "71f87e43-dcae-4968-85c2-fad204f0c2f3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Ella se lo merece<\/strong><\/p>"
+            "text": "<h2><strong>Ella se lo merece<\/strong><\/h2>"
           }
         }
       },
