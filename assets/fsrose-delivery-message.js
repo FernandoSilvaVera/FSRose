@@ -109,7 +109,7 @@ function obtenerFechaEntrega() {
       } else {
         return `Entrega GRATIS <b>el ${nextMonday} o ${nextTuesday}</b>`;
       }
-    }
+    
   } else if (currentDay === 5) {
     let nextMonday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
     nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
