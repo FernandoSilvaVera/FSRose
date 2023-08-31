@@ -99,7 +99,7 @@ function obtenerFechaEntrega() {
     nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
     let nextTuesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
-    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextWednesday = new Date(now.getTime() + 6 * 24 * 60 * 60 * 1000);
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
