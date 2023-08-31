@@ -131,12 +131,19 @@
           "settings": {
             "collection": "rosa-24k"
           }
+        },
+        "41db92e7-099d-469d-bbc9-5cd856d1d9d7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-1",
         "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-2",
-        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-3"
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-3",
+        "41db92e7-099d-469d-bbc9-5cd856d1d9d7"
       ],
       "settings": {
         "title": "Explora nuestros productos",
