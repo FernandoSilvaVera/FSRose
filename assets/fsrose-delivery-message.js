@@ -73,7 +73,7 @@ function obtenerFechaEntrega() {
   nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
   let nextTuesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
-  nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+  nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   let nextWednesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
   nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
@@ -118,7 +118,7 @@ function obtenerFechaEntrega() {
     nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
     let nextTuesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
-    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextWednesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
@@ -134,7 +134,7 @@ function obtenerFechaEntrega() {
     }
   } else if (currentDay === 6) {
     let nextTuesday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
-    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextWednesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
@@ -142,7 +142,7 @@ function obtenerFechaEntrega() {
     return `Entrega GRATIS el <b>${nextTuesday} o ${nextWednesday}</b>`;
   } else if (currentDay === 0) {
     let nextTuesday = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
-    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextWednesday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
