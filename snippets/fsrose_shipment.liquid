@@ -7,10 +7,10 @@
 {% comment %} LUNES - Martes {% endcomment %}
 {% if current_day >= 1 and current_day <= 2 %}
   {% assign day_after_tomorrow = now | date: '%s' | plus: 172800 %}
-  {% capture day_after_tomorrow %}{{ day_after_tomorrow | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+  {% capture day_after_tomorrow %}{{ day_after_tomorrow | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
   {% assign two_day_after_tomorrow = now | date: '%s' | plus: 259200 %}
-  {% capture two_day_after_tomorrow %}{{ two_day_after_tomorrow | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+  {% capture two_day_after_tomorrow %}{{ two_day_after_tomorrow | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
   
   {% if current_hour < 16 and current_month != 8 %}
@@ -26,17 +26,17 @@
 {% comment %} Miercoles {% endcomment %}
 {% elsif current_day == 3 %}
   {% assign day_after_tomorrow = now | date: '%s' | plus: 172800 %}
-  {% capture day_after_tomorrow %}{{ day_after_tomorrow | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+  {% capture day_after_tomorrow %}{{ day_after_tomorrow | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
   {% assign next_monday = now | date: '%s' | plus: 432000 %}
-  {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+  {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
   {% capture next_monday %}{{ next_monday | replace_first: "^0", "" }}{% endcapture %}
 
   {% assign next_tuesday = now | date: '%s' | plus: 518400 %}
-  {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+  {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
       {% assign next_wednesday = now | date: '%s' | plus: 604800 %}
-    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
 {% if today < 20 %}
     Entrega GRATIS <b>el {{ next_tuesday }} o {{ next_wednesday }}</b>
@@ -56,13 +56,13 @@
 {% elsif current_day == 4 %}
   
   {% assign next_monday = now | date: '%s' | plus: 345600 %}
-  {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+  {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
   
   {% assign next_tuesday = now | date: '%s' | plus: 432000 %}
-  {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+  {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
     {% assign next_wednesday = now | date: '%s' | plus: 518400 %}
-    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
 
 {% if today < 20 %}
@@ -83,15 +83,15 @@
 {% comment %} VIERNES {% endcomment %}
   {% elsif current_day == 5 %}
     {% assign next_monday = now | date: '%s' | plus: 259200 %}
-    {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
   {% capture next_monday %}{{ next_monday | replace_first: "^0", "" }}{% endcapture %}
     
     {% assign next_tuesday = now | date: '%s' | plus: 345600 %}
-    {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
   {% capture next_tuesday %}{{ next_tuesday | replace_first: "^0", "" }}{% endcapture %}
 
       {% assign next_wednesday = now | date: '%s' | plus: 432000 %}
-    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
   {% if today < 20 %}
         Entrega GRATIS <b>el {{ next_tuesday }} o {{ next_wednesday }}</b>
@@ -105,11 +105,11 @@
 {% comment %} SÁBADO {% endcomment %}
   {% elsif current_day == 6 %}
     {% assign next_tuesday = now | date: '%s' | plus: 259200 %}
-    {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
   {% capture next_tuesday %}{{ next_tuesday | replace_first: "^0", "" }}{% endcapture %}
     
     {% assign next_wednesday = now | date: '%s' | plus: 345600 %}
-    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
   {% capture next_wednesday %}{{ next_wednesday | replace_first: "^0", "" }}{% endcapture %}
 
       Entrega GRATIS <b>{{ next_tuesday }} o {{ next_wednesday }}</b>
@@ -117,10 +117,10 @@
 {% comment %} DOMINGO {% endcomment %}
   {% elsif current_day == 0 %}
     {% assign next_tuesday = now | date: '%s' | plus: 172800 %}
-    {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_tuesday %}{{ next_tuesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
           
     {% assign next_wednesday = now | date: '%s' | plus: 259200 %}
-    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Mar" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
+    {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
       
   {% capture next_tuesday %}{{ next_tuesday | replace_first: "^0", "" }}{% endcapture %}
   {% capture next_wednesday %}{{ next_wednesday | replace_first: "^0", "" }}{% endcapture %}
