@@ -108,9 +108,9 @@ function obtenerFechaEntrega() {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
     } else {
       if (currentHour < 12) {
-        return `Entrega GRATIS MAÑANA o ${nextMonday}`;
+        return `Entrega GRATIS <b>MAÑANA o ${nextMonday}</b>`;
       } else {
-        return `Entrega GRATIS el ${nextMonday} o ${nextTuesday}`;
+        return `Entrega GRATIS <b>el ${nextMonday} o ${nextTuesday}</b>`;
       }
     }
   } else if (currentDay === 5) {
