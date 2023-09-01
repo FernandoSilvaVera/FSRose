@@ -156,12 +156,6 @@
         "settings": {
         }
       },
-      "2153490007123654574": {
-        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
         "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/main\/4bb73be2-b7c2-4870-949f-c528145452a3",
         "disabled": false,
@@ -180,8 +174,8 @@
         "settings": {
         }
       },
-      "4804304946286255945": {
-        "type": "shopify:\/\/apps\/avada-eu-gdpr-cookie-consent\/blocks\/app-embed\/deacc407-65bc-4a4e-84d9-f90e9e492cf3",
+      "8942208844547249051": {
+        "type": "shopify:\/\/apps\/ultimate-gdpr-eu-cookie-banner\/blocks\/widget\/9ad66af2-f521-41c0-96ef-0e66c4e1d187",
         "disabled": false,
         "settings": {
         }
