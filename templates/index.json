@@ -336,43 +336,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "7b957f5e-0a58-4a04-b13c-25d8af47005d": {
-      "type": "newsletter",
-      "blocks": {
-        "template--19132085305668__7b957f5e-0a58-4a04-b13c-25d8af47005d-1687089682e4f6d52d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "¿Buscas un Descuento en tu Primera Compra de Rosas Preservadas?",
-            "heading_size": "h1"
-          }
-        },
-        "template--19132085305668__7b957f5e-0a58-4a04-b13c-25d8af47005d-1687089682e4f6d52d-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>¡Regístrate en Nuestros Correos y Obtén un Descuento Exclusivo!<\/p>"
-          }
-        },
-        "template--19132085305668__7b957f5e-0a58-4a04-b13c-25d8af47005d-1687089682e4f6d52d-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--19132085305668__7b957f5e-0a58-4a04-b13c-25d8af47005d-1687089682e4f6d52d-0",
-        "template--19132085305668__7b957f5e-0a58-4a04-b13c-25d8af47005d-1687089682e4f6d52d-1",
-        "template--19132085305668__7b957f5e-0a58-4a04-b13c-25d8af47005d-1687089682e4f6d52d-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 48
-      }
     }
   },
   "order": [
@@ -384,7 +347,6 @@
     "1d19d750-8f09-44c8-bb02-1ae4857cb9db",
     "3772dcc5-d899-49e3-bb09-de98dc494c23",
     "2eb22227-04e2-412e-a227-47fd0dd9ab34",
-    "16876453759c9d7565",
-    "7b957f5e-0a58-4a04-b13c-25d8af47005d"
+    "16876453759c9d7565"
   ]
 }

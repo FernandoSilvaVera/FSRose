@@ -1,1 +1,72 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"brand-information":{"type":"brand_information","settings":{"show_social":true}}},"block_order":["brand-information"],"settings":{"color_scheme":"accent-1","newsletter_enable":false,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":false,"enable_country_selector":false,"enable_language_selector":false,"payment_enable":true,"show_policy":true,"margin_top":0,"padding_top":20,"padding_bottom":0}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "d911f6f0-aaac-4ba0-aeef-6fa367439fd1": {
+      "type": "newsletter",
+      "blocks": {
+        "sections--19549188260164__d911f6f0-aaac-4ba0-aeef-6fa367439fd1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Buscas un Descuento en tu Primera Compra de Rosas Preservadas?",
+            "heading_size": "h1"
+          }
+        },
+        "sections--19549188260164__d911f6f0-aaac-4ba0-aeef-6fa367439fd1-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>¡Regístrate en Nuestros Correos y Obtén un Descuento Exclusivo!<\/p>"
+          }
+        },
+        "sections--19549188260164__d911f6f0-aaac-4ba0-aeef-6fa367439fd1-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "sections--19549188260164__d911f6f0-aaac-4ba0-aeef-6fa367439fd1-heading-1",
+        "sections--19549188260164__d911f6f0-aaac-4ba0-aeef-6fa367439fd1-paragraph-1",
+        "sections--19549188260164__d911f6f0-aaac-4ba0-aeef-6fa367439fd1-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand-information": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "brand-information"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "d911f6f0-aaac-4ba0-aeef-6fa367439fd1",
+    "footer"
+  ]
+}
