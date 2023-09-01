@@ -1,1 +1,169 @@
-{"sections":{"3c5e68fa-a524-446b-aa7b-30a5c1096a07":{"type":"multicolumn","blocks":{"template--19132084977988__3c5e68fa-a524-446b-aa7b-30a5c1096a07-column-1":{"type":"column","settings":{"title":"Pagos","text":"<p><strong>Pago Seguro<\/strong> Garantizado: PayPal, MasterCard, VISA.<\/p>","link_label":"","link":""}},"template--19132084977988__3c5e68fa-a524-446b-aa7b-30a5c1096a07-column-2":{"type":"column","settings":{"title":"Devoluciones sin Preocupaciones","text":"<p>Dispones de 30 Días para Devolver tu Producto y Obtener un Reembolso Total. Además, <strong>las Devoluciones son Gratuita<\/strong>s. Tu Satisfacción es Nuestra Prioridad.<\/p>","link_label":"","link":""}},"template--19132084977988__3c5e68fa-a524-446b-aa7b-30a5c1096a07-column-3":{"type":"column","settings":{"title":"Entrega Exprés en 1-2 Días Hábiles","text":"<p>Recibe tus Productos en Tiempo Récord<br\/>Envío <strong>GRATUITO <\/strong>para tus Compras<\/p>","link_label":"","link":""}}},"block_order":["template--19132084977988__3c5e68fa-a524-446b-aa7b-30a5c1096a07-column-1","template--19132084977988__3c5e68fa-a524-446b-aa7b-30a5c1096a07-column-2","template--19132084977988__3c5e68fa-a524-446b-aa7b-30a5c1096a07-column-3"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"banner":{"type":"main-collection-banner","settings":{"show_collection_description":false,"show_collection_image":false,"color_scheme":"background-1"}},"product-grid":{"type":"main-collection-product-grid","custom_css":[".loox-rating {font-size: 16px;}",".color-background-2 {background: #cc0c39; color: #ffffff;}"],"settings":{"products_per_page":16,"columns_desktop":4,"image_ratio":"square","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"2","padding_top":12,"padding_bottom":36}},"9cb45214-bb59-4a51-b60f-7db4770812bb":{"type":"collection-list","blocks":{"template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-1":{"type":"featured_collection","settings":{"collection":"cupulas"}},"template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-2":{"type":"featured_collection","settings":{"collection":"flor-eterna"}},"template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-3":{"type":"featured_collection","settings":{"collection":"rosa-24k"}}},"block_order":["template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-1","template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-2","template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-3"],"settings":{"title":"Explora nuestros productos","heading_size":"h1","image_ratio":"square","columns_desktop":4,"color_scheme":"background-1","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["3c5e68fa-a524-446b-aa7b-30a5c1096a07","banner","product-grid","9cb45214-bb59-4a51-b60f-7db4770812bb"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".loox-rating {font-size: 16px;}",
+        ".color-background-2 {background: #cc0c39; color: #ffffff;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "51e6b182-0629-4225-ad91-00cc977c9b01": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19549262250308__51e6b182-0629-4225-ad91-00cc977c9b01-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>¿Por qué comprar en FS Rose?<\/h1>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19549262250308__51e6b182-0629-4225-ad91-00cc977c9b01-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "c7f75397-6e61-43e2-80e5-7c238a9b66cb": {
+      "type": "multirow",
+      "blocks": {
+        "template--19549262250308__c7f75397-6e61-43e2-80e5-7c238a9b66cb-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_989d0441-fd42-4031-9f07-d286c6e5bdee.png",
+            "caption": "",
+            "heading": "Rosas de alta calidad",
+            "text": "<p>Seleccionamos cuidadosamente solo las rosas más hermosas para nuestro proceso de preservación. Cada rosa que ofrecemos ha sido elegida por su belleza excepcional.<\/p>",
+            "button_label": "Rosa preservada bella y la bestia",
+            "button_link": "shopify:\/\/products\/bella-y-la-bestia-rosa-preservada-en-cupula-de-cristal"
+          }
+        },
+        "template--19549262250308__c7f75397-6e61-43e2-80e5-7c238a9b66cb-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_5967f8e7-8f0d-4ff9-afcf-bbdcea3baf8b.png",
+            "caption": "",
+            "heading": "Nuestros clientes son nuestra prioridad",
+            "text": "<p>Entendemos que tu satisfacción es lo más importante. Si no estás conforme con tu compra, <strong>tienes 30 días para devolver el producto de forma GRATUITA y sin dar explicaciones<\/strong>. Además, ofrecemos <strong>envíos GRATUITOS <\/strong>y rápidos a través de CORREOS EXPRESS para que disfrutes de tus rosas cuanto antes.<\/p>",
+            "button_label": "Rosa preservada corazón",
+            "button_link": ""
+          }
+        },
+        "template--19549262250308__c7f75397-6e61-43e2-80e5-7c238a9b66cb-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_32.png",
+            "caption": "",
+            "heading": "Servicio al cliente espléndido",
+            "text": "<p>Estamos aquí para ti. Nuestro equipo de servicio al cliente está listo para ayudarte en todo momento. Si tienes alguna pregunta o deseas consultar el estado de tus pedidos, no dudes en contactarnos a través de <strong>WhatsApp al +34 646124371.<\/strong><\/p>",
+            "button_label": "Rosa preservada Roja",
+            "button_link": "shopify:\/\/products\/rosa-natural-eterna-preservada-en-una-cupula-de-cristal"
+          }
+        }
+      },
+      "block_order": [
+        "template--19549262250308__c7f75397-6e61-43e2-80e5-7c238a9b66cb-row-1",
+        "template--19549262250308__c7f75397-6e61-43e2-80e5-7c238a9b66cb-row-2",
+        "template--19549262250308__c7f75397-6e61-43e2-80e5-7c238a9b66cb-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9cb45214-bb59-4a51-b60f-7db4770812bb": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cupulas"
+          }
+        },
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flor-eterna"
+          }
+        },
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rosa-24k"
+          }
+        },
+        "41db92e7-099d-469d-bbc9-5cd856d1d9d7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rosa-preservada-en-caja"
+          }
+        }
+      },
+      "block_order": [
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-1",
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-2",
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-3",
+        "41db92e7-099d-469d-bbc9-5cd856d1d9d7"
+      ],
+      "settings": {
+        "title": "Explora nuestros productos",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "51e6b182-0629-4225-ad91-00cc977c9b01",
+    "c7f75397-6e61-43e2-80e5-7c238a9b66cb",
+    "9cb45214-bb59-4a51-b60f-7db4770812bb"
+  ]
+}
