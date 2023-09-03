@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>{% render 'pagefly-head' %}
+  <head>
+ {%- render 'ecom_header' -%}{% render 'pagefly-head' %}
 	{% include "pandectes-rules" %}
 	{% include "pandectes-rules" %}
     <meta charset="utf-8">
@@ -309,5 +310,5 @@
 
 	{{ shop.metafields.loox["global_html_body"] }}
 {{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
-</body>
+{%- render "ecom_footer"-%}</body>
 </html>
