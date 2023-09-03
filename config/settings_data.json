@@ -179,6 +179,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "7304967717925385168": {
+        "type": "shopify:\/\/apps\/trust-badges-icons-iconito\/blocks\/app-embed\/d20e5397-bfe7-44f3-8deb-419dc8b912ab",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
