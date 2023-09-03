@@ -36,6 +36,10 @@
     },
     "f347774a-8d05-4b48-baf1-0c0f8d1d4623": {
       "type": "featured-collection",
+      "custom_css": [
+        ".loox-rating {font-size: 16px;}",
+        ".color-background-2 {background: #cc0c39; color: #ffffff;}"
+      ],
       "settings": {
         "title": "Podría interesarte...",
         "heading_size": "h1",
