@@ -64,11 +64,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16937811937fed5b38": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "f347774a-8d05-4b48-baf1-0c0f8d1d4623"
+    "f347774a-8d05-4b48-baf1-0c0f8d1d4623",
+    "16937811937fed5b38"
   ]
 }
