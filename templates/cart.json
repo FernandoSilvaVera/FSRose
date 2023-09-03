@@ -33,10 +33,38 @@
       ],
       "settings": {
       }
+    },
+    "f347774a-8d05-4b48-baf1-0c0f8d1d4623": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Podría interesarte...",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cupulas",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "f347774a-8d05-4b48-baf1-0c0f8d1d4623"
   ]
 }
