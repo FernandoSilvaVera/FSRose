@@ -11,7 +11,7 @@ function obtenerMensajeEntrega() {
             const remainingMinutes = 60 - currentMinute;
             return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas y ${remainingMinutes} mins`;
         }
-        if (currentHour > 15 && currentHour < 22) {
+        if (currentHour > 12 && currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas y ${remainingMinutes} mins`;
