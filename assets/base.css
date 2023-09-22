@@ -3040,3 +3040,19 @@ details-disclosure > details {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.sub-menu-collection-text-selected {
+    text-decoration: none !important;
+}
+
+  .sub-menu-collection-text {
+    margin-right: 30px; /* Ajusta la cantidad de espacio que deseas agregar */
+        color: black; /* Cambiar el color del texto a negro */
+    text-decoration: underline; /* Agregar una línea por debajo del texto */
+    text-align:center;
+        font-weight: bold; /* Hace que el texto sea negrita */
+  }
+
+  .sub-menu-collection-text:hover {
+    color: #d32f2f; /* Cambiar el color al pasar el ratón sobre el enlace */
+  }
