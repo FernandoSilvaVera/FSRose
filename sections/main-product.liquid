@@ -58,6 +58,26 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
+
+  {% assign collection = nil %}
+{% for c in product.collections %}
+  {% unless c.id == 607659884868 or c.id == 608127385924 %}
+    {% assign collection = c %}
+    {% break %}
+  {% endunless %}
+{% endfor %}
+  
+<div class="collection-sub-collection">
+  <aside aria-labelledby="" class="facets-wrapper page-width" id="" data-id="">
+    <div class="">
+      <ul id="submenu">         
+        <a href="/collections/{{collection.handle}}" class="sub-menu-collection-text">{{ collection.title }} </a>
+      </ul> 
+    </div>
+  </aside>
+</div>
+  
+  
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}
