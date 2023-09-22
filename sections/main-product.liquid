@@ -60,11 +60,8 @@
 
 
   {% assign collection = nil %}
-
-  {{ product.collections | json }}
   
 {% for c in product.collections %}
-  
   {% unless c.id == 606475845956 or c.id == 606352572740 %}
     {% assign collection = c %}
     {% break %}
