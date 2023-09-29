@@ -3056,3 +3056,11 @@ details-disclosure > details {
   .sub-menu-collection-text:hover {
     color: #d32f2f; /* Cambiar el color al pasar el ratón sobre el enlace */
   }
+
+.addToCart {
+    background-color: #ee531d;
+    color: white;
+    font-weight: bold;
+    --border-offset: #ee531d;
+    border: 2px solid #ee531d /* Aplica el color de borde desde la variable */;
+}
