@@ -45,11 +45,6 @@
             "custom_liquid": "<div class=\"linea\" style=\"width: 100%; height: 1px; background-color: black; margin: 10px 0;\">&nbsp;<\/div>"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -65,6 +60,11 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
@@ -135,10 +135,10 @@
         "price",
         "f7a22fb7-aea3-4a24-977b-d49f1f248959",
         "dda57fbc-e201-46a3-8d7c-c622eaabdba7",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
         "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
         "ef5e7da0-3d9c-4a06-a838-08b5473b7edc",
         "4d0f7592-0b97-4b62-9769-fe15a014fc05",
