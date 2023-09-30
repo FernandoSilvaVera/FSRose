@@ -176,7 +176,7 @@
       },
       "giftit": {
         "type": "shopify:\/\/apps\/giftit\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "printOnProduct": false,
           "productPage": false,
