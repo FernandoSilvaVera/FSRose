@@ -185,7 +185,7 @@
           "giftWrapToggle": false,
           "multipleGiftWrap": true,
           "giftMsgToggle": true,
-          "giftHidePriceToggle": true,
+          "giftHidePriceToggle": false,
           "displayText": "¿Es para regalar?",
           "editButtonText": "Editar",
           "descriptionText": "",
