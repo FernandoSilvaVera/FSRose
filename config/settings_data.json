@@ -173,6 +173,37 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "giftit": {
+        "type": "shopify:\/\/apps\/giftit\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
+        "disabled": true,
+        "settings": {
+          "printOnProduct": false,
+          "productPage": false,
+          "cartPage": false,
+          "cartPageItemMode": true,
+          "multipleGiftWrap": true,
+          "giftWrapToggle": true,
+          "giftMsgToggle": true,
+          "giftHidePriceToggle": true,
+          "displayText": "This is gift?",
+          "descriptionText": "Gift this product ",
+          "textColor": "#000000",
+          "warningText": "Note that your gift settings will be registered after you click the “add to cart” button",
+          "editButtonText": "Edit",
+          "modalTitle": "Gift options",
+          "modalGiftWrapCheckLabel": "Gift wraps",
+          "modalGiftWrapEmptyState": "There are no any gift wrap options to show",
+          "modalGiftMessageCheckLabel": "Gift message",
+          "modalGiftMessageConferrerLabel": "From",
+          "modalGiftMessageToLabel": "To",
+          "modalGiftMessageTextLabel": "Text",
+          "modalGiftReceiptCheckLabel": "Gift receipt",
+          "modalSubtotal": "Subtotal",
+          "modalPositiveButton": "Save",
+          "modalPositiveButtonColor": "#006E52",
+          "modalNegativeButton": "Cancel"
+        }
       }
     }
   },
