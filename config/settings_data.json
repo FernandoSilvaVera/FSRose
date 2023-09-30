@@ -193,16 +193,16 @@
           "warningText": "Si es para regalar podemos añadir una nota a tu pedido",
           "modalTitle": "Gift options",
           "modalGiftWrapCheckLabel": "Gift wraps",
-          "modalGiftMessageCheckLabel": "Gift message",
-          "modalGiftMessageConferrerLabel": "From",
-          "modalGiftMessageTextLabel": "Text",
-          "modalGiftMessageToLabel": "To",
+          "modalGiftMessageCheckLabel": "Mensaje",
+          "modalGiftMessageConferrerLabel": "De",
+          "modalGiftMessageTextLabel": "Mensaje",
+          "modalGiftMessageToLabel": "Para",
           "modalGiftReceiptCheckLabel": "Gift receipt",
           "modalGiftWrapEmptyState": "There are no any gift wrap options to show",
-          "modalSubtotal": "Subtotal",
-          "modalPositiveButton": "Save",
+          "modalSubtotal": "Total",
+          "modalPositiveButton": "Guardar",
           "modalPositiveButtonColor": "#006E52",
-          "modalNegativeButton": "Cancel"
+          "modalNegativeButton": "Cancelar"
         }
       }
     }
