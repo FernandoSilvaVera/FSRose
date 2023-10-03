@@ -182,7 +182,7 @@
           "productPage": true,
           "cartPageItemMode": true,
           "cartPage": true,
-          "giftWrapToggle": false,
+          "giftWrapToggle": true,
           "multipleGiftWrap": true,
           "giftMsgToggle": true,
           "giftHidePriceToggle": false,
