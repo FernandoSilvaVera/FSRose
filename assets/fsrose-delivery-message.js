@@ -67,16 +67,16 @@ function obtenerFechaEntrega() {
   const today = now.getDate();
 
   let dayAfterTomorrow = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
-  dayAfterTomorrow = dayAfterTomorrow.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+  dayAfterTomorrow = dayAfterTomorrow.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   let nextMonday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
-  nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+  nextMonday = nextMonday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   let nextTuesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
   nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   let nextWednesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
-  nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+  nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   if (currentDay >= 1 && currentDay <= 2) {
     if (currentHour < 12 ) {
