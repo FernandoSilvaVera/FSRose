@@ -19,8 +19,11 @@
 
 
 {% if card_product.metafields.custom.variants %}
-  {% assign variantes = card_product.metafields.custom.variants | json %}
+  {% assign variantes = card_product.metafields.custom.variants %}
 
+{{ variantes | json }}
+
+  
   <div class="image-row">
     {% for producto in variantes.productos %}
       <div class="image-container">
