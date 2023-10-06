@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "c75504eb-cc74-4bef-ad80-7174babeaf86": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"linea\" style=\"width: 100%; height: 1px; background-color: black; margin: 10px 0;\">&nbsp;<\/div>"
+          }
+        },
         "loox-rating": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -31,6 +37,12 @@
           "type": "fsrose-main-product-block",
           "settings": {
             "text": ""
+          }
+        },
+        "dda57fbc-e201-46a3-8d7c-c622eaabdba7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"linea\" style=\"width: 100%; height: 1px; background-color: black; margin: 10px 0;\">&nbsp;<\/div>"
           }
         },
         "variant_picker": {
@@ -118,9 +130,11 @@
       },
       "block_order": [
         "title",
+        "c75504eb-cc74-4bef-ad80-7174babeaf86",
         "loox-rating",
         "price",
         "f7a22fb7-aea3-4a24-977b-d49f1f248959",
+        "dda57fbc-e201-46a3-8d7c-c622eaabdba7",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
