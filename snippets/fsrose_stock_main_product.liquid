@@ -24,7 +24,9 @@
   <div class="image-row">
     {% for producto in variantes.productos %}
       <div class="image-container">
-        <img src="{{ producto.ImageUrl }}" alt="{{ producto.ColorName }}" class="imgSwatch">
+        <a href="{{ producto.productUrl }}" target="_blank">
+          <img src="{{ producto.ImageUrl }}" alt="{{ producto.ColorName }}" class="imgSwatch">
+        </a>
       </div>
     {% endfor %}
   </div>
