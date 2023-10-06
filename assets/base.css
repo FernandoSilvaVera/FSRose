@@ -3082,5 +3082,5 @@ details-disclosure > details {
     }
 
 .product__title {
-    font-size: 18px; /* Establece el tamaño de la fuente a 24px */
+    font-size: 18px !important;
 }
