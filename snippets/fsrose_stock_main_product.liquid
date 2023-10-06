@@ -20,11 +20,7 @@
 
 
 {% if card_product.metafields.custom.variants %}
-  {% assign variantes = card_product.metafields.custom.variants %}
-
-{{ variantes | json }}
-
-  
+  {% assign variantes = card_product.metafields.custom.variants.value %}  
   <div class="image-row">
     {% for producto in variantes.productos %}
       <div class="image-container">
@@ -33,23 +29,4 @@
     {% endfor %}
   </div>
 {% endif %}
-
-
-<div class="image-row">
-    <div class="image-container">
-      <img src="https://fsrose.es/cdn/shop/files/30.png?v=1693339094" alt="Oro rosa-06-jun" class="imgSwatch">
-    </div>
-    <div class="image-container">
-      <img src="https://fsrose.es/cdn/shop/files/33.png?v=1693339074" alt="Oro rosa-06-jun" class="imgSwatch">
-    </div>
-    <div class="image-container">
-      <img src="https://fsrose.es/cdn/shop/files/FSRose.es_068f0a8b-4c81-474f-8ceb-f729b3c8dbeb.png?v=1693339108" alt="Oro rosa-06-jun" class="imgSwatch">
-    </div>
-    <div class="image-container">
-      <img src="https://fsrose.es/cdn/shop/files/Disenosintitulo_34.png?v=1693339102" alt="Oro rosa-06-jun" class="imgSwatch">
-    </div>
-    <div class="image-container">
-      <img src="https://fsrose.es/cdn/shop/files/FSRose.es_2.png?v=1693339086" alt="Oro rosa-06-jun" class="imgSwatch">
-    </div>
-</div>
 
