@@ -33,11 +33,6 @@
             "text": ""
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -53,6 +48,11 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "15623151-6abd-49b0-a8d1-191884b122e5": {
@@ -121,10 +121,10 @@
         "loox-rating",
         "price",
         "20c9e886-84ef-43ab-a0b3-c9ae3cbf354c",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
         "15623151-6abd-49b0-a8d1-191884b122e5",
         "5e1f2091-337b-482a-96e2-dcf19b5e6ac1",
         "76969572-e8eb-4536-997c-300af5fc1f23",
