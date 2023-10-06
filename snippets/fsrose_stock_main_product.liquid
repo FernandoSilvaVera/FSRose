@@ -9,15 +9,14 @@
   </span>
 {% endif %}
 
-
-<div class="a-row">
-  <label class="a-form-label"> <b>Color:</b>
-  </label> 
-  <span class="selection">Rojo</span>
-</div>
-
-
 {% if card_product.metafields.custom.variants %}
+
+  <div class="a-row">
+    <label class="a-form-label"> <b>Color:</b>
+    </label> 
+    <span class="selection">{{ card_product.metafields.custom.variant_color }}</span>
+  </div>
+  
   {% assign variantes = card_product.metafields.custom.variants.value %}  
   <div class="image-row">
     {% for producto in variantes.productos %}
