@@ -3081,3 +3081,6 @@ details-disclosure > details {
         height: 69px;
     }
 
+.product__title {
+    font-size: 18px; /* Establece el tamaño de la fuente a 24px */
+}
