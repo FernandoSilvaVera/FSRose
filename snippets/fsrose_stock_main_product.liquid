@@ -15,13 +15,16 @@
     <label class="a-form-label"> <b>Color:</b>
     </label> 
     <span class="selection">{{ card_product.metafields.custom.variant_color }}</span>
-  </div>
-
-    <div class="a-row">
-    <label class="a-form-label"> <b>Significado:</b>
+<br>
+        <label class="a-form-label"> <b>Significado:</b>
     </label> 
     <span class="selection">{{ card_product.metafields.custom.meaning }}
     </span>
+    
+  </div>
+
+    <div class="a-row">
+
   </div>
   
   {% assign variantes = card_product.metafields.custom.variants.value %}  
