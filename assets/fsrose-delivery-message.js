@@ -67,16 +67,16 @@ function obtenerFechaEntrega() {
   const today = now.getDate();
 
   let dayAfterTomorrow = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
-  dayAfterTomorrow = dayAfterTomorrow.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+  dayAfterTomorrow = dayAfterTomorrow.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   let nextMonday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
-  nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+  nextMonday = nextMonday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   let nextTuesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
   nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   let nextWednesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
-  nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+  nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
   if (currentDay >= 1 && currentDay <= 2) {
     if (currentHour < 12 ) {
@@ -85,15 +85,11 @@ function obtenerFechaEntrega() {
       return `Entrega GRATIS <b>entre el ${dayAfterTomorrow} o ${nextMonday}</b>`;
     }
   } else if (currentDay === 3) {
-    if (today < 20 ) {
-      return `Entrega GRATIS el <b>${nextTuesday} o ${nextWednesday}</b>`;
-    } else {
-      if (currentHour < 12) {
-        return `Entrega GRATIS <b>MAÑANA o ${nextMonday}</b>`;
+      if (currentHour < 20) {
+        return `Entrega GRATIS <b>MAÑANA o ${dayAfterTomorrow}</b>`;
       } else {
         return `Entrega GRATIS <b>el ${dayAfterTomorrow} o ${nextMonday}</b>`;
       }
-    }
   } else if (currentDay === 4) {
     let nextMonday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
     nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
