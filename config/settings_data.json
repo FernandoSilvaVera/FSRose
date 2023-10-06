@@ -178,7 +178,7 @@
         "type": "shopify:\/\/apps\/giftit-gift-message-gift-wrap\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
         "disabled": false,
         "settings": {
-          "printOnProduct": true,
+          "printOnProduct": false,
           "productPage": true,
           "cartPageItemMode": true,
           "cartPage": true,
