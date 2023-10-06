@@ -181,7 +181,7 @@
           "printOnProduct": false,
           "productPage": true,
           "cartPageItemMode": true,
-          "cartPage": false,
+          "cartPage": true,
           "giftWrapToggle": true,
           "multipleGiftWrap": true,
           "giftMsgToggle": true,
