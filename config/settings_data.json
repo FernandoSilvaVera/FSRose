@@ -204,6 +204,12 @@
           "modalPositiveButtonColor": "#006E52",
           "modalNegativeButton": "Cancelar"
         }
+      },
+      "12659427580667436725": {
+        "type": "shopify:\/\/apps\/giftlab-super-gifting-app\/blocks\/app-embed\/0d36f2c6-fdd0-4da4-9cd2-6ff8d617acae",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
