@@ -3066,16 +3066,17 @@ details-disclosure > details {
 }
 
 
-        .image-row {
-            display: flex;
-            justify-content: space-between;
-        }
-        .image-container {
-            width: 36px;
-            height: 36px;
-        }
-        .imgSwatch {
-            width: 100%;
-            height: 100%;
-        }
+    .image-row {
+        display: flex;
+        flex-wrap: wrap; /* Esto permitirá que las imágenes pasen a la siguiente fila si no hay suficiente espacio */
+        gap: 10px; /* Esto añadirá un espacio entre las imágenes */
+    }
+
+    .image-container {
+        /* El ancho y alto específicos no son estrictamente necesarios si ya se definen en la imagen */
+    }
+
+    .imgSwatch {
+        width: 36px;
+    }
 
