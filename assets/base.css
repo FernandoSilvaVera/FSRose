@@ -3081,6 +3081,6 @@ details-disclosure > details {
         height: 69px;
     }
 
-.product__title {
+.product__title h1 {
     font-size: 18px !important;
 }
