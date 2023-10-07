@@ -3081,6 +3081,16 @@ details-disclosure > details {
         height: 69px;
     }
 
-.product__title h1 {
-    font-size: 24px !important;
-}
+	.product__title h1 {
+	    font-size: 24px !important;
+	}
+
+    .whatsapp-link {
+        color: #007BFF; /* Color azul */
+        text-decoration: none; /* Remueve el subrayado del enlace */
+        font-weight: bold; /* Hace el texto negrita */
+    }
+
+    .whatsapp-link:hover {
+        text-decoration: underline; /* Añade un subrayado al pasar el cursor */
+    }
