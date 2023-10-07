@@ -3083,7 +3083,7 @@ details-disclosure > details {
 
 
     .whatsapp-link {
-        color: #25D366; /* Color verde de WhatsApp */
+        color: #007BFF; /* Color azul */
         text-decoration: none; /* Remueve el subrayado del enlace */
         font-weight: bold; /* Hace el texto negrita */
     }
