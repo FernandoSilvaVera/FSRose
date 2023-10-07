@@ -339,6 +339,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "be33b083-e1c8-4c5a-bcea-38ba34af2efe": {
+      "type": "page",
+      "settings": {
+        "page": "fs-rose-forever-special-rosas-eternas-y-rosas-preservadas",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -351,6 +361,7 @@
     "3772dcc5-d899-49e3-bb09-de98dc494c23",
     "2eb22227-04e2-412e-a227-47fd0dd9ab34",
     "16876453759c9d7565",
-    "a75835a2-df73-4e04-bfaf-216c347849f4"
+    "a75835a2-df73-4e04-bfaf-216c347849f4",
+    "be33b083-e1c8-4c5a-bcea-38ba34af2efe"
   ]
 }
