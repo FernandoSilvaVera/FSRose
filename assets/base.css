@@ -3081,3 +3081,13 @@ details-disclosure > details {
         height: 69px;
     }
 
+
+    .whatsapp-link {
+        color: #25D366; /* Color verde de WhatsApp */
+        text-decoration: none; /* Remueve el subrayado del enlace */
+        font-weight: bold; /* Hace el texto negrita */
+    }
+
+    .whatsapp-link:hover {
+        text-decoration: underline; /* Añade un subrayado al pasar el cursor */
+    }
