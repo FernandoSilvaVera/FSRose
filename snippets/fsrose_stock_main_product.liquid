@@ -79,20 +79,17 @@
       dayNamesMin: ['D','L','M','X','J','V','S'],
       weekHeader: 'Sm',
       firstDay: 1,
-    onSelect: function (dateText) {
+      onSelect: function (dateText) {
         var deliveryDate = dateText;
 
         if (!deliveryDate) {
-            alert('Por favor, selecciona una fecha de entrega.');
             return;
         }
 
-        // Obtén el contenido actual del carrito.
         $.getJSON('/cart.js', function(cart) {
             // Verifica si hay un producto con fecha de entrega en el carrito.
             var itemWithDeliveryDate = cart.items.find(item => item.properties && item.properties['Fecha de Entrega']);
 
-            // Si existe, elimínalo.
             if (itemWithDeliveryDate) {
                 var updates = {};
                 updates[itemWithDeliveryDate.key] = 0; // Establecer cantidad a 0 elimina el item del carrito.
@@ -105,11 +102,9 @@
                     },
                     dataType: 'json',
                     success: function() {
-                        // Añade el nuevo producto con la nueva fecha.
                         addDeliveryDateToCart(deliveryDate);
                     },
                     error: function() {
-                        alert('Hubo un error al actualizar el carrito.');
                     }
                 });
             } else {
@@ -133,10 +128,8 @@ function addDeliveryDateToCart(deliveryDate) {
         },
         dataType: 'json',
         success: function () {
-            alert('Entrega programada añadida al carrito.');
         },
         error: function () {
-            alert('Hubo un error al añadir la entrega programada al carrito.');
         }
     });
 }
