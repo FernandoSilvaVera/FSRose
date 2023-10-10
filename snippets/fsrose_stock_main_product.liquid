@@ -47,3 +47,21 @@
     {% endfor %}
   </div>
 {% endif %}
+
+
+<!-- Añadir jQuery y jQuery UI desde CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<!-- Input para el selector de fecha -->
+<input type="text" id="delivery_date" name="delivery_date" placeholder="Seleccione la fecha de entrega">
+
+<script>
+  $( function() {
+    $( "#delivery_date" ).datepicker({
+      minDate: 1, // El envío no puede ser el mismo día, se configura al menos 1 día en adelante.
+      dateFormat: 'yy-mm-dd' // Formato de fecha deseado
+    });
+  } );
+</script>
