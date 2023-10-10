@@ -59,68 +59,55 @@
 
 <script>
   $( function() {
-$("#delivery_date").datepicker({
-    // ... tus opciones aquí ...
-    onSelect: function (dateText) {
+    $( "#delivery_date" ).datepicker({
+      minDate: 1, 
+      dateFormat: 'yy-mm-dd', 
+      beforeShowDay: function(date) {
+        var day = date.getDay();
+        return [(day != 0), ''];
+      },
+      closeText: 'Cerrar',
+      prevText: '<Ant',
+      nextText: 'Sig>',
+      currentText: 'Hoy',
+      monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+      'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+      monthNamesShort: ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
+      'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+      dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+      dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+      dayNamesMin: ['D','L','M','X','J','V','S'],
+      weekHeader: 'Sm',
+      firstDay: 1,
+      onSelect: function(dateText) {
+        // Llamada AJAX para añadir al carrito aquí
         var deliveryDate = dateText;
-
         if (!deliveryDate) {
-            alert('Por favor, selecciona una fecha de entrega.');
-            return;
+          alert('Por favor, selecciona una fecha de entrega.');
+          return;
         }
-
-        // Obtén el contenido actual del carrito.
-        $.getJSON('/cart.js', function(cart) {
-            // Verifica si hay un producto con fecha de entrega en el carrito.
-            var itemWithDeliveryDate = cart.items.find(item => item.properties && item.properties['Fecha de Entrega']);
-
-            // Si existe, elimínalo.
-            if (itemWithDeliveryDate) {
-                var updates = {};
-                updates[itemWithDeliveryDate.key] = 0; // Establecer cantidad a 0 elimina el item del carrito.
-
-                $.ajax({
-                    type: 'POST',
-                    url: '/cart/update.js',
-                    data: {
-                        updates: updates
-                    },
-                    dataType: 'json',
-                    success: function() {
-                        // Añade el nuevo producto con la nueva fecha.
-                        addDeliveryDateToCart(deliveryDate);
-                    },
-                    error: function() {
-                        alert('Hubo un error al actualizar el carrito.');
-                    }
-                });
-            } else {
-                // Si no hay producto con fecha de entrega, simplemente añade el nuevo.
-                addDeliveryDateToCart(deliveryDate);
-            }
-        });
-    }
-});
-
-function addDeliveryDateToCart(deliveryDate) {
-    $.ajax({
-        type: 'POST',
-        url: '/cart/add.js',
-        data: {
+        
+        $.ajax({
+          type: 'POST',
+          url: '/cart/add.js',
+          data: {
             quantity: 1,
             id: 47194811433284, // ID de tu producto/variante
             properties: {
-                'Fecha de Entrega': deliveryDate
+              'Fecha de Entrega': deliveryDate
             }
-        },
-        dataType: 'json',
-        success: function () {
+          },
+          dataType: 'json',
+          success: function() {
             alert('Entrega programada añadida al carrito.');
-        },
-        error: function () {
+          },
+          error: function() {
             alert('Hubo un error al añadir la entrega programada al carrito.');
-        }
+          }
+        });
+      }
     });
-}
+  });
+</script>
 
-    </script>
+
