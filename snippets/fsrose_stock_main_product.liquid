@@ -101,26 +101,34 @@
       return;
     }
     
-    $.ajax({
-      type: 'POST',
-      url: '/cart/add.js',
-    data: {
-        items: [
-            {
-                id: 8558905131332,
-                quantity: 2
-            }
-        ]
-    },
-      dataType: 'json',
-      success: function() {
-        window.location.href = '/cart';
-      },
-      error: function() {
-        alert('Hubo un error al añadir la entrega programada al carrito.');
-      }
-    });
-  });
+let formData = {
+ 'items': [{
+  'id': 8558905131332,
+  'quantity': 2
+  }]
+};
+
+fetch('/cart/add.js', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(formData)
+})
+.then(response => {
+  if (!response.ok) {
+    throw new Error('Red de problemas o el servidor no respondió correctamente');
+  }
+  return response.json();
+})
+.then(data => {
+  console.log('Item añadido:', data);
+  // Aquí puedes agregar lógica adicional para manejar el éxito, como redirigir al usuario al carrito.
+  window.location.href = '/cart';
+})
+.catch((error) => {
+  console.error('Error:', error);
+  alert('Hubo un error al añadir el producto al carrito. Por favor, inténtalo de nuevo.');
 });
   
 </script>
