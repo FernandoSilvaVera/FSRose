@@ -104,13 +104,14 @@
     $.ajax({
       type: 'POST',
       url: '/cart/add.js',
-      data: {
-        quantity: 1,
-        id: 8558905131332,
-        properties: {
-          'Fecha de Entrega': deliveryDate
-        }
-      },
+    data: {
+        items: [
+            {
+                id: 8558905131332,
+                quantity: 2
+            }
+        ]
+    },
       dataType: 'json',
       success: function() {
         window.location.href = '/cart';
