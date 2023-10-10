@@ -54,7 +54,7 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/ui/1.12.1/i18n/datepicker-es.js"></script>
-
+<script>
   $( function() {
     $( "#delivery_date" ).datepicker({
       minDate: 1, // El envío no puede ser el mismo día, se configura al menos 1 día en adelante.
@@ -74,7 +74,7 @@
       firstDay: 1
     });
   } );
-
+</script>
 <!-- Input para el selector de fecha -->
 <input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega">
 
