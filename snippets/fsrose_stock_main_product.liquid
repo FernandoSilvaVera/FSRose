@@ -54,14 +54,16 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/ui/1.12.1/i18n/datepicker-es.js"></script>
+
+<input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega">
+
 <script>
   $( function() {
     $( "#delivery_date" ).datepicker({
-      minDate: 1, // El envío no puede ser el mismo día, se configura al menos 1 día en adelante.
-      dateFormat: 'yy-mm-dd', // Formato de fecha 
+      minDate: 1, 
+      dateFormat: 'yy-mm-dd', 
       beforeShowDay: function(date) {
         var day = date.getDay();
-        // Bloquear domingos (day == 0)
         return [(day != 0), ''];
       },
       closeText: 'Cerrar',
@@ -76,51 +78,36 @@
       dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
       dayNamesMin: ['D','L','M','X','J','V','S'],
       weekHeader: 'Sm',
-      firstDay: 1
-    });
-  } );
-</script>
-<!-- Input para el selector de fecha -->
-<input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega">
-
-<script>
-  $( function() {
-    $( "#delivery_date" ).datepicker({
-      minDate: 1, // El envío no puede ser el mismo día, se configura al menos 1 día en adelante.
-      dateFormat: 'yy-mm-dd' // Formato de fecha deseado
-    });
-  } );
-
-
-  $(document).ready(function() {
-  $('.add').click(function(e) {
-    e.preventDefault();
-    var deliveryDate = $('#delivery_date').val();
-    if (!deliveryDate) {
-      return true;
-    }
-    
-    $.ajax({
-      type: 'POST',
-      url: '/cart/add.js',
-      data: {
-        quantity: 1,
-        id: 47194811433284,
-        properties: {
-          'Fecha de Entrega': deliveryDate
+      firstDay: 1,
+      onSelect: function(dateText) {
+        // Llamada AJAX para añadir al carrito aquí
+        var deliveryDate = dateText;
+        if (!deliveryDate) {
+          alert('Por favor, selecciona una fecha de entrega.');
+          return;
         }
-      },
-      dataType: 'json',
-      success: function() {
-        return true;
-      },
-      error: function() {
-        alert('Hubo un error al añadir la entrega programada al carrito.');
+        
+        $.ajax({
+          type: 'POST',
+          url: '/cart/add.js',
+          data: {
+            quantity: 1,
+            id: 47194811433284, // ID de tu producto/variante
+            properties: {
+              'Fecha de Entrega': deliveryDate
+            }
+          },
+          dataType: 'json',
+          success: function() {
+            alert('Entrega programada añadida al carrito.');
+          },
+          error: function() {
+            alert('Hubo un error al añadir la entrega programada al carrito.');
+          }
+        });
       }
     });
   });
-});
-  
 </script>
 
 
