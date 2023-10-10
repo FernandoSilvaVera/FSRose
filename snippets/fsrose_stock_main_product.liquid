@@ -90,4 +90,39 @@
       dateFormat: 'yy-mm-dd' // Formato de fecha deseado
     });
   } );
+
+
+  $(document).ready(function() {
+  $('#addToCart').click(function(e) {
+    e.preventDefault();
+    
+    var deliveryDate = $('#deliveryDate').val();
+    if (!deliveryDate) {
+      alert('Por favor, selecciona una fecha de entrega.');
+      return;
+    }
+    
+    $.ajax({
+      type: 'POST',
+      url: '/cart/add.js',
+      data: {
+        quantity: 1,
+        id: 'VARIANT_ID_ENTREGA',
+        properties: {
+          'Fecha de Entrega': deliveryDate
+        }
+      },
+      dataType: 'json',
+      success: function() {
+        window.location.href = '/cart';
+      },
+      error: function() {
+        alert('Hubo un error al añadir la entrega programada al carrito.');
+      }
+    });
+  });
+});
+  
 </script>
+
+
