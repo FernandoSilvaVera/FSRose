@@ -97,8 +97,7 @@
     e.preventDefault();
     var deliveryDate = $('#delivery_date').val();
     if (!deliveryDate) {
-      console.log("aaaaaaaaaa");
-      return;
+      return true;
     }
     
     $.ajax({
@@ -113,7 +112,7 @@
       },
       dataType: 'json',
       success: function() {
-        
+        return true;
       },
       error: function() {
         alert('Hubo un error al añadir la entrega programada al carrito.');
