@@ -3094,3 +3094,52 @@ details-disclosure > details {
     .whatsapp-link:hover {
         text-decoration: underline; /* Añade un subrayado al pasar el cursor */
     }
+
+    #delivery_date {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 80%;
+        max-width: 300px;
+    }
+    
+    #delivery_date:focus {
+        border-color: #6f9fc7;
+        outline: none;
+        box-shadow: 0 0 5px #6f9fc7;
+    }
+    
+    .ui-datepicker {
+        font-size: 14px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    
+    .ui-datepicker-header {
+        background-color: #6f9fc7;
+        color: #fff;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .ui-datepicker-prev, .ui-datepicker-next {
+        cursor: pointer;
+    }
+    
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+        border: 1px solid #ccc;
+        color: #555;
+    }
+    
+    .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+        color: #6f9fc7;
+    }
+    
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+        background-color: #6f9fc7;
+        border: 1px solid #6f9fc7;
+        color: #fff;
+    }
