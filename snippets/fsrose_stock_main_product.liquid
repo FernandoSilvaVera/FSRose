@@ -58,7 +58,12 @@
   $( function() {
     $( "#delivery_date" ).datepicker({
       minDate: 1, // El envío no puede ser el mismo día, se configura al menos 1 día en adelante.
-      dateFormat: 'yy-mm-dd', // Formato de fecha deseado
+      dateFormat: 'yy-mm-dd', // Formato de fecha 
+      beforeShowDay: function(date) {
+        var day = date.getDay();
+        // Bloquear domingos (day == 0)
+        return [(day != 0), ''];
+      },
       closeText: 'Cerrar',
       prevText: '<Ant',
       nextText: 'Sig>',
