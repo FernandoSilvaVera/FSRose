@@ -63,7 +63,8 @@
 
 <script>
 
-  var minDate = 2
+  var currentHour = new Date().getHours();
+  var minDateValue = currentHour >= 16 ? 2 : 1;
   
   $( function() {
     $( "#delivery_date" ).datepicker({
