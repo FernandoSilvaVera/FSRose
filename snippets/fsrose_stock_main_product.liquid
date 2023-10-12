@@ -64,11 +64,11 @@
 <script>
 
   var currentHour = new Date().getHours();
-  var minDateValue = currentHour >= 16 ? 2 : 1;
+  var minDateValue = currentHour >= 12 ? 2 : 1;
   
   $( function() {
     $( "#delivery_date" ).datepicker({
-      minDate: minDate, 
+      minDate: minDateValue, 
       dateFormat: 'dd-mm-yy', 
       beforeShowDay: function(date) {
         var day = date.getDay();
