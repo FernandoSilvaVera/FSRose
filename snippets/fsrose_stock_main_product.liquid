@@ -48,7 +48,6 @@
   </div>
 {% endif %}
 
-{% comment %}
 
 <!-- Añadir jQuery y jQuery UI desde CDN -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -56,16 +55,24 @@
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/ui/1.12.1/i18n/datepicker-es.js"></script>
 
-<input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega (+3,99€)">
+<div class="input-group">
+    <label for="delivery_date">Fecha de entrega</label>
+    <input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega" readonly autocomplete="off">
+</div>
+
 
 <script>
+
+  var currentHour = new Date().getHours();
+  var minDateValue = currentHour >= 12 ? 2 : 1;
+  
   $( function() {
     $( "#delivery_date" ).datepicker({
-      minDate: 1, 
-      dateFormat: 'yy-mm-dd', 
+      minDate: minDateValue, 
+      dateFormat: 'dd-mm-yy', 
       beforeShowDay: function(date) {
         var day = date.getDay();
-        return [(day != 0), ''];
+        return [(day != 0), ''];  // No permitimos seleccionar domingos
       },
       closeText: 'Cerrar',
       prevText: '<Ant',
@@ -136,4 +143,4 @@ function addDeliveryDateToCart(deliveryDate) {
 }
   });
 </script>
-{% endcomment %}
+

@@ -3103,6 +3103,7 @@ details-disclosure > details {
         margin-top: 10px;
         width: 50%;
         max-width: 300px;
+      border: 1px solid black; 
     }
     
     #delivery_date:focus {
@@ -3143,3 +3144,7 @@ details-disclosure > details {
         border: 1px solid #6f9fc7;
         color: #fff;
     }
+.input-group label {
+    display: block;
+  
+}
