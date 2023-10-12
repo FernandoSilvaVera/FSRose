@@ -3103,6 +3103,7 @@ details-disclosure > details {
         margin-top: 10px;
         width: 50%;
         max-width: 300px;
+      border: 2px solid black; 
     }
     
     #delivery_date:focus {
