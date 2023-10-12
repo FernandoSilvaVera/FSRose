@@ -1,3 +1,5 @@
+{% comment %} 86400 {% endcomment %}
+
 {% assign now = 'now' %}
 {% assign current_day = now | date: "%w" | plus: 0 %}
 {% assign current_hour = now | date: "%H" | plus: 0 %}
@@ -20,9 +22,6 @@
   {% endif %}
 
 
-
-
-  
 {% comment %} Miercoles {% endcomment %}
 {% elsif current_day == 3 %}
   {% assign day_after_tomorrow = now | date: '%s' | plus: 172800 %}
@@ -54,6 +53,9 @@
   
 {% comment %} JUEVES {% endcomment %}
 {% elsif current_day == 4 %}
+
+  {% assign next_saturday = now | date: '%s' | plus: 172800 %}
+  {% capture next_saturday %}{{ next_saturday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
   
   {% assign next_monday = now | date: '%s' | plus: 345600 %}
   {% capture next_monday %}{{ next_monday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
