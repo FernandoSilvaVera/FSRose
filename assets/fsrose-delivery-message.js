@@ -9,12 +9,12 @@ function obtenerMensajeEntrega() {
         if (currentHour > 8 && currentHour < 12) {
             const remainingHours = 11 - currentHour; // 15:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega <del>4,99€</del> ¡GRATIS! Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
+            return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
         if (currentHour > 12 && currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega <del>4,99€</del> ¡GRATIS! Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
+            return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
     }
     
@@ -24,7 +24,7 @@ function obtenerMensajeEntrega() {
          if (currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega <del>4,99€</del> ¡GRATIS! Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
+            return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }     
       
     }
@@ -34,7 +34,7 @@ function obtenerMensajeEntrega() {
         if (currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega <del>4,99€</del> ¡GRATIS! Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
+            return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
     }
     
@@ -43,7 +43,7 @@ function obtenerMensajeEntrega() {
         if (currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega <del>4,99€</del> ¡GRATIS! Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
+            return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
     }
     
@@ -52,7 +52,7 @@ function obtenerMensajeEntrega() {
         if (currentHour < 22) {
             const remainingHours = 21 - currentHour; // 20:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega <del>4,99€</del> ¡GRATIS! Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
+            return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
     }
     
