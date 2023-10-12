@@ -93,16 +93,16 @@ function obtenerFechaEntrega() {
   } else if (currentDay === 4) {
 
     let saturday = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
-    saturday = saturday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    saturday = saturday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
     
     let nextMonday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
-    nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextMonday = nextMonday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextTuesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
     nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextWednesday = new Date(now.getTime() + 6 * 24 * 60 * 60 * 1000);
-    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
       if (currentHour < 12) {
         return `Entrega GRATIS <b>MAÑANA o ${saturday}</b>`;
@@ -112,13 +112,13 @@ function obtenerFechaEntrega() {
     
   } else if (currentDay === 5) {
     let nextMonday = new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000);
-    nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextMonday = nextMonday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextTuesday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
     nextTuesday = nextTuesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     let nextWednesday = new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
-    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
     if (today < 20) {
       return `Entrega GRATIS el ${nextTuesday} o ${nextWednesday}`;
