@@ -17,17 +17,15 @@
     <span class="selection">
         {{ product.metafields.custom.variant_color }}
     </span>
-
-
+    <br>
       {% if inventory_quantity < 10 %}
-      <br>
-      <span>
+        <label class="a-form-label"> 
+          <b>Disponibilidad:</b>
+        </label>
         <span style="color:#B12704;font-size: 90%">
           <b>Sólo queda(n) {{ inventory_quantity }} en stock</b>
         </span>
-      </span>
-    {% endif %}
-  
+      {% endif %}
   
     <br>
     <label class="a-form-label"> 
