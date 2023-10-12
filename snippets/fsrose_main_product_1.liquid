@@ -6,4 +6,148 @@
 <span id="messageDelivery"  style="color: rgb(0, 118, 0); font-size: 90%;">                                                       
 </span>
 
-{% render 'fsrose_stock_main_product', card_product:product %}
+{% assign inventory_quantity = card_product.selected_or_first_available_variant.inventory_quantity %}
+
+{% if inventory_quantity < 10 %}
+  <br>
+  <span>
+    <span style="color:#B12704;font-size: 90%">
+      <b>Sólo queda(n) {{ inventory_quantity }} en stock</b>
+    </span>
+  </span>
+{% endif %}
+
+{% if card_product.metafields.custom.variants %}
+
+<div class="a-row">
+    <label class="a-form-label"> 
+        <b>Color:</b>
+    </label> 
+    <span class="selection">
+        {{ card_product.metafields.custom.variant_color }}
+    </span>
+    <br>
+    <label class="a-form-label"> 
+        <b>Significado:</b>
+    </label> 
+    <span class="selection">
+        {{ card_product.metafields.custom.meaning }}
+    </span>
+    <br>
+    <label class="a-form-label"> 
+        <b>¿Eres de Madrid y lo necesitas hoy?</b>
+    </label> 
+    <span class="selection">
+        Recógelo hoy mismo. Más info al WhatsApp: 
+        <a href="https://wa.me/34646124371?text=Hola,%20estoy%20interesado%20en%20recogerlo%20hoy%20en%20Madrid" target="_blank" class="whatsapp-link">646124371</a>.
+    </span>
+</div>
+
+  
+  {% assign variantes = card_product.metafields.custom.variants.value %}  
+  <div class="image-row">
+    {% for producto in variantes.productos %}
+      <div class="image-container">
+        <a href="{{ producto.productUrl }}">
+          <img src="{{ producto.ImageUrl }}" alt="{{ producto.ColorName }}" class="imgSwatch">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+<!-- Añadir jQuery y jQuery UI desde CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/i18n/datepicker-es.js"></script>
+
+<div class="input-group">
+    <label for="delivery_date">Fecha de entrega</label>
+    <input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega" readonly autocomplete="off">
+</div>
+
+
+<script>
+
+  var currentHour = new Date().getHours();
+  var minDateValue = currentHour >= 12 ? 2 : 1;
+  
+  $( function() {
+    $( "#delivery_date" ).datepicker({
+      minDate: minDateValue, 
+      dateFormat: 'dd-mm-yy', 
+      beforeShowDay: function(date) {
+        var day = date.getDay();
+        return [(day != 0), ''];  // No permitimos seleccionar domingos
+      },
+      closeText: 'Cerrar',
+      prevText: '<Ant',
+      nextText: 'Sig>',
+      currentText: 'Hoy',
+      monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+      'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+      monthNamesShort: ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
+      'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+      dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+      dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+      dayNamesMin: ['D','L','M','X','J','V','S'],
+      weekHeader: 'Sm',
+      firstDay: 1,
+      onSelect: function (dateText) {
+        var deliveryDate = dateText;
+
+        if (!deliveryDate) {
+            return;
+        }
+
+        $.getJSON('/cart.js', function(cart) {
+            // Verifica si hay un producto con fecha de entrega en el carrito.
+            var itemWithDeliveryDate = cart.items.find(item => item.properties && item.properties['Fecha de Entrega']);
+
+            if (itemWithDeliveryDate) {
+                var updates = {};
+                updates[itemWithDeliveryDate.key] = 0; // Establecer cantidad a 0 elimina el item del carrito.
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/cart/update.js',
+                    data: {
+                        updates: updates
+                    },
+                    dataType: 'json',
+                    success: function() {
+                        addDeliveryDateToCart(deliveryDate);
+                    },
+                    error: function() {
+                    }
+                });
+            } else {
+                // Si no hay producto con fecha de entrega, simplemente añade el nuevo.
+                addDeliveryDateToCart(deliveryDate);
+            }
+        });
+    }
+});
+
+function addDeliveryDateToCart(deliveryDate) {
+    $.ajax({
+        type: 'POST',
+        url: '/cart/add.js',
+        data: {
+            quantity: 1,
+            id: 47194811433284, // ID de tu producto/variante
+            properties: {
+                'Fecha de Entrega': deliveryDate
+            }
+        },
+        dataType: 'json',
+        success: function () {
+        },
+        error: function () {
+        }
+    });
+}
+  });
+</script>
