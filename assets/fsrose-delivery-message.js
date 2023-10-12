@@ -104,10 +104,10 @@ function obtenerFechaEntrega() {
     let nextWednesday = new Date(now.getTime() + 6 * 24 * 60 * 60 * 1000);
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
-      if (currentHour < 12) {
+      if (currentHour < 16) {
         return `Entrega GRATIS <b>MAÑANA o ${saturday}</b>`;
       } else {
-        return `Entrega GRATIS <b>el ${nextMonday} o ${nextTuesday}</b>`;
+        return `Entrega GRATIS <b>el ${saturday} o ${nextMonday}</b>`;
       }
     
   } else if (currentDay === 5) {
