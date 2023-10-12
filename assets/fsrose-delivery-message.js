@@ -9,7 +9,7 @@ function obtenerMensajeEntrega() {
         if (currentHour > 8 && currentHour < 12) {
             const remainingHours = 11 - currentHour; // 15:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas y ${remainingMinutes} mins`;
+            return `Entrega gratuita. Haz el pedido antes de ${remainingHours}horas y ${remainingMinutes} mins`;
         }
         if (currentHour > 12 && currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
@@ -24,7 +24,7 @@ function obtenerMensajeEntrega() {
          if (currentHour < 22) {
             const remainingHours = 21 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
-            return `Entrega más rápida. Haz el pedido antes de ${remainingHours}horas ${remainingMinutes} mins`;
+            return `Entrega <del>4,99€</del> ¡GRATIS! Finaliza en ${remainingHours} horas ${remainingMinutes} minutos`;
         }     
       
     }
