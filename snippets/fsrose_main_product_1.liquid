@@ -99,7 +99,7 @@
 
         $.getJSON('/cart.js', function(cart) {
             // Verifica si hay un producto con fecha de entrega en el carrito.
-            var itemWithDeliveryDate = cart.items.find(item => item.properties && item.properties['Fecha de Entrega']);
+            var itemWithDeliveryDate = cart.items.find(item => item.properties && item.properties['Entrega']);
 
             if (itemWithDeliveryDate) {
                 var updates = {};
