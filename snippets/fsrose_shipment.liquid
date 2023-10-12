@@ -65,17 +65,11 @@
     {% capture next_wednesday %}{{ next_wednesday | date: "%A %d" | replace: "Monday", "Lun" | replace: "Tuesday", "Martes" | replace: "Wednesday", "Mié" | replace: "Thursday", "Jue" | replace: "Friday", "Vie" | replace: "Saturday", "Sáb" | replace: "Sunday", "Dom" }}{% endcapture %}
 
 
-{% if today < 20 %}
-    Entrega GRATIS <b>el {{ next_tuesday }} o {{ next_wednesday }}</b>
-{% else %}
-  
   {% if current_hour < 16 and current_month != 8%}
        Entrega GRATIS <b>MAÑANA o {{ next_monday }}</b> 
   {% else %}
     Entrega GRATIS <b>el {{ next_monday }} o {{ next_tuesday }}</b>
   {% endif %}
-
-{% endif %}
 
 
 
