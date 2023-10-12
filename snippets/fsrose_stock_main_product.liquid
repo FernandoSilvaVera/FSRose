@@ -62,20 +62,16 @@
 
 
 <script>
-  $( function() {
-    $( "#delivery_date" ).datepicker({
-      minDate: 1, 
-      dateFormat: 'dd-mm-yy', 
-      beforeShowDay: function(date) {
-        var currentHour = new Date().getHours();
-        var tomorrow = new Date(new Date().getTime() + 24 * 60 * 60 * 1000); // Calculamos la fecha de mañana
-        if (date.getDate() == tomorrow.getDate() && currentHour >= 16) {
-            return [false, ''];  // No permitimos seleccionar el día siguiente si es después de las 16:00
-        }
+var currentHour = new Date().getHours();
+var minDateValue = currentHour >= 16 ? 2 : 1;
 
+$( "#delivery_date" ).datepicker({
+    minDate: minDateValue, 
+    dateFormat: 'dd-mm-yy', 
+    beforeShowDay: function(date) {
         var day = date.getDay();
-        return [(day != 0), ''];  // No permitimos seleccionar domingos
-      },
+        return [(day != 0), ''];
+    },
       closeText: 'Cerrar',
       prevText: '<Ant',
       nextText: 'Sig>',
