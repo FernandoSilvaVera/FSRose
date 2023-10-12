@@ -8,24 +8,27 @@
 
 {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}
 
-{% if inventory_quantity < 10 %}
-  <br>
-  <span>
-    <span style="color:#B12704;font-size: 90%">
-      <b>Sólo queda(n) {{ inventory_quantity }} en stock</b>
-    </span>
-  </span>
-{% endif %}
-
 {% if product.metafields.custom.variants %}
 
 <div class="a-row">
     <label class="a-form-label"> 
         <b>Color:</b>
-    </label> 
+    </label>
     <span class="selection">
         {{ product.metafields.custom.variant_color }}
     </span>
+
+
+      {% if inventory_quantity < 10 %}
+      <br>
+      <span>
+        <span style="color:#B12704;font-size: 90%">
+          <b>Sólo queda(n) {{ inventory_quantity }} en stock</b>
+        </span>
+      </span>
+    {% endif %}
+  
+  
     <br>
     <label class="a-form-label"> 
         <b>Significado:</b>
