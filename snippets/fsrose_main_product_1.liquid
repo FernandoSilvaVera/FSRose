@@ -1,10 +1,9 @@
 <div class="input-group">
     <label for="delivery_date">Fecha de entrega</label>
     <input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega" readonly autocomplete="off">
+    <br>
+    <span id="messageDelivery"  style="color: rgb(0, 118, 0); font-size: 90%;"></span>
 </div>
-
-<span id="messageDelivery"  style="color: rgb(0, 118, 0); font-size: 90%;">                                                       
-</span>
 
 {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}
 
