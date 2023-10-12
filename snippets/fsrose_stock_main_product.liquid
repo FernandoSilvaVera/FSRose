@@ -62,9 +62,12 @@
 
 
 <script>
+
+  var minDate = 2
+  
   $( function() {
     $( "#delivery_date" ).datepicker({
-      minDate: 1, 
+      minDate: minDate, 
       dateFormat: 'dd-mm-yy', 
       beforeShowDay: function(date) {
         var day = date.getDay();
