@@ -65,7 +65,7 @@
   $( function() {
     $( "#delivery_date" ).datepicker({
       minDate: 1, 
-      dateFormat: 'yy-mm-dd', 
+      dateFormat: 'dd-mm-yy', 
       beforeShowDay: function(date) {
         var day = date.getDay();
         return [(day != 0), ''];
