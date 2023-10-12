@@ -91,6 +91,10 @@ function obtenerFechaEntrega() {
         return `Entrega GRATIS <b>el ${dayAfterTomorrow} o ${nextMonday}</b>`;
       }
   } else if (currentDay === 4) {
+
+    let saturday = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
+    saturday = saturday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
+    
     let nextMonday = new Date(now.getTime() + 4 * 24 * 60 * 60 * 1000);
     nextMonday = nextMonday.toLocaleString('default', { weekday: 'short', day: 'numeric' });
 
