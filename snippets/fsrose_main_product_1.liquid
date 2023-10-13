@@ -66,8 +66,17 @@
 
 <script>
 
-  var currentHour = new Date().getHours();
-  var minDateValue = currentHour >= 12 ? 2 : 1;
+  var currentDate = new Date();
+  var currentHour = currentDate.getHours();
+  var currentDay = currentDate.getDay();
+  
+  var minDateValue;
+  
+  if (currentDay === 5 && currentHour >= 12) {
+      minDateValue = 4;
+  } else {
+      minDateValue = currentHour >= 12 ? 2 : 1;
+  }
   
   $( function() {
     $( "#delivery_date" ).datepicker({
