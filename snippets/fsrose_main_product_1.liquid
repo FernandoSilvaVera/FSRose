@@ -73,10 +73,8 @@
   var minDateValue;
   
   if (currentDay === 5 && currentHour >= 12) {
-      // Si es viernes y son las 12 o más
       minDateValue = 4;
   } else {
-      // En cualquier otro caso
       minDateValue = currentHour >= 12 ? 2 : 1;
   }
   
