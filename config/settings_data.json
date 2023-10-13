@@ -204,6 +204,12 @@
           "modalPositiveButtonColor": "#006E52",
           "modalNegativeButton": "Cancelar"
         }
+      },
+      "17418022395263233305": {
+        "type": "shopify:\/\/apps\/evlop-order-limits-min-max\/blocks\/cart-validator\/5faf2f1c-0e1b-4196-9655-09598ebe59b0",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
