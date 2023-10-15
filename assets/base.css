@@ -3135,7 +3135,7 @@ details-disclosure > details {
 }
 
 .ui-state-default{
-  text-align: center;
+  text-align: center !important;
 }
 
 /* ... Otros estilos que ya has definido anteriormente ... */
