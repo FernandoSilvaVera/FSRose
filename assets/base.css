@@ -3114,6 +3114,7 @@ details-disclosure > details {
     display: block;
     line-height: 1.8em; /* Ajusta según tus necesidades para cambiar la altura de las celdas */
     font-weight: bold !important;
+      text-align: center;
 }
 
 /* Día seleccionado con fondo negro y letras blancas */
