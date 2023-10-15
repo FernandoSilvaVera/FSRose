@@ -3094,23 +3094,6 @@ details-disclosure > details {
     .whatsapp-link:hover {
         text-decoration: underline; /* Añade un subrayado al pasar el cursor */
     }
-
-    #delivery_date {
-        padding: 10px;
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin-top: 10px;
-        width: 50%;
-        max-width: 300px;
-      border: 1px solid black; 
-    }
-    
-    #delivery_date:focus {
-        border-color: #6f9fc7;
-        outline: none;
-        box-shadow: 0 0 5px #6f9fc7;
-    }
     
     .ui-datepicker {
         font-size: 14px;
