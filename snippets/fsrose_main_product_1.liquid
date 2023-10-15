@@ -1,6 +1,6 @@
 <div class="input-group">
     <label for="delivery_date">Fecha de entrega</label>
-    <input type="text" id="delivery_date" name="delivery_date" placeholder="Programar entrega" readonly autocomplete="off">
+    <div id="delivery_date"></div>
     <br>
     <span id="messageDelivery"  style="color: rgb(0, 118, 0); font-size: 90%;"></span>
 </div>
@@ -66,73 +66,72 @@
 
 <script>
 
-  var currentDate = new Date();
-  var currentHour = currentDate.getHours();
-  var currentDay = currentDate.getDay();
+var currentDate = new Date();
+var currentHour = currentDate.getHours();
+var currentDay = currentDate.getDay();
   
-  var minDateValue;
+var minDateValue;
   
-  if (currentDay === 5 && currentHour >= 12) {
-      minDateValue = 4;
-  } else {
-      minDateValue = currentHour >= 12 ? 2 : 1;
-  }
+if (currentDay === 5 && currentHour >= 12) {
+    minDateValue = 4;
+} else {
+    minDateValue = currentHour >= 12 ? 2 : 1;
+}
   
-  $( function() {
-    $( "#delivery_date" ).datepicker({
-      minDate: minDateValue, 
-      dateFormat: 'dd-mm-yy', 
-      beforeShowDay: function(date) {
-        var day = date.getDay();
-        return [(day != 0), ''];  // No permitimos seleccionar domingos
-      },
-      closeText: 'Cerrar',
-      prevText: '<Ant',
-      nextText: 'Sig>',
-      currentText: 'Hoy',
-      monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-      'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
-      monthNamesShort: ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
-      'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
-      dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
-      dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
-      dayNamesMin: ['D','L','M','X','J','V','S'],
-      weekHeader: 'Sm',
-      firstDay: 1,
-      onSelect: function (dateText) {
-        var deliveryDate = dateText;
+$( function() {
+    $("#delivery_date").datepicker({
+        minDate: minDateValue, 
+        dateFormat: 'dd-mm-yy', 
+        beforeShowDay: function(date) {
+            var day = date.getDay();
+            return [(day != 0), ''];  
+        },
+        closeText: 'Cerrar',
+        prevText: '<Ant',
+        nextText: 'Sig>',
+        currentText: 'Hoy',
+        monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+        'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+        monthNamesShort: ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
+        'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+        dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+        dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+        dayNamesMin: ['D','L','M','X','J','V','S'],
+        weekHeader: 'Sm',
+        firstDay: 1,
+        onSelect: function (dateText) {
+            var deliveryDate = dateText;
 
-        if (!deliveryDate) {
-            return;
-        }
-
-        $.getJSON('/cart.js', function(cart) {
-            // Verifica si hay un producto con fecha de entrega en el carrito.
-            var itemWithDeliveryDate = cart.items.find(item => item.properties && item.properties['Entrega']);
-
-            if (itemWithDeliveryDate) {
-                var updates = {};
-                updates[itemWithDeliveryDate.key] = 0; // Establecer cantidad a 0 elimina el item del carrito.
-
-                $.ajax({
-                    type: 'POST',
-                    url: '/cart/update.js',
-                    data: {
-                        updates: updates
-                    },
-                    dataType: 'json',
-                    success: function() {
-                        addDeliveryDateToCart(deliveryDate);
-                    },
-                    error: function() {
-                    }
-                });
-            } else {
-                // Si no hay producto con fecha de entrega, simplemente añade el nuevo.
-                addDeliveryDateToCart(deliveryDate);
+            if (!deliveryDate) {
+                return;
             }
-        });
-    }
+
+            $.getJSON('/cart.js', function(cart) {
+                var itemWithDeliveryDate = cart.items.find(item => item.properties && item.properties['Entrega']);
+
+                if (itemWithDeliveryDate) {
+                    var updates = {};
+                    updates[itemWithDeliveryDate.key] = 0;
+
+                    $.ajax({
+                        type: 'POST',
+                        url: '/cart/update.js',
+                        data: {
+                            updates: updates
+                        },
+                        dataType: 'json',
+                        success: function() {
+                            addDeliveryDateToCart(deliveryDate);
+                        },
+                        error: function() {
+                        }
+                    });
+                } else {
+                    addDeliveryDateToCart(deliveryDate);
+                }
+            });
+        }
+    });
 });
 
 function addDeliveryDateToCart(deliveryDate) {
@@ -141,7 +140,7 @@ function addDeliveryDateToCart(deliveryDate) {
         url: '/cart/add.js',
         data: {
             quantity: 1,
-            id: 47194811433284, // ID de tu producto/variante
+            id: 47194811433284,
             properties: {
                 'Entrega': deliveryDate
             }
@@ -153,7 +152,7 @@ function addDeliveryDateToCart(deliveryDate) {
         }
     });
 }
-  });
+
 </script>
 
 
