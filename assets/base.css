@@ -3106,14 +3106,17 @@ details-disclosure > details {
 /* Centrar los números y aplicar negrita */
 .ui-datepicker td {
     text-align: center;
+    vertical-align: middle; /* Asegurarse de que el texto también está centrado verticalmente */
 }
 
 .ui-datepicker td a,
 .ui-datepicker td span {
-    width: 100%;
+    width: 2em; /* Ajusta para que sea un cuadrado */
+    height: 2em; /* Ajusta para que sea un cuadrado */
     display: block;
-    line-height: 1.8em; /* Ajusta según tus necesidades para cambiar la altura de las celdas */
+    line-height: 2em; /* Coincide con la altura para centrar el texto verticalmente */
     font-weight: bold !important;
+    text-align: center;
 }
 
 /* Día seleccionado con fondo negro y letras blancas */
@@ -3124,11 +3127,13 @@ details-disclosure > details {
     border: none !important;
     border-radius: 50%; /* Hace que el fondo sea redondo */
 }
+
 /* Eliminar el borde y el subrayado de los números */
 .ui-datepicker td a {
     border: none !important;
     text-decoration: none !important;
 }
+
 
 /* ... Otros estilos que ya has definido anteriormente ... */
 
