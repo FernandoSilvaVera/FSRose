@@ -3106,9 +3106,6 @@ details-disclosure > details {
 /* Centrar los números y aplicar negrita */
 .ui-datepicker td {
     text-align: center;
-    display: flex;  /* Usamos Flexbox */
-    align-items: center;  /* Centrado vertical */
-    justify-content: center;  /* Centrado horizontal */
 }
 
 .ui-datepicker td a,
@@ -3117,7 +3114,6 @@ details-disclosure > details {
     display: block;
     line-height: 1.8em; /* Ajusta según tus necesidades para cambiar la altura de las celdas */
     font-weight: bold !important;
-      text-align: center;
 }
 
 /* Día seleccionado con fondo negro y letras blancas */
