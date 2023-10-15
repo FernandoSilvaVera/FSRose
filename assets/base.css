@@ -3111,17 +3111,13 @@ details-disclosure > details {
     justify-content: center;  /* Centrado horizontal */
 }
 
-/* Ajustar la altura de las celdas y aplicar negrita al texto */
-.ui-datepicker td span,
-.ui-datepicker td a {
-    line-height: 1.8em; 
+.ui-datepicker td a,
+.ui-datepicker td span {
+    width: 100%;
+    display: block;
+    line-height: 1.8em; /* Ajusta según tus necesidades para cambiar la altura de las celdas */
     font-weight: bold !important;
-}
-
-/* Eliminar el borde y el subrayado de los números */
-.ui-datepicker td a {
-    border: none !important;
-    text-decoration: none !important;
+      text-align: center;
 }
 
 /* Día seleccionado con fondo negro y letras blancas */
@@ -3132,7 +3128,11 @@ details-disclosure > details {
     border: none !important;
     border-radius: 50%; /* Hace que el fondo sea redondo */
 }
-
+/* Eliminar el borde y el subrayado de los números */
+.ui-datepicker td a {
+    border: none !important;
+    text-decoration: none !important;
+}
 
 /* ... Otros estilos que ya has definido anteriormente ... */
 
