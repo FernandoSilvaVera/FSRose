@@ -3104,28 +3104,29 @@ details-disclosure > details {
 
 
 /* Centrar los números y aplicar negrita */
+.ui-datepicker td span, 
 .ui-datepicker td a {
+    display: inline-block;
+    width: 100%;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 /* Día seleccionado con fondo negro y letras blancas */
-.ui-datepicker .ui-datepicker-calendar .ui-state-active {
-    background-color: #000;
-    color: #fff;
-    border: none;
+.ui-datepicker .ui-state-active {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: none !important;
 }
 
-/* Eliminar el borde alrededor de los números y el enlace en general */
+/* Eliminar el borde y el subrayado de los números */
 .ui-datepicker td a {
-    border: none;
-    text-decoration: none;
+    border: none !important;
+    text-decoration: none !important;
 }
 
-/* Eliminar el borde alrededor del número seleccionado */
-.ui-datepicker .ui-datepicker-calendar .ui-state-active {
-    border: none;
-}
+/* ... Otros estilos que ya has definido anteriormente ... */
+
 
 /* ... Otros estilos que ya has definido anteriormente ... */
 
