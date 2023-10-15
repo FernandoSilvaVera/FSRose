@@ -3095,15 +3095,39 @@ details-disclosure > details {
         text-decoration: underline; /* Añade un subrayado al pasar el cursor */
     }
     
-
-/* ... añade más estilos según tus necesidades ... */
-
-
-
 .input-group label {
     display: block;
   
 }
+
+
+
+
+/* Centrar los números y aplicar negrita */
+.ui-datepicker td a {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Día seleccionado con fondo negro y letras blancas */
+.ui-datepicker .ui-datepicker-calendar .ui-state-active {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+/* Eliminar el borde alrededor de los números y el enlace en general */
+.ui-datepicker td a {
+    border: none;
+    text-decoration: none;
+}
+
+/* Eliminar el borde alrededor del número seleccionado */
+.ui-datepicker .ui-datepicker-calendar .ui-state-active {
+    border: none;
+}
+
+/* ... Otros estilos que ya has definido anteriormente ... */
 
 
 
