@@ -3122,8 +3122,8 @@ details-disclosure > details {
     background-color: #000 !important;
     color: #fff !important;
     border: none !important;
+    border-radius: 50%; /* Hace que el fondo sea redondo */
 }
-
 /* Eliminar el borde y el subrayado de los números */
 .ui-datepicker td a {
     border: none !important;
