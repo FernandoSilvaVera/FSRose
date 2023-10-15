@@ -3104,16 +3104,21 @@ details-disclosure > details {
 
 
 /* Centrar los números y aplicar negrita */
-.ui-datepicker td span, 
-.ui-datepicker td a {
-    display: inline-block;
-    width: 100%;
+.ui-datepicker td {
     text-align: center;
+}
+
+.ui-datepicker td a,
+.ui-datepicker td span {
+    width: 100%;
+    display: block;
+    line-height: 1.8em; /* Ajusta según tus necesidades para cambiar la altura de las celdas */
     font-weight: bold !important;
 }
 
 /* Día seleccionado con fondo negro y letras blancas */
-.ui-datepicker .ui-state-active {
+.ui-datepicker .ui-state-active,
+.ui-datepicker .ui-state-active a {
     background-color: #000 !important;
     color: #fff !important;
     border: none !important;
@@ -3127,8 +3132,6 @@ details-disclosure > details {
 
 /* ... Otros estilos que ya has definido anteriormente ... */
 
-
-/* ... Otros estilos que ya has definido anteriormente ... */
 
 
 
