@@ -11,8 +11,8 @@ function obtenerMensajeEntrega() {
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
-        if (currentHour > 12 && currentHour < 22) {
-            const remainingHours = 21 - currentHour; // 22:00 - currentHour
+        if (currentHour > 12 && currentHour < 24) {
+            const remainingHours = 23 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
