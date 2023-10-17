@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "loox-rating": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -26,11 +31,6 @@
           "type": "fsrose-main-product-block",
           "settings": {
             "text": ""
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "variant_picker": {
@@ -118,9 +118,9 @@
       },
       "block_order": [
         "title",
+        "price",
         "loox-rating",
         "d83b6397-0d4b-47ee-92a3-4f6571969e89",
-        "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
