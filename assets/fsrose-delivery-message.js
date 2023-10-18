@@ -11,8 +11,8 @@ function obtenerMensajeEntrega() {
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
-        if (currentHour > 12 && currentHour < 22) {
-            const remainingHours = 21 - currentHour; // 22:00 - currentHour
+        if (currentHour > 12 && currentHour < 24) {
+            const remainingHours = 23 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
@@ -21,8 +21,8 @@ function obtenerMensajeEntrega() {
     // JUEVES
     else if (currentDay === 4) {
 
-         if (currentHour < 22) {
-            const remainingHours = 21 - currentHour; // 22:00 - currentHour
+         if (currentHour < 24) {
+            const remainingHours = 23 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }     
@@ -31,8 +31,8 @@ function obtenerMensajeEntrega() {
     
     // VIERNES
     else if (currentDay === 5) {
-        if (currentHour < 22) {
-            const remainingHours = 21 - currentHour; // 22:00 - currentHour
+        if (currentHour < 24) {
+            const remainingHours = 23 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
@@ -40,8 +40,8 @@ function obtenerMensajeEntrega() {
     
     // SÁBADO
     else if (currentDay === 6) {
-        if (currentHour < 22) {
-            const remainingHours = 21 - currentHour; // 22:00 - currentHour
+        if (currentHour < 24) {
+            const remainingHours = 23 - currentHour; // 22:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
@@ -49,8 +49,8 @@ function obtenerMensajeEntrega() {
     
     // DOMINGO
     else if (currentDay === 0) {
-        if (currentHour < 22) {
-            const remainingHours = 21 - currentHour; // 20:00 - currentHour
+        if (currentHour < 24) {
+            const remainingHours = 23 - currentHour; // 20:00 - currentHour
             const remainingMinutes = 60 - currentMinute;
             return `Entrega <del>4,99€</del> <b>¡GRATIS!</b> Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
         }
