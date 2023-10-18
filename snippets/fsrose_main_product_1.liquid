@@ -80,19 +80,27 @@ $( function() {
         dateFormat: 'dd-mm-yy', 
         beforeShowDay: function(date) {
             var day = date.getDay();
-            return [(day != 0), ''];  
+            var isSunday = (day == 0);
+            
+            // Bloquear 1 y 9 de noviembre de 2023
+            var isBlockedNovDate = (date.getFullYear() == 2023 && date.getMonth() == 10 && (date.getDate() == 1 || date.getDate() == 9));
+            
+            // Bloquear todas las fechas superiores al 30 de noviembre de 2023
+            var isAfterNov30 = (date > new Date(2023, 10, 30)); // Recuerda que los meses están indexados desde 0
+            
+            return [!(isSunday || isBlockedNovDate || isAfterNov30), ''];
         },
         closeText: 'Cerrar',
         prevText: '<Ant',
         nextText: 'Sig>',
         currentText: 'Hoy',
-        monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-        'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+        monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
         monthNamesShort: ['ene', 'feb', 'mar', 'abr', 'may', 'jun',
         'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
         dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
         dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
-        dayNamesMin: ['D','L','M','X','J','V','S'],
+        dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
         weekHeader: 'Sm',
         firstDay: 1,
         onSelect: function (dateText) {

@@ -3095,39 +3095,53 @@ details-disclosure > details {
         text-decoration: underline; /* Añade un subrayado al pasar el cursor */
     }
     
-    .ui-datepicker {
-        font-size: 14px;
-        border-radius: 5px;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        padding: 10px;
-    }
-    
-    .ui-datepicker-header {
-        background-color: #6f9fc7;
-        color: #fff;
-        border-radius: 5px 5px 0 0;
-    }
-    
-    .ui-datepicker-prev, .ui-datepicker-next {
-        cursor: pointer;
-    }
-    
-    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-        border: 1px solid #ccc;
-        color: #555;
-    }
-    
-    .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
-        color: #6f9fc7;
-    }
-    
-    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-        background-color: #6f9fc7;
-        border: 1px solid #6f9fc7;
-        color: #fff;
-    }
 .input-group label {
     display: block;
   
 }
+
+
+
+
+/* Centrar los números y aplicar negrita */
+.ui-datepicker td {
+    text-align: center;
+    vertical-align: middle; /* Asegurarse de que el texto también está centrado verticalmente */
+}
+
+.ui-datepicker td a,
+.ui-datepicker td span {
+    width: 2em; /* Ajusta para que sea un cuadrado */
+    height: 2em; /* Ajusta para que sea un cuadrado */
+    display: block;
+    line-height: 2em; /* Coincide con la altura para centrar el texto verticalmente */
+    font-weight: bold !important;
+    text-align: center;
+}
+
+/* Día seleccionado con fondo negro y letras blancas */
+.ui-datepicker .ui-state-active,
+.ui-datepicker .ui-state-active a {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 50%; /* Hace que el fondo sea redondo */
+}
+
+/* Eliminar el borde y el subrayado de los números */
+.ui-datepicker td a {
+    border: none !important;
+    text-decoration: none !important;
+}
+
+.ui-state-default{
+    text-align: center !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+/* ... Otros estilos que ya has definido anteriormente ... */
+
+
+
+
