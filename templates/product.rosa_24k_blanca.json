@@ -1,0 +1,268 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "25d7330e-2d8b-42fd-ac63-83ee4d23559a": {
+          "type": "fsrose-main-product-block",
+          "settings": {
+            "text": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "15623151-6abd-49b0-a8d1-191884b122e5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "¿Qué es una rosa preservada?🤔",
+            "icon": "heart",
+            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal.<strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "700bb950-ce35-401e-a7b6-79d7ab5f7939": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Significado rosa roja  🌹",
+            "icon": "star",
+            "content": "<p>La rosa roja simboliza el amor apasionado y la admiración profunda. <strong>Es el regalo perfecto para expresar tus sentimientos más sinceros y demostrar tu amor incondicional.<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "8ba6beec-cf89-475d-8c96-22850e611521": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensiones y Peso",
+            "icon": "ruler",
+            "content": "<p><strong>Dimensiones: <\/strong>12x12x13 cm<\/p><p><strong>Peso: <\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "¿Qué incluye?",
+            "icon": "clipboard",
+            "content": "<p><strong>Tres Cartas de Amor:<\/strong> Incluye tres cartas de amor dentro de un sobre.<br\/><strong>Manual de Instruccione<\/strong>s: Incluido un manual para conservar el producto.<\/p>",
+            "page": ""
+          }
+        },
+        "2f31e912-7a29-49db-9cde-29e159548845": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Gastos de envío",
+            "icon": "truck",
+            "content": "<p><strong>Envío Express <\/strong>Sin Costo Adicional: Realizamos entregas en 24\/48 horas durante días laborables, ¡sin costo extra para ti!<\/p>",
+            "page": ""
+          }
+        },
+        "def38eb8-c46f-4510-945f-0cc48767eeea": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Devoluciones",
+            "icon": "return",
+            "content": "<p><strong>Devoluciones gratuitas: <\/strong>Tienes 30 días para devolver el producto y es totalmente <strong>GRATIS<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartir"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "loox-rating",
+        "price",
+        "25d7330e-2d8b-42fd-ac63-83ee4d23559a",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "15623151-6abd-49b0-a8d1-191884b122e5",
+        "700bb950-ce35-401e-a7b6-79d7ab5f7939",
+        "8ba6beec-cf89-475d-8c96-22850e611521",
+        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
+        "2f31e912-7a29-49db-9cde-29e159548845",
+        "def38eb8-c46f-4510-945f-0cc48767eeea",
+        "share"
+      ],
+      "custom_css": [
+        ".color-background-2 {background: #cc0c39; color: #ffffff;}"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "46ba1f38-877f-44c1-9524-98447259fec3": {
+      "type": "multirow",
+      "blocks": {
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/369512082_690103366297162_1065130928616669660_n.jpg",
+            "caption": "",
+            "heading": "<strong>Regalo de Lujo: Rosa preservada en Oro de 24 Quilates.<\/strong>",
+            "text": "<p>Descubre la perfección hecha regalo con nuestra Eternal Rose. Cada rosa es cuidadosamente seleccionada en su punto máximo de belleza y sumergida en genuino oro de 24 quilates. El resultado es una joya inigualable que brilla con la promesa de amor eterno.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_09eb860a-69da-404f-96aa-3a8bb38290c2.png",
+            "caption": "",
+            "heading": "<strong>Una Creación Única: 65 Pasos de Artesanía y Perfección.<\/strong>",
+            "text": "<p>Nuestra colección Eternal Rose no es una simple flor; es el resultado de un meticuloso proceso de 65 pasos que transforma una rosa natural en una obra maestra. La dedicación y el detalle en cada paso garantizan que tu regalo sea tan único como tu ser querido.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_20d49b5c-1978-470a-b9ee-6fe69f9f22f1.png",
+            "caption": "",
+            "heading": "<strong>Más que una Rosa: Presentación Exclusiva y Garantía de Por Vida.<\/strong>",
+            "text": "<p>Cada Eternal Rose no sólo es una joya de inestimable belleza, sino también una promesa de durabilidad. Se presenta en una exclusiva caja de terciopelo con iluminación LED, diseñada para magnificar su resplandor. Y con nuestra garantía de por vida, te aseguramos que este regalo trascenderá el tiempo, simbolizando un amor eterno y compromiso inquebrantable.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-1",
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-2",
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "judgeme_section_review_widget_e9f8": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+        ".color-background-2 {background: #cc0c39; color: #ffffff;}",
+        ".loox-rating {font-size: 16px;}"
+      ],
+      "settings": {
+        "heading": "Productos relacionados",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "1",
+        "padding_top": 8,
+        "padding_bottom": 28
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "46ba1f38-877f-44c1-9524-98447259fec3",
+    "judgeme_section_review_widget_e9f8",
+    "related-products",
+    "loox-product-reviews-app-section"
+  ]
+}
