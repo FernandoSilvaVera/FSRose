@@ -151,6 +151,64 @@
         "padding_bottom": 0
       }
     },
+    "8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50": {
+      "type": "multirow",
+      "blocks": {
+        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FSRose.es_2.png",
+            "caption": "",
+            "heading": "<strong>Rosas que Duran Años:<\/strong>",
+            "text": "<p>El misticismo y la majestuosidad se entrelazan en nuestra rosa morada eterna, resguardada en una cúpula de cristal. Su color profundo y enigmático evoca sensaciones únicas, y su longevidad la convierte en un testimonio perdurable de momentos especiales.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canva_ae4f40a2-5e02-4827-81ae-782ace330b57.png",
+            "caption": "",
+            "heading": "<strong>Empaque Perfecto para un Regalo Enigmático:<\/strong>",
+            "text": "<p>Cada rosa es una declaración, y su presentación no puede ser menos. Nuestra rosa morada viene envuelta en una caja de regalo negra, cuyo contraste realza su intensidad y misterio, creando una experiencia inigualable para quien la reciba.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_f9409000-3bb5-4269-a4d0-4bc050554698.png",
+            "caption": "",
+            "heading": "<strong>¿A Quién Regalar una Rosa Morada?<\/strong>",
+            "text": "<p>El color morado es símbolo de nobleza, misterio y espiritualidad. Una rosa de este tono es ideal para:<br\/><br\/><strong>Soñadores y Visionarios<\/strong>: Personas que siempre buscan ir más allá de lo evidente.<br\/><strong>Celebraciones Espirituales<\/strong>: Como un detalle que resuena con la profundidad de la conexión interior.<br\/><strong>Artistas y Creativos<\/strong>: Quienes encuentran inspiración en lo místico y lo sublime.<br\/><strong>Aniversarios Especiales<\/strong>: Marcar momentos que se distinguen por su profundidad y significado.<br\/><strong>Momentos de Reflexión<\/strong>: Como un obsequio que invita a la introspección y al autoconocimiento.<br\/><strong>A ti mismo<\/strong>: Para recordarte que, al igual que esta rosa, hay magia y misterio en tu esencia.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-1",
+        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-2",
+        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
@@ -201,6 +259,7 @@
   },
   "order": [
     "main",
+    "8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50",
     "related-products",
     "loox-product-reviews-app-section",
     "judgeme_section_review_widget_e9f8"
