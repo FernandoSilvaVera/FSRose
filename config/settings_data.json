@@ -187,7 +187,6 @@
           "giftMsgToggle": true,
           "giftHidePriceToggle": false,
           "displayText": "¿Es para regalar?",
-          "editButtonText": "Editar",
           "descriptionText": "",
           "textColor": "#000000",
           "warningText": "Si es para regalar podemos añadir una nota a tu pedido",
