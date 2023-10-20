@@ -151,6 +151,64 @@
         "padding_bottom": 0
       }
     },
+    "bb23ad23-b051-4a20-bda7-39712cfb92e3": {
+      "type": "multirow",
+      "blocks": {
+        "template--19549189439812__bb23ad23-b051-4a20-bda7-39712cfb92e3-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Disenosintitulo_34.png",
+            "caption": "",
+            "heading": "Rosas que Duran Años:",
+            "text": "<p>Delicadeza, ternura y encanto eterno; es lo que representa nuestra rosa rosa en cúpulas de cristal. Esta rosa, con su suave tonalidad, promete ser un regalo que no solo destaca por su belleza, sino también por su capacidad de mantenerse radiante año tras año.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19549189439812__bb23ad23-b051-4a20-bda7-39712cfb92e3-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canva_ae4f40a2-5e02-4827-81ae-782ace330b57.png",
+            "caption": "",
+            "heading": "<strong>Empaque Perfecto para un Regalo Encantador:<\/strong>",
+            "text": "<p>Entendemos la importancia de la primera impresión. Por eso, esta rosa eterna se presenta en una caja de regalo negra, que contrasta y magnifica su delicado color, asegurando una experiencia inolvidable desde el primer vistazo.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19549189439812__bb23ad23-b051-4a20-bda7-39712cfb92e3-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_0638c995-8c22-4c25-af32-924313a7c44e.png",
+            "caption": "",
+            "heading": "<strong>¿A Quién Regalar una Rosa Rosa?<\/strong>",
+            "text": "<p>La tonalidad rosa es símbolo de cariño, gratitud y aprecio. Una rosa de este color es perfecta para:<br\/><br\/><strong>Amistades Preciadas<\/strong>: Para agradecer por los buenos momentos y la ternura compartida.<br\/><strong>Días de las Madres<\/strong>: Un tributo a su amor infinito y cuidado constante.<br\/><strong>Nacimientos o Bautizos<\/strong>: Celebrando la llegada de una nueva vida llena de dulzura.<br\/><strong>Aniversarios de Amistad<\/strong>: Para conmemorar lazos que perduran en el tiempo.<br\/><strong>Momentos de Agradecimiento:<\/strong> Para mostrar aprecio y gratitud hacia alguien especial.<br\/><strong>A ti mismo<\/strong>: Porque todos merecemos momentos de dulzura y autoreconocimiento.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19549189439812__bb23ad23-b051-4a20-bda7-39712cfb92e3-row-1",
+        "template--19549189439812__bb23ad23-b051-4a20-bda7-39712cfb92e3-row-2",
+        "template--19549189439812__bb23ad23-b051-4a20-bda7-39712cfb92e3-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "judgeme_section_review_widget_e9f8": {
       "type": "apps",
       "settings": {
@@ -201,6 +259,7 @@
   },
   "order": [
     "main",
+    "bb23ad23-b051-4a20-bda7-39712cfb92e3",
     "judgeme_section_review_widget_e9f8",
     "related-products",
     "loox-product-reviews-app-section"
