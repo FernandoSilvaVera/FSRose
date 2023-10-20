@@ -151,6 +151,64 @@
         "padding_bottom": 0
       }
     },
+    "46ba1f38-877f-44c1-9524-98447259fec3": {
+      "type": "multirow",
+      "blocks": {
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/369512082_690103366297162_1065130928616669660_n.jpg",
+            "caption": "",
+            "heading": "<strong>Regalo de Lujo: Rosa preservada en Oro de 24 Quilates.<\/strong>",
+            "text": "<p>Descubre la perfección hecha regalo con nuestra Eternal Rose. Cada rosa es cuidadosamente seleccionada en su punto máximo de belleza y sumergida en genuino oro de 24 quilates. El resultado es una joya inigualable que brilla con la promesa de amor eterno.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.png",
+            "caption": "",
+            "heading": "<strong>Una Creación Única: 65 Pasos de Artesanía y Perfección.<\/strong>",
+            "text": "<p>Nuestra colección Eternal Rose no es una simple flor; es el resultado de un meticuloso proceso de 65 pasos que transforma una rosa natural en una obra maestra. La dedicación y el detalle en cada paso garantizan que tu regalo sea tan único como tu ser querido.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Disenosintitulo-2023-10-15T194940.888.png",
+            "caption": "",
+            "heading": "<strong>Más que una Rosa: Presentación Exclusiva y Garantía de Por Vida.<\/strong>",
+            "text": "<p>Cada Eternal Rose no sólo es una joya de inestimable belleza, sino también una promesa de durabilidad. Se presenta en una exclusiva caja de terciopelo con iluminación LED, diseñada para magnificar su resplandor. Y con nuestra garantía de por vida, te aseguramos que este regalo trascenderá el tiempo, simbolizando un amor eterno y compromiso inquebrantable.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-1",
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-2",
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "judgeme_section_review_widget_e9f8": {
       "type": "apps",
       "settings": {
@@ -202,6 +260,7 @@
   },
   "order": [
     "main",
+    "46ba1f38-877f-44c1-9524-98447259fec3",
     "judgeme_section_review_widget_e9f8",
     "related-products",
     "loox-product-reviews-app-section"
