@@ -9,13 +9,15 @@
 {% if product.metafields.custom.variants %}
 
 <div class="a-row">
-    <label class="a-form-label"> 
-        <b>Color:</b>
-    </label>
-    <span class="selection">
-        {{ product.metafields.custom.variant_color }}
-    </span>  
-    <br>
+    <div>
+      <label class="a-form-label"> 
+          <b>Color:</b>
+      </label>
+      <span class="selection">
+          {{ product.metafields.custom.variant_color }}
+      </span>  
+      <br>
+    </div>
     <label class="a-form-label"> 
         <b>Significado:</b>
     </label> 
