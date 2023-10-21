@@ -18,25 +18,30 @@
       </span>  
       <br>
     </div>
-    <label class="a-form-label"> 
-        <b>Significado:</b>
-    </label> 
-    <span class="selection">
-        {{ product.metafields.custom.meaning }}
-    </span>
+    <div>
+      <label class="a-form-label"> 
+          <b>Significado:</b>
+      </label> 
+      <span class="selection">
+          {{ product.metafields.custom.meaning }}
+      </span>
+      <br>
+    </div>
       {% if inventory_quantity < 10 %}
-        <br>
         <span style="color:#B12704;font-size: 90%">
           <b>Sólo queda(n) {{ inventory_quantity }} en stock</b>
         </span>
-      {% endif %}    <label class="a-form-label">
-    <br>
-    <b>¿Eres de Madrid y lo necesitas hoy?</b>
-    </label> 
-    <span class="selection">
-        Recógelo hoy mismo. Más info al WhatsApp: 
-        <a href="https://wa.me/34646124371?text=Hola,%20estoy%20interesado%20en%20recogerlo%20hoy%20en%20Madrid" target="_blank" class="whatsapp-link">646124371</a>.
-    </span>
+      {% endif %}    
+    <div>
+      <label class="a-form-label">
+      <br>
+      <b>¿Eres de Madrid y lo necesitas hoy?</b>
+      </label> 
+      <span class="selection">
+          Recógelo hoy mismo. Más info al WhatsApp: 
+          <a href="https://wa.me/34646124371?text=Hola,%20estoy%20interesado%20en%20recogerlo%20hoy%20en%20Madrid" target="_blank" class="whatsapp-link">646124371</a>.
+      </span>
+    </div>
 </div>
 
   
