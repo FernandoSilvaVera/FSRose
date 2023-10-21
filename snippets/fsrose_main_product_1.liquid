@@ -27,6 +27,17 @@
       </span>
       <br>
     </div>
+
+      <div>
+        <label class="a-form-label"> 
+            <b>Duración:</b>
+        </label> 
+        <span class="selection">
+            {{ product.metafields.custom.duration }}
+        </span>
+        <br>
+      </div>
+  
       {% if inventory_quantity < 10 %}
         <span style="color:#B12704;font-size: 90%">
           <b>Sólo queda(n) {{ inventory_quantity }} en stock</b>
