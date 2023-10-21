@@ -28,6 +28,7 @@
       <br>
     </div>
 
+    {% if product.metafields.custom.duration %}
       <div>
         <label class="a-form-label"> 
             <b>Duración:</b>
@@ -37,6 +38,8 @@
         </span>
         <br>
       </div>
+    {% endif %}
+
   
       {% if inventory_quantity < 10 %}
         <span style="color:#B12704;font-size: 90%">
