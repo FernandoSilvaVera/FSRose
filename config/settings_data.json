@@ -178,13 +178,12 @@
         "type": "shopify:\/\/apps\/giftit-gift-message-gift-wrap\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
         "disabled": false,
         "settings": {
-          "booleanSettings": "0,1,1,1,1,1,1,0",
           "printOnProduct": false,
           "productPage": true,
-          "cartPage": true,
           "cartPageItemMode": true,
-          "multipleGiftWrap": true,
+          "cartPage": true,
           "giftWrapToggle": true,
+          "multipleGiftWrap": true,
           "giftMsgToggle": true,
           "giftHidePriceToggle": false,
           "displayText": "¿Es para regalar?",
@@ -193,16 +192,17 @@
           "warningText": "Si es para regalar podemos añadir una nota a tu pedido",
           "modalTitle": "Opciones de regalo",
           "modalGiftWrapCheckLabel": "¿Agregamos algo especial?",
-          "modalGiftWrapEmptyState": "Agotado temporalmente",
           "modalGiftMessageCheckLabel": "Mensaje",
           "modalGiftMessageConferrerLabel": "De",
-          "modalGiftMessageToLabel": "Para",
           "modalGiftMessageTextLabel": "Mensaje",
+          "modalGiftMessageToLabel": "Para",
           "modalGiftReceiptCheckLabel": "Mensaje en corazón de madera",
+          "modalGiftWrapEmptyState": "Agotado temporalmente",
           "modalSubtotal": "Total",
           "modalPositiveButton": "Guardar",
           "modalPositiveButtonColor": "#006E52",
-          "modalNegativeButton": "Cancelar"
+          "modalNegativeButton": "Cancelar",
+          "booleanSettings": "0,1,1,1,1,1,1,0"
         }
       },
       "17418022395263233305": {
