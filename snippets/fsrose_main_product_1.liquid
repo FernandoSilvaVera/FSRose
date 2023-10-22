@@ -19,19 +19,6 @@
       <br>
     </div>
 
-
-    <div>
-      <label class="a-form-label"> 
-          <b>Significado:</b>
-      </label> 
-      <span class="selection">
-          {{ product.metafields.custom.meaning }}
-      </span>
-      <br>
-    </div>
-
-
-
     <div>
       <label class="a-form-label"> 
           <b>Ideal para:</b>
@@ -63,18 +50,6 @@
       </span>
       <br>
     </div>
-
-    {% if product.metafields.custom.duration %}
-      <div>
-        <label class="a-form-label"> 
-            <b>Significado:</b>
-        </label> 
-        <span class="selection">
-            {{ product.metafields.custom.meaning }}
-        </span>
-        <br>
-      </div>
-    {% endif %}
 
   
       {% if inventory_quantity < 10 %}
