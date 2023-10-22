@@ -20,10 +20,6 @@
     </div>
 
 
-
-  
-  
-  
     <div>
       <label class="a-form-label"> 
           <b>Significado:</b>
@@ -34,13 +30,47 @@
       <br>
     </div>
 
+
+
+    <div>
+      <label class="a-form-label"> 
+          <b>Ideal para:</b>
+      </label> 
+      <span class="selection">
+          {{ product.metafields.custom.meaning }}
+      </span>
+      <br>
+    </div>  
+  
+  
+    <div>
+      <label class="a-form-label"> 
+          <b>Significado:</b>
+      </label> 
+      <span class="selection">
+          {{ product.metafields.custom.meaning }}
+      </span>
+      <br>
+    </div>  
+  
+  
+    <div>
+      <label class="a-form-label"> 
+          <b>Por qué:</b>
+      </label> 
+      <span class="selection">
+          {{ product.metafields.custom.meaning }}
+      </span>
+      <br>
+    </div>
+
     {% if product.metafields.custom.duration %}
       <div>
         <label class="a-form-label"> 
-            <b>Duración:</b>
+            <b>Significado:</b>
         </label> 
         <span class="selection">
-            {{ product.metafields.custom.duration }}
+            {{ product.metafields.custom.meaning }}
         </span>
         <br>
       </div>
