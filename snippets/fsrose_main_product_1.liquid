@@ -21,10 +21,7 @@
 
 
 
-  {% assign rose_info = product.metafields.custom.variants.value %}  
-
-    {{ rose_info }}
-
+  {% assign rose_info = product.metafields.custom.roseInfoRow.value %}  
   
 <ul>
 {% for info in rose_info %}
