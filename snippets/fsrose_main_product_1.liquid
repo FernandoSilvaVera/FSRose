@@ -21,21 +21,8 @@
 
 
 
-  {% assign rose_info = product.metafields.custom.row_info.value %}  
-
-    {{ rose_info }}
   
-<ul>
-{% for info in rose_info %}
-  <li>
-    <strong>Ideal para:</strong> {{ info["Ideal para"] }}<br>
-    <strong>Motivo:</strong> {{ info["Motivo"] }}<br>
-    <strong>Significado:</strong> {{ info["Significado"] }}<br>
-  </li>
-{% endfor %}
-</ul>
   
-
   
     <div>
       <label class="a-form-label"> 
