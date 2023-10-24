@@ -3142,6 +3142,59 @@ details-disclosure > details {
 
 /* ... Otros estilos que ya has definido anteriormente ... */
 
+/* Estilo básico para el checkbox */
+.custom-checkbox {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Estilo del cuadro y tick del checkbox */
+.checkbox-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 2px solid #000;
+}
+
+.custom-checkbox:hover input ~ .checkbox-square {
+    background-color: #ccc;
+}
+
+.custom-checkbox input:checked ~ .checkbox-square {
+    background-color: #2196F3;
+    border: none;
+}
+
+.checkbox-tick {
+    position: absolute;
+    display: none;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked ~ .checkbox-square .checkbox-tick {
+    display: block;
+}
 
 
 
