@@ -157,6 +157,64 @@
         "include_margins": true
       }
     },
+    "cbedbd13-3687-40c3-ac7e-31a547f71a49": {
+      "type": "multirow",
+      "blocks": {
+        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/33.png",
+            "caption": "",
+            "heading": "Rosas que Duran Años:",
+            "text": "<p>Una rosa eterna azul que no se marchita en días, sino que mantiene su belleza y frescura durante años<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canva_ae4f40a2-5e02-4827-81ae-782ace330b57.png",
+            "caption": "",
+            "heading": "<strong>Empaque Perfecto para un Regalo Perfecto:<\/strong>",
+            "text": "<p>Sabemos que cada detalle cuenta cuando se trata de regalar. Por eso, nuestras rosas eternas vienen en una sofisticada caja de regalo negra, añadiendo un toque de elegancia y misterio. Al abrir, el destinatario se encontrará con una joya que nunca olvidará.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_6bd06b88-8903-4e07-b394-f35600c7d8b4.png",
+            "caption": "",
+            "heading": "<strong>¿A Quién Regalar una Rosa Azul?<\/strong>",
+            "text": "<p><strong>Personas Especiales<\/strong>: Aquellas que destacan, que tienen un brillo y carácter únicos.<br\/><strong>Cumpleaños<\/strong>: Para desear calma, paz y serenidad en el año venidero.<br\/><strong>Amigos<\/strong>: Para celebrar una amistad profunda y genuina.<br\/><strong>Momentos de Reflexión<\/strong>: Como un recordatorio de que después de la tempestad viene la calma.<br\/><strong>Graduaciones<\/strong>: Simbolizando nuevos horizontes y metas alcanzadas.<br\/><strong>A ti mismo<\/strong>: Porque a veces necesitamos un recordatorio de lo extraordinarios que somos.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-1",
+        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-2",
+        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
@@ -202,6 +260,7 @@
   "order": [
     "main",
     "judgeme_section_review_widget_e9f8",
+    "cbedbd13-3687-40c3-ac7e-31a547f71a49",
     "related-products",
     "loox-product-reviews-app-section"
   ]

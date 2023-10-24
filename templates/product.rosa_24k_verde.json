@@ -27,7 +27,7 @@
           "settings": {
           }
         },
-        "20c9e886-84ef-43ab-a0b3-c9ae3cbf354c": {
+        "25d7330e-2d8b-42fd-ac63-83ee4d23559a": {
           "type": "fsrose-main-product-block",
           "settings": {
             "text": ""
@@ -60,25 +60,25 @@
           "settings": {
             "heading": "¿Qué es una rosa preservada?🤔",
             "icon": "heart",
-            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal. <strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
+            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal.<strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
             "page": ""
           }
         },
-        "5e1f2091-337b-482a-96e2-dcf19b5e6ac1": {
+        "700bb950-ce35-401e-a7b6-79d7ab5f7939": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Significado rosa morada 💜",
+            "heading": "Significado rosa roja  🌹",
             "icon": "star",
-            "content": "<p>La rosa morada es el emblema de la realeza, el encanto y la elegancia. Al obsequiar una rosa morada, transmites admiración y respeto hacia esa persona especial. <strong>Es un regalo ideal para celebrar logros y momentos importantes.<\/strong><\/p>",
+            "content": "<p>La rosa roja simboliza el amor apasionado y la admiración profunda. <strong>Es el regalo perfecto para expresar tus sentimientos más sinceros y demostrar tu amor incondicional.<\/strong><\/p>",
             "page": ""
           }
         },
-        "76969572-e8eb-4536-997c-300af5fc1f23": {
+        "8ba6beec-cf89-475d-8c96-22850e611521": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dimensiones y Peso",
             "icon": "ruler",
-            "content": "<p><strong>Altura: <\/strong>14cm<\/p><p><strong>Ancho:<\/strong>12cm<\/p><p><strong>Peso: <\/strong>310g<\/p>",
+            "content": "<p><strong>Dimensiones: <\/strong>12x12x13 cm<\/p><p><strong>Peso: <\/strong><\/p>",
             "page": ""
           }
         },
@@ -120,14 +120,14 @@
         "title",
         "loox-rating",
         "price",
-        "20c9e886-84ef-43ab-a0b3-c9ae3cbf354c",
+        "25d7330e-2d8b-42fd-ac63-83ee4d23559a",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
         "15623151-6abd-49b0-a8d1-191884b122e5",
-        "5e1f2091-337b-482a-96e2-dcf19b5e6ac1",
-        "76969572-e8eb-4536-997c-300af5fc1f23",
+        "700bb950-ce35-401e-a7b6-79d7ab5f7939",
+        "8ba6beec-cf89-475d-8c96-22850e611521",
         "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
         "2f31e912-7a29-49db-9cde-29e159548845",
         "def38eb8-c46f-4510-945f-0cc48767eeea",
@@ -141,7 +141,7 @@
         "media_size": "medium",
         "constrain_to_viewport": false,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "show",
@@ -151,47 +151,47 @@
         "padding_bottom": 0
       }
     },
-    "8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50": {
+    "46ba1f38-877f-44c1-9524-98447259fec3": {
       "type": "multirow",
       "blocks": {
-        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-1": {
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FSRose.es_2.png",
+            "image": "shopify:\/\/shop_images\/369512082_690103366297162_1065130928616669660_n.jpg",
             "caption": "",
-            "heading": "<strong>Rosas que Duran Años:<\/strong>",
-            "text": "<p>El misticismo y la majestuosidad se entrelazan en nuestra rosa morada eterna, resguardada en una cúpula de cristal. Su color profundo y enigmático evoca sensaciones únicas, y su longevidad la convierte en un testimonio perdurable de momentos especiales.<\/p>",
+            "heading": "<strong>Regalo de Lujo: Rosa preservada en Oro de 24 Quilates.<\/strong>",
+            "text": "<p>Descubre la perfección hecha regalo con nuestra Eternal Rose. Cada rosa es cuidadosamente seleccionada en su punto máximo de belleza y sumergida en genuino oro de 24 quilates. El resultado es una joya inigualable que brilla con la promesa de amor eterno.<\/p>",
             "button_label": "",
             "button_link": ""
           }
         },
-        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-2": {
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/canva_ae4f40a2-5e02-4827-81ae-782ace330b57.png",
+            "image": "shopify:\/\/shop_images\/10_16909740-a98f-4822-8043-f5af854a2381.png",
             "caption": "",
-            "heading": "<strong>Empaque Perfecto para un Regalo Enigmático:<\/strong>",
-            "text": "<p>Cada rosa es una declaración, y su presentación no puede ser menos. Nuestra rosa morada viene envuelta en una caja de regalo negra, cuyo contraste realza su intensidad y misterio, creando una experiencia inigualable para quien la reciba.<\/p>",
+            "heading": "<strong>Una Creación Única: 65 Pasos de Artesanía y Perfección.<\/strong>",
+            "text": "<p>Nuestra colección Eternal Rose no es una simple flor; es el resultado de un meticuloso proceso de 65 pasos que transforma una rosa natural en una obra maestra. La dedicación y el detalle en cada paso garantizan que tu regalo sea tan único como tu ser querido.<\/p>",
             "button_label": "",
             "button_link": ""
           }
         },
-        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-3": {
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_f9409000-3bb5-4269-a4d0-4bc050554698.png",
+            "image": "shopify:\/\/shop_images\/6.png",
             "caption": "",
-            "heading": "<strong>¿A Quién Regalar una Rosa Morada?<\/strong>",
-            "text": "<p>El color morado es símbolo de nobleza, misterio y espiritualidad. Una rosa de este tono es ideal para:<br\/><br\/><strong>Soñadores y Visionarios<\/strong>: Personas que siempre buscan ir más allá de lo evidente.<br\/><strong>Celebraciones Espirituales<\/strong>: Como un detalle que resuena con la profundidad de la conexión interior.<br\/><strong>Artistas y Creativos<\/strong>: Quienes encuentran inspiración en lo místico y lo sublime.<br\/><strong>Aniversarios Especiales<\/strong>: Marcar momentos que se distinguen por su profundidad y significado.<br\/><strong>Momentos de Reflexión<\/strong>: Como un obsequio que invita a la introspección y al autoconocimiento.<br\/><strong>A ti mismo<\/strong>: Para recordarte que, al igual que esta rosa, hay magia y misterio en tu esencia.<\/p>",
+            "heading": "<strong>Más que una Rosa: Presentación Exclusiva y Garantía de Por Vida.<\/strong>",
+            "text": "<p>Cada Eternal Rose no sólo es una joya de inestimable belleza, sino también una promesa de durabilidad. Se presenta en una exclusiva caja de terciopelo con iluminación LED, diseñada para magnificar su resplandor. Y con nuestra garantía de por vida, te aseguramos que este regalo trascenderá el tiempo, simbolizando un amor eterno y compromiso inquebrantable.<\/p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-1",
-        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-2",
-        "template--19549189407044__8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50-row-3"
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-1",
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-2",
+        "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-3"
       ],
       "settings": {
         "image_height": "medium",
@@ -209,10 +209,17 @@
         "padding_bottom": 36
       }
     },
+    "judgeme_section_review_widget_e9f8": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
-        ".color-background-2 {background: #cc0c39; color: #ffffff;}"
+        ".color-background-2 {background: #cc0c39; color: #ffffff;}",
+        ".loox-rating {font-size: 16px;}"
       ],
       "settings": {
         "heading": "Productos relacionados",
@@ -221,7 +228,7 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
         "columns_mobile": "1",
@@ -249,19 +256,13 @@
       "settings": {
         "include_margins": false
       }
-    },
-    "judgeme_section_review_widget_e9f8": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "8c2a9cee-6c9d-4eac-84ea-f05b1b7d1f50",
+    "46ba1f38-877f-44c1-9524-98447259fec3",
+    "judgeme_section_review_widget_e9f8",
     "related-products",
-    "loox-product-reviews-app-section",
-    "judgeme_section_review_widget_e9f8"
+    "loox-product-reviews-app-section"
   ]
 }

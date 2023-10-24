@@ -1,8 +1,8 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/Diseno_sin_titulo_20.png",
-    "logo_width": 250,
-    "favicon": "shopify:\/\/shop_images\/Diseno_sin_titulo__8_-removebg-preview_9c1d9e99-3a50-4a2f-8ccd-8cabd5ae63d0.png",
+    "logo_width": 150,
+    "favicon": "shopify:\/\/shop_images\/Diseno_sin_titulo_23.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#0f0f0f",
     "gradient_accent_1": "",
@@ -187,7 +187,6 @@
           "giftMsgToggle": true,
           "giftHidePriceToggle": false,
           "displayText": "¿Es para regalar?",
-          "editButtonText": "Editar",
           "descriptionText": "",
           "textColor": "#000000",
           "warningText": "Si es para regalar podemos añadir una nota a tu pedido",
@@ -202,7 +201,8 @@
           "modalSubtotal": "Total",
           "modalPositiveButton": "Guardar",
           "modalPositiveButtonColor": "#006E52",
-          "modalNegativeButton": "Cancelar"
+          "modalNegativeButton": "Cancelar",
+          "booleanSettings": "0,1,1,1,1,1,1,0"
         }
       },
       "17418022395263233305": {

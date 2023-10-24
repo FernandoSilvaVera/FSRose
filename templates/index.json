@@ -63,7 +63,7 @@
         "71f87e43-dcae-4968-85c2-fad204f0c2f3"
       ],
       "settings": {
-        "desktop_content_position": "left",
+        "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
@@ -98,10 +98,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/canva_f49b9b42-5eea-4b3c-b690-c028ac1337db.png",
-            "title": "Entrega Exprés en 1-2 Días Hábiles",
-            "text": "<p>Recibe tus Productos en Tiempo Récord<br\/>Envío <strong>GRATUITO <\/strong>para tus Compras<\/p>",
+            "title": "Programa tu entrega",
+            "text": "<p>Indícanos que día lo quieres recibir (De lunes a sábado)<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/cupulas"
           }
         }
       },
@@ -260,7 +260,7 @@
         "template--19549260939588__2eb22227-04e2-412e-a227-47fd0dd9ab34-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_5967f8e7-8f0d-4ff9-afcf-bbdcea3baf8b.png",
+            "image": "shopify:\/\/shop_images\/1_c84afc36-ad6a-41c4-b7a3-5afe90b3b7e4.png",
             "caption": "",
             "heading": "Nuestros clientes son nuestra prioridad",
             "text": "<p>Entendemos que tu satisfacción es lo más importante. Si no estás conforme con tu compra, <strong>tienes 30 días para devolver el producto de forma GRATUITA y sin dar explicaciones<\/strong>. Además, ofrecemos <strong>envíos GRATUITOS <\/strong>y rápidos a través de CORREOS EXPRESS para que disfrutes de tus rosas cuanto antes.<\/p>",
