@@ -6,7 +6,6 @@
 
 {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}
 
-{% if product.metafields.custom.variants %}
 
 <div class="a-row">
     <div>
@@ -63,7 +62,8 @@
     </div>
 </div>
 
-  
+{% if product.metafields.custom.variants %}
+
   {% assign variantes = product.metafields.custom.variants.value %}  
   <div class="image-row">
     {% for producto in variantes.productos %}
