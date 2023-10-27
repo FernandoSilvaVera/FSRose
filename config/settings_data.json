@@ -178,14 +178,6 @@
         "type": "shopify:\/\/apps\/giftit-gift-message-gift-wrap\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
         "disabled": false,
         "settings": {
-          "printOnProduct": false,
-          "productPage": true,
-          "cartPageItemMode": true,
-          "cartPage": true,
-          "giftWrapToggle": true,
-          "multipleGiftWrap": true,
-          "giftMsgToggle": true,
-          "giftHidePriceToggle": false,
           "displayText": "¿Es para regalar?",
           "descriptionText": "",
           "textColor": "#000000",
@@ -202,7 +194,15 @@
           "modalPositiveButton": "Guardar",
           "modalPositiveButtonColor": "#006E52",
           "modalNegativeButton": "Cancelar",
-          "booleanSettings": "0,1,1,1,1,1,1,0"
+          "booleanSettings": "0,1,1,1,1,1,1,0",
+          "cartPageModalTitle": "Manage gift options",
+          "cartPageEditButtonText": "Edit",
+          "cartPageAddButtonText": "Add",
+          "cartPageBatchWrappingButtonText": "This order will be a gift",
+          "cartPageBatchWrappingButtonTextColor": "#000000",
+          "cartPageConfirmationText": "This will remove all your current gift options. Are you sure?",
+          "cartPageConfirmationYesButtonText": "Yes",
+          "cartPageConfirmationNoButtonText": "No"
         }
       },
       "17418022395263233305": {
