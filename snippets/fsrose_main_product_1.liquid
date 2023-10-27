@@ -97,12 +97,17 @@ var minDateValue;
 
   
   
-if (currentDay === 5 && currentHour >= 18) {
+if (currentDay === 5 && currentHour >= 12) {
     minDateValue = 4;
 } else {
     minDateValue = currentHour >= 18 ? 2 : 1;
 }
 
+
+if (currentDay === 5 && currentHour < 18) {
+  minDateValue = 3;
+}  
+  
 if(currentDay === 6){
       minDateValue = 3;
 }
