@@ -60,19 +60,19 @@
           <a href="https://wa.me/34646124371?text=Hola,%20estoy%20interesado%20en%20recogerlo%20hoy%20en%20Madrid" target="_blank" class="whatsapp-link">646124371</a>.
       </span>
     </div>
-
-    <div>
-      <label class="a-form-label">
-      <b>Colores:</b>
-      </label> 
-    </div>
-  
 </div>
 
 {% if product.metafields.custom.variants %}
 
   {% assign variantes = product.metafields.custom.variants.value %}  
   <div class="image-row">
+
+    <div>
+      <label class="a-form-label">
+      <b>Colores:</b>
+      </label> 
+    </div>
+    
     {% for producto in variantes.productos %}
       <div class="image-container">
         <a href="{{ producto.productUrl }}">
