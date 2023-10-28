@@ -64,17 +64,14 @@
 
 {% if product.metafields.custom.variants %}
 
-  {% assign variantes = product.metafields.custom.variants.value %}  
-  <div class="image-row">
-
     <div>
       <label class="a-form-label">
       <b>Colores:</b>
       </label> 
     </div>
 
-    <br>
-    
+  {% assign variantes = product.metafields.custom.variants.value %}  
+  <div class="image-row">
     {% for producto in variantes.productos %}
       <div class="image-container">
         <a href="{{ producto.productUrl }}">
