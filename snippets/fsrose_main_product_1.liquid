@@ -119,7 +119,8 @@ if(currentDay === 7){
   
 $( function() {
     $("#delivery_date").datepicker({
-        defaultDate: null,
+        defaultDate: new Date(2023, 10, 1),
+        minDate: minDateValue, 
         dateFormat: 'dd-mm-yy', 
         beforeShowDay: function(date) {
             var day = date.getDay();
