@@ -51,15 +51,31 @@
           <b>🚨 ¡Atención! Sólo queda(n) {{ inventory_quantity }} en stock.</b>
         </span>
       {% endif %}    
+
     <div>
       <label class="a-form-label">
-      <b>📍 ¿Eres de Madrid y lo necesitas hoy?</b>
+      <b>📍 ¿Quieres pagar con Bizum?</b>
       </label> 
       <span class="selection">
-          Recógelo hoy mismo. Más info al WhatsApp: 
-          <a href="https://wa.me/34646124371?text=Hola,%20estoy%20interesado%20en%20recogerlo%20hoy%20en%20Madrid" target="_blank" class="whatsapp-link">646124371</a>.
+          Más info al WhatsAppp: 
+            <a href="https://wa.me/34646124371?text=¡Hola!%20Estoy%20interesado%20en%20pagar%20con%20Bizum" target="_blank" class="whatsapp-link">¡Hola! Estoy interesado en pagar con Bizum</a>.
       </span>
     </div>
+  
+    {% comment %}
+        <div>
+          <label class="a-form-label">
+          <b>📍 ¿Eres de Madrid y lo necesitas hoy?</b>
+          </label> 
+          <span class="selection">
+              Recógelo hoy mismo. Más info al WhatsApp: 
+              <a href="https://wa.me/34646124371?text=Hola,%20estoy%20interesado%20en%20recogerlo%20hoy%20en%20Madrid" target="_blank" class="whatsapp-link">646124371</a>.
+          </span>
+        </div>
+    {% endcomment %}
+
+
+  
 </div>
 
 {% if product.metafields.custom.variants %}
