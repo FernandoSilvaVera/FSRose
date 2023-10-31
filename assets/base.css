@@ -3196,5 +3196,7 @@ details-disclosure > details {
     display: block;
 }
 
-
+.collection-hero__inner{
+  text-align: center;
+}
 
