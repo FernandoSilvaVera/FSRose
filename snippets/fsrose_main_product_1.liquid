@@ -154,9 +154,14 @@ $( function() {
             
             // Bloquear 1 y 9 de noviembre de 2023
             var isBlockedNovDate = (date.getFullYear() == 2023 && date.getMonth() == 10 && (date.getDate() == 1));
+
+            var isBlockedNovDate2 = (date.getFullYear() == 2023 && date.getMonth() == 10 && (date.getDate() == 2));
+
             
             // Bloquear todas las fechas superiores al 30 de noviembre de 2023
             var isAfterNov30 = (date > new Date(2023, 10, 30)); // Recuerda que los meses están indexados desde 0
+
+          
             
             return [!(isSunday || isBlockedNovDate || isAfterNov30), ''];
         },
