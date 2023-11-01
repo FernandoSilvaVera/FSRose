@@ -1,3 +1,14 @@
+function obtenerMensajeDescuento(){
+    const now = new Date();
+    const currentDay = now.getDay();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+  
+    const remainingHours = 23 - currentHour; // 22:00 - currentHour
+    const remainingMinutes = 60 - currentMinute;
+    return `Finaliza en ${remainingHours} horas y ${remainingMinutes} minutos`;
+}
+
 function obtenerMensajeEntrega() {
     const now = new Date();
     const currentDay = now.getDay();
@@ -150,6 +161,10 @@ function obtenerFechaEntrega() {
 
 var messageDeliveryElement = document.getElementById("messageDelivery");
 messageDeliveryElement.innerHTML = obtenerMensajeEntrega();
+
+var messageDiscountElement = document.getElementById("messageDiscount");
+messageDiscountElement.innerHTML = obtenerMensajeDescuento();
+
 
 var deliveryDateElement = document.getElementById("deliveryDate");
 deliveryDateElement.innerHTML = obtenerFechaEntrega();
