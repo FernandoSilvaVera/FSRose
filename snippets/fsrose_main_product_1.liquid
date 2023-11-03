@@ -220,6 +220,9 @@ $( function() {
                     addDeliveryDateToCart(deliveryDate);
                 }
             });
+        },
+        beforeShow: function(input, inst) {
+            $(inst.dpDiv).removeClass('ui-state-highlight'); // Eliminar clase que resalta el día actual
         }
     });
 });
