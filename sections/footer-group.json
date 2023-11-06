@@ -44,10 +44,18 @@
           "settings": {
             "show_social": true
           }
+        },
+        "12a47bbb-e1b1-4b62-87a0-c9c0c7896319": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Rosas eternas",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "brand-information"
+        "brand-information",
+        "12a47bbb-e1b1-4b62-87a0-c9c0c7896319"
       ],
       "settings": {
         "color_scheme": "accent-1",
