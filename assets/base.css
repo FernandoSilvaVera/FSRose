@@ -3046,7 +3046,6 @@ details-disclosure > details {
 }
 
   .sub-menu-collection-text {
-    margin-right: 10px; /* Ajusta la cantidad de espacio que deseas agregar */
         color: black; /* Cambiar el color del texto a negro */
     text-decoration: underline; /* Agregar una línea por debajo del texto */
     text-align:center;
