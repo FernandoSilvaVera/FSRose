@@ -3210,6 +3210,17 @@ details-disclosure > details {
     font-size: 14px;
 }
 
-.collection-sub-collection{
-  text-align: center;
+
+/* Estilos para dispositivos de escritorio (pantallas más grandes) */
+.collection-sub-collection {
+    display: none;
+    text-align: center;
+
+}
+
+/* Estilos para dispositivos móviles (pantallas más pequeñas) */
+@media only screen and (max-width: 767px) {
+    .collection-sub-collection {
+        display: block;
+    }
 }
