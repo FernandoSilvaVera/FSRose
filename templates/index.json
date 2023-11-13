@@ -201,11 +201,18 @@
           "settings": {
             "collection": "flor-eterna"
           }
+        },
+        "1ddf1765-ba13-48e5-9171-a1f473a1a8cb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rosa-eterna-de-oro-de-24k"
+          }
         }
       },
       "block_order": [
         "template--19132085305668__1d19d750-8f09-44c8-bb02-1ae4857cb9db-featured_collection-1",
-        "template--19132085305668__1d19d750-8f09-44c8-bb02-1ae4857cb9db-featured_collection-2"
+        "template--19132085305668__1d19d750-8f09-44c8-bb02-1ae4857cb9db-featured_collection-2",
+        "1ddf1765-ba13-48e5-9171-a1f473a1a8cb"
       ],
       "settings": {
         "title": "Nuestra Selección de Rosas preservadas",
