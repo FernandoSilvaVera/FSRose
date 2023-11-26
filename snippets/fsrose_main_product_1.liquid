@@ -174,12 +174,13 @@ $( function() {
             // Bloquear 1 y 9 de noviembre de 2023
             var isBlockedNovDate = (date.getFullYear() == 2023 && date.getMonth() == 11 && (date.getDate() == 6));
             var isBlockedNovDate2 = (date.getFullYear() == 2023 && date.getMonth() == 11 && (date.getDate() == 8));
+                      var isBlockedNovDate3 = (date.getFullYear() == 2023 && date.getMonth() == 10 && (date.getDate() == 28));
 
           
             // Bloquear todas las fechas superiores al 30 de noviembre de 2023
             var isAfterNov30 = (date > new Date(2023, 11, 30)); // Recuerda que los meses están indexados desde 0
             
-            return [!(isSunday || isBlockedNovDate || isBlockedNovDate2 || isAfterNov30), ''];
+            return [!(isSunday || isBlockedNovDate || isBlockedNovDate2 || isBlockedNovDate3 || isAfterNov30), ''];
         },
         closeText: 'Cerrar',
         prevText: '<Ant',
