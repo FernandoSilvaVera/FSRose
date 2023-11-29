@@ -178,7 +178,7 @@ $( function() {
 
           
             // Bloquear todas las fechas superiores al 30 de noviembre de 2023
-            var isAfterNov30 = (date > new Date(2023, 11, 30)); // Recuerda que los meses están indexados desde 0
+            var isAfterNov30 = (date > new Date(2024, 11, 30)); // Recuerda que los meses están indexados desde 0
             
             return [!(isSunday || isBlockedNovDate || isBlockedNovDate2 || isBlockedNovDate3 || isAfterNov30), ''];
         },
