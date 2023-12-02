@@ -129,6 +129,7 @@
           </h3>
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
             <p class="card__caption">
+              fernando
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
               <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
             </p>
