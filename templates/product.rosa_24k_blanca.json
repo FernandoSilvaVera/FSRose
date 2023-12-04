@@ -9,7 +9,7 @@
           }
         },
         "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
@@ -157,7 +157,7 @@
         "template--19958383411524__46ba1f38-877f-44c1-9524-98447259fec3-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/369512082_690103366297162_1065130928616669660_n.jpg",
+            "image": "shopify:\/\/shop_images\/4_60d762bf-4308-4373-aaa5-85a070c32638.png",
             "caption": "",
             "heading": "<strong>Regalo de Lujo: Rosa preservada en Oro de 24 Quilates.<\/strong>",
             "text": "<p>Descubre la perfección hecha regalo con nuestra Eternal Rose. Cada rosa es cuidadosamente seleccionada en su punto máximo de belleza y sumergida en genuino oro de 24 quilates. El resultado es una joya inigualable que brilla con la promesa de amor eterno.<\/p>",
@@ -240,7 +240,7 @@
       "type": "apps",
       "blocks": {
         "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
