@@ -125,11 +125,32 @@
           "settings": {
             "collection": "flor-eterna"
           }
+        },
+        "42d915c1-808f-4cf4-9e8e-f391145264be": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "osos"
+          }
+        },
+        "99c3abe0-9569-4224-b2d7-d3bba0f64ce3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rosa-eterna-de-oro-de-24k"
+          }
+        },
+        "e646ecef-b6ab-4fc6-8163-3bafae6c6ebe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "caja-de-rosas-eternas"
+          }
         }
       },
       "block_order": [
         "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-1",
-        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-2"
+        "template--19132084977988__9cb45214-bb59-4a51-b60f-7db4770812bb-featured_collection-2",
+        "42d915c1-808f-4cf4-9e8e-f391145264be",
+        "99c3abe0-9569-4224-b2d7-d3bba0f64ce3",
+        "e646ecef-b6ab-4fc6-8163-3bafae6c6ebe"
       ],
       "settings": {
         "title": "Explora nuestras rosas eternas",
