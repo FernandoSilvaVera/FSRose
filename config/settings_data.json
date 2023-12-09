@@ -178,23 +178,23 @@
         "type": "shopify:\/\/apps\/giftit-gift-message-gift-wrap\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
         "disabled": false,
         "settings": {
-          "booleanSettings": "0,1,1,1,1,1,1,0,0",
           "displayText": "¿Es para regalar?",
+          "cartPageDisplayText": "¿Es para regalar?",
           "descriptionText": "",
+          "cartPageDescriptionText": "",
           "textColor": "#000000",
+          "cartPageTextColor": "#000000",
           "modalTitle": "Opciones de regalo",
           "modalGiftWrapCheckLabel": "¿Agregamos chocolate?",
-          "modalGiftWrapEmptyState": "Agotado temporalmente",
           "modalGiftMessageCheckLabel": "Mensaje",
           "modalGiftMessageTextLabel": "Mensaje",
           "modalGiftReceiptCheckLabel": "Mensaje en corazón de madera",
+          "modalGiftWrapEmptyState": "Agotado temporalmente",
           "modalSubtotal": "Total",
           "modalPositiveButton": "Guardar",
           "modalPositiveButtonColor": "#006E52",
           "modalNegativeButton": "Cancelar",
-          "cartPageDisplayText": "¿Es para regalar?",
-          "cartPageDescriptionText": "",
-          "cartPageTextColor": "#000000",
+          "booleanSettings": "0,1,1,1,1,1,1,0,0",
           "cartPageModalTitle": "¿Agregamos algo especial?",
           "cartPageEditButtonText": "Editar",
           "cartPageAddButtonText": "Añadir",
@@ -213,6 +213,12 @@
       },
       "11349500561483629931": {
         "type": "shopify:\/\/apps\/Notify Me\/blocks\/app-embed\/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5493738229337669960": {
+        "type": "shopify:\/\/apps\/bon-loyalty\/blocks\/app-embed\/63496a04-c097-48d1-8c11-475aec24b12e",
         "disabled": false,
         "settings": {
         }
