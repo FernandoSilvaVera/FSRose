@@ -198,12 +198,34 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "17025932324adf5fa1": {
+      "type": "apps",
+      "blocks": {
+        "7434f952-78f2-4254-a7da-b538e781e533": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "7434f952-78f2-4254-a7da-b538e781e533"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "judgeme_section_review_widget_e9f8",
     "related-products",
-    "loox-product-reviews-app-section"
+    "loox-product-reviews-app-section",
+    "17025932324adf5fa1"
   ]
 }
