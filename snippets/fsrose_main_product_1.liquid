@@ -178,6 +178,9 @@ $( function() {
         beforeShowDay: function(date) {
             var day = date.getDay();
             var isSunday = (day == 0);
+            var isSaturday = (day == 6);
+
+          
             
             // Bloquear 1 y 9 de noviembre de 2023
             var isBlockedNovDate = (date.getFullYear() == 2023 && date.getMonth() == 11 && (date.getDate() == 11));
@@ -189,7 +192,7 @@ $( function() {
 
 
             
-            return [!(isSunday || isBlockedNovDate || isBlockedNovDate2 || isBlockedNovDate3 || isBlockedNovDate4 || isBlockedNovDate5 || isBlockedNovDate6), ''];
+            return [!(isSunday || isSaturday || isBlockedNovDate || isBlockedNovDate2 || isBlockedNovDate3 || isBlockedNovDate4 || isBlockedNovDate5 || isBlockedNovDate6), ''];
         },
         closeText: 'Cerrar',
         prevText: '<Ant',
