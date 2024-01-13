@@ -123,7 +123,32 @@
       </div>
     {% endfor %}
   </div>
+  
 {% endif %}
+
+
+{% if product.metafields.custom.related_products %}
+
+    <div>
+      <label class="a-form-label">
+      <b>Otros productos:</b>
+      </label> 
+    </div>
+
+      {% assign variantes = product.metafields.custom.related_products.value %}  
+  <div class="image-row">
+    {% for producto in variantes.productos %}
+      <div class="image-container">
+        <a href="{{ producto.productUrl }}">
+          <img src="{{ producto.ImageUrl }}" alt="{{ producto.ColorName }}" class="imgSwatch">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  
+{% endif %}
+
 
 
 <!-- Añadir jQuery y jQuery UI desde CDN -->
