@@ -4,7 +4,6 @@
   "sections": {
     "4aa814db-0879-4fb4-b9fc-02e01a261b47": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"text-align: center; background-color: #D32F2F;\">\n  <span class=\"delivery-message\" style=\"color: #FFFFFF;\">Se puede devolver hasta el 31 de Marzo<\/span>\n<\/div>\n\n{% comment %} Agrega estilos CSS para el mensaje de entrega {% endcomment %}\n<style>\n  .delivery-message {\n    color: #FFFFFF;\n    font-weight: bold;\n    font-size: 16px;\n  }\n  \n  .main_message {\n    margin-bottom: 0;\n  }\n  \n  .small-text {\n    font-size: 12px;\n    margin-top: 0;\n  }\n<\/style>",
         "color_scheme": "background-1",
