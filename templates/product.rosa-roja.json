@@ -15,6 +15,7 @@
             "pattern": "",
             "hideText": false,
             "alignment": "",
+            "layout": "",
             "textColor": "",
             "starColor": "",
             "showAllReviews": true,
@@ -27,18 +28,6 @@
           "settings": {
           }
         },
-        "eea978a6-3b68-4b67-afa1-cefe8521b6fc": {
-          "type": "fsrose-main-product-block",
-          "settings": {
-            "text": ""
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -48,6 +37,12 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "eea978a6-3b68-4b67-afa1-cefe8521b6fc": {
+          "type": "fsrose-main-product-block",
+          "settings": {
+            "text": ""
           }
         },
         "description": {
@@ -120,10 +115,9 @@
         "title",
         "loox-rating",
         "price",
-        "eea978a6-3b68-4b67-afa1-cefe8521b6fc",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "eea978a6-3b68-4b67-afa1-cefe8521b6fc",
         "description",
         "15623151-6abd-49b0-a8d1-191884b122e5",
         "58cf29f7-78fe-4c56-a132-f9752249e842",
