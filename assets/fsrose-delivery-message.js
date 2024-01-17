@@ -116,7 +116,7 @@ function obtenerFechaEntrega() {
     nextWednesday = nextWednesday.toLocaleString('default', { weekday: 'long', day: 'numeric' });
 
       if (currentHour < 16) {
-        return `Entrega GRATIS <b>MAÑANA o ${saturday}</b>`;
+        return `Entrega GRATIS <b>MAÑANA o ${nextMonday}</b>`;
       } else {
         return `Entrega GRATIS <b>el ${saturday} o ${nextMonday}</b>`;
       }
