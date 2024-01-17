@@ -162,8 +162,8 @@ function obtenerFechaEntrega() {
 var messageDeliveryElement = document.getElementById("messageDelivery");
 messageDeliveryElement.innerHTML = obtenerMensajeEntrega();
 
-var messageDiscountElement = document.getElementById("messageDiscount");
-messageDiscountElement.innerHTML = obtenerMensajeDescuento();
+//var messageDiscountElement = document.getElementById("messageDiscount");
+//messageDiscountElement.innerHTML = obtenerMensajeDescuento();
 
 var deliveryDateElement = document.getElementById("deliveryDate");
 deliveryDateElement.innerHTML = obtenerFechaEntrega();
