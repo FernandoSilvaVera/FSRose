@@ -28,6 +28,12 @@
           "settings": {
           }
         },
+        "b9bf4c43-4398-4fa7-bc38-bb169fb24ff5": {
+          "type": "fsrose-main-product-block",
+          "settings": {
+            "text": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -37,12 +43,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "b9bf4c43-4398-4fa7-bc38-bb169fb24ff5": {
-          "type": "fsrose-main-product-block",
-          "settings": {
-            "text": ""
           }
         },
         "variant_picker": {
@@ -121,9 +121,9 @@
         "title",
         "loox-rating",
         "price",
+        "b9bf4c43-4398-4fa7-bc38-bb169fb24ff5",
         "quantity_selector",
         "buy_buttons",
-        "b9bf4c43-4398-4fa7-bc38-bb169fb24ff5",
         "variant_picker",
         "description",
         "ba5ce460-a666-45c1-add5-d39ab4846187",
