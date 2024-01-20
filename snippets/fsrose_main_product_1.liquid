@@ -118,7 +118,7 @@
   {% assign variantes = product.metafields.custom.variants.value %}  
   <div class="image-row">
     {% for producto in variantes.productos %}
-      <div class="image-container">
+      <div class="image-container" style=" text-align: center; ">
         <a href="{{ producto.productUrl }}">
           <img src="{{ producto.ImageUrl }}" alt="{{ producto.ColorName }}" class="imgSwatch" style=" display: block; margin: 0 auto; ">
         </a>
@@ -141,7 +141,7 @@
       {% assign variantes = product.metafields.custom.related_products.value %}  
   <div class="image-row">
     {% for producto in variantes.productos %}
-      <div class="image-container">
+      <div class="image-container" style=" text-align: center; ">
         <a href="{{ producto.productUrl }}">
           <img src="{{ producto.ImageUrl }}" alt="{{ producto.ColorName }}" class="imgSwatch" style=" display: block; margin: 0 auto; ">
         </a>
