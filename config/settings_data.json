@@ -1,8 +1,8 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Diseno_sin_titulo_20.png",
+    "logo": "shopify:\/\/shop_images\/Diseno_sin_titulo.png",
     "logo_width": 150,
-    "favicon": "shopify:\/\/shop_images\/Diseno_sin_titulo_23.png",
+    "favicon": "shopify:\/\/shop_images\/b546292f-742c-4fdf-a7ea-ba9f5c10101c_1704094269534_1.jpg",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#0f0f0f",
     "gradient_accent_1": "",
@@ -128,7 +128,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
-    "checkout_header_image": "shopify:\/\/shop_images\/Diseno_sin_titulo_33.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/Diseno_sin_titulo.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/Diseno_sin_titulo__8_-removebg-preview_9c1d9e99-3a50-4a2f-8ccd-8cabd5ae63d0.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
@@ -148,94 +148,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "1744161739547163668": {
-        "type": "shopify:\/\/apps\/countdown-timer-bar-hextom\/blocks\/ctb-embeded-block\/f7b88b6e-2e87-46bc-87a9-3e3638a24fa9",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "8208493610395315515": {
-        "type": "shopify:\/\/apps\/dondy-whatsapp-chat-widget\/blocks\/app-block\/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "8942208844547249051": {
-        "type": "shopify:\/\/apps\/ultimate-gdpr-eu-cookie-banner\/blocks\/widget\/9ad66af2-f521-41c0-96ef-0e66c4e1d187",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "giftit": {
-        "type": "shopify:\/\/apps\/giftit-gift-message-gift-wrap\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
-        "disabled": false,
-        "settings": {
-          "displayText": "Añadir dedicatoria o bombones",
-          "cartPageDisplayText": "¿Es para regalar?",
-          "descriptionText": "",
-          "cartPageDescriptionText": "",
-          "textColor": "#007bff",
-          "cartPageTextColor": "#000000",
-          "modalTitle": "Opciones de regalo",
-          "modalGiftWrapCheckLabel": "¿Agregamos chocolate?",
-          "modalGiftMessageCheckLabel": "Mensaje",
-          "modalGiftMessageTextLabel": "Mensaje",
-          "modalGiftReceiptCheckLabel": "Mensaje en corazón de madera",
-          "modalGiftWrapEmptyState": "Agotado temporalmente",
-          "modalSubtotal": "Total",
-          "modalPositiveButton": "Guardar",
-          "modalPositiveButtonColor": "#006E52",
-          "modalNegativeButton": "Cancelar",
-          "booleanSettings": "0,1,1,1,1,1,1,0,0",
-          "cartPageModalTitle": "¿Agregamos algo especial?",
-          "cartPageEditButtonText": "Editar",
-          "cartPageAddButtonText": "Añadir",
-          "cartPageBatchWrappingButtonText": "Este pedido será un regalo.",
-          "cartPageBatchWrappingButtonTextColor": "#000000",
-          "cartPageConfirmationText": "Esto eliminará todas sus opciones de regalo actuales. ¿Está seguro?",
-          "cartPageConfirmationYesButtonText": "Si",
-          "cartPageConfirmationNoButtonText": "No"
-        }
-      },
-      "17418022395263233305": {
-        "type": "shopify:\/\/apps\/evlop-order-limits-min-max\/blocks\/cart-validator\/5faf2f1c-0e1b-4196-9655-09598ebe59b0",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "11349500561483629931": {
-        "type": "shopify:\/\/apps\/Notify Me\/blocks\/app-embed\/b399b727-6c85-44fc-9e21-63114bd72054",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "11532412952436166569": {
-        "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "7555218208816688692": {
-        "type": "shopify:\/\/apps\/rivo-popups-email-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5493738229337669960": {
-        "type": "shopify:\/\/apps\/bon-loyalty\/blocks\/app-embed\/63496a04-c097-48d1-8c11-475aec24b12e",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "5674012996228588682": {
-        "type": "shopify:\/\/apps\/cartbot\/blocks\/cartbot-script-append\/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
