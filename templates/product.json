@@ -223,17 +223,6 @@
     },
     "1705784385d458fb38": {
       "type": "apps",
-      "blocks": {
-        "powr_popup_app_block_wdDG9Q": {
-          "type": "shopify:\/\/apps\/powr-popup\/blocks\/app-block\/c42eddd7-7bc0-47cc-aa8a-df388049f012",
-          "settings": {
-            "app_id": "70eaf029_1705783308"
-          }
-        }
-      },
-      "block_order": [
-        "powr_popup_app_block_wdDG9Q"
-      ],
       "settings": {
         "include_margins": true
       }
