@@ -223,16 +223,17 @@
         "settings": {
         }
       },
-      "2538754702463810051": {
-        "type": "shopify:\/\/apps\/sale-flash-sale-price-edit\/blocks\/wizz_sale\/cb67c40d-1985-4671-a8ba-9fcd0d4ad990",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "5493738229337669960": {
         "type": "shopify:\/\/apps\/bon-loyalty\/blocks\/app-embed\/63496a04-c097-48d1-8c11-475aec24b12e",
         "disabled": true,
         "settings": {
+        }
+      },
+      "10605408327587305396": {
+        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "disabled": false,
+        "settings": {
+          "version": "v3"
         }
       }
     }
