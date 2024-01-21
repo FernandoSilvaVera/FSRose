@@ -52,6 +52,7 @@
         },
         "15623151-6abd-49b0-a8d1-191884b122e5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "¿Qué es una rosa preservada?🤔",
             "icon": "heart",
@@ -61,6 +62,7 @@
         },
         "58cf29f7-78fe-4c56-a132-f9752249e842": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Significado rosa roja  🌹",
             "icon": "star",
@@ -70,6 +72,7 @@
         },
         "53ad0fac-792d-4f75-9b36-b289dce2e471": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensiones y Peso",
             "icon": "ruler",
@@ -79,6 +82,7 @@
         },
         "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "¿Qué incluye?",
             "icon": "clipboard",
@@ -145,87 +149,6 @@
         "padding_bottom": 0
       }
     },
-    "8e38c533-fc6f-49d6-b18b-c36dfa559d73": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19549261201732__8e38c533-fc6f-49d6-b18b-c36dfa559d73-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>¿Por que comprar una rosa eterna roja?<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--19549261201732__8e38c533-fc6f-49d6-b18b-c36dfa559d73-heading-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "0cfe97b5-2027-4330-9c0c-4d52da9a5e18": {
-      "type": "multirow",
-      "blocks": {
-        "template--19549261201732__0cfe97b5-2027-4330-9c0c-4d52da9a5e18-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_32.png",
-            "caption": "",
-            "heading": "Rosas que duran años:",
-            "text": "<p>Es una rosa roja que no se marchita en días, sino que mantiene su belleza y frescura durante años<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549261201732__0cfe97b5-2027-4330-9c0c-4d52da9a5e18-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/333333333.png",
-            "caption": "",
-            "heading": "<strong>Empaque Perfecto para un Regalo Perfecto:<\/strong>",
-            "text": "<p>Sabemos que cada detalle cuenta cuando se trata de regalar. Por eso, nuestras rosas eternas vienen en una sofisticada caja de regalo negra, añadiendo un toque de elegancia y misterio. Al abrir, el destinatario se encontrará con una joya que nunca olvidará.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549261201732__0cfe97b5-2027-4330-9c0c-4d52da9a5e18-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_19835278-4696-44ff-8470-8eaa7b57208b.png",
-            "caption": "",
-            "heading": "<strong>¿A Quién Regalar una Rosa Roja?<\/strong>",
-            "text": "<p><strong>Pareja<\/strong>: Como expresión de amor profundo y pasión.<br\/><strong>Amigos cercanos<\/strong>: Para agradecer su constancia y amor incondicional.<br\/><strong>Familia<\/strong>: Un recuerdo eterno para quienes han estado contigo en cada paso del camino.<br\/><strong>Aniversarios<\/strong>: Para conmemorar momentos especiales y duraderos en el tiempo.<br\/><strong>Compromisos<\/strong>: Como símbolo de un amor que nunca se marchitará.<br\/><strong>A ti mismo<\/strong>: Porque también mereces darte mimos y recordarte que el amor propio es fundamental.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19549261201732__0cfe97b5-2027-4330-9c0c-4d52da9a5e18-row-1",
-        "template--19549261201732__0cfe97b5-2027-4330-9c0c-4d52da9a5e18-row-2",
-        "template--19549261201732__0cfe97b5-2027-4330-9c0c-4d52da9a5e18-row-3"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "judgeme_section_review_widget_e9f8": {
       "type": "apps",
       "settings": {
@@ -276,8 +199,6 @@
   },
   "order": [
     "main",
-    "8e38c533-fc6f-49d6-b18b-c36dfa559d73",
-    "0cfe97b5-2027-4330-9c0c-4d52da9a5e18",
     "judgeme_section_review_widget_e9f8",
     "related-products",
     "loox-product-reviews-app-section"
