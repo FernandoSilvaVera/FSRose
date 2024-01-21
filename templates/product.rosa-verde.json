@@ -56,42 +56,6 @@
           "settings": {
           }
         },
-        "ba5ce460-a666-45c1-add5-d39ab4846187": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué es una rosa preservada?🤔",
-            "icon": "heart",
-            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal. <strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "15623151-6abd-49b0-a8d1-191884b122e5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Significado rosa verde 💚",
-            "icon": "star",
-            "content": "<p>La rosa verde simboliza la esperanza, la renovación y la juventud. Es perfecta para expresar buenos deseos y energía positiva. <strong>Regala una rosa verde para infundir alegría y optimismo en la vida de alguien.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "632fea46-35e3-4ac1-8c2b-66e58d1127d0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensiones y peso",
-            "icon": "ruler",
-            "content": "<p><strong>Altura: <\/strong>14cm<\/p><p><strong>Ancho:<\/strong>12cm<\/p><p><strong>Peso: <\/strong>310g<\/p>",
-            "page": ""
-          }
-        },
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué incluye?",
-            "icon": "clipboard",
-            "content": "<p><strong>Tres Cartas de Amor:<\/strong> Incluye tres cartas de amor dentro de un sobre.<br\/><strong>Manual de Instruccione<\/strong>s: Incluido un manual para conservar el producto.<\/p>",
-            "page": ""
-          }
-        },
         "2f31e912-7a29-49db-9cde-29e159548845": {
           "type": "collapsible_tab",
           "settings": {
@@ -126,10 +90,6 @@
         "buy_buttons",
         "variant_picker",
         "description",
-        "ba5ce460-a666-45c1-add5-d39ab4846187",
-        "15623151-6abd-49b0-a8d1-191884b122e5",
-        "632fea46-35e3-4ac1-8c2b-66e58d1127d0",
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
         "2f31e912-7a29-49db-9cde-29e159548845",
         "def38eb8-c46f-4510-945f-0cc48767eeea",
         "share"
@@ -150,64 +110,6 @@
         "enable_video_looping": false,
         "padding_top": 16,
         "padding_bottom": 0
-      }
-    },
-    "a3016cf7-ab49-4280-9643-a4ad77b4d7fd": {
-      "type": "multirow",
-      "blocks": {
-        "template--19549189767492__a3016cf7-ab49-4280-9643-a4ad77b4d7fd-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FSRose.es_068f0a8b-4c81-474f-8ceb-f729b3c8dbeb.png",
-            "caption": "",
-            "heading": "<strong>Rosas que Duran Años:<\/strong>",
-            "text": "<p>La naturaleza nos brinda maravillas, pero ¿una rosa verde que perdura en el tiempo? Eso es magia pura. Te presentamos nuestras rosas verdes eternas en cúpulas de cristal, un regalo que combina lo vibrante del verde con la promesa de una belleza que se conserva durante años.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549189767492__a3016cf7-ab49-4280-9643-a4ad77b4d7fd-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/333333333_9dd76c37-d758-4b67-bfbc-d342b0209f1c.png",
-            "caption": "",
-            "heading": "<strong>Empaque Perfecto para un Regalo Inesperado:<\/strong>",
-            "text": "<p>Para un regalo tan singular y lleno de vida, hemos elegido una elegante caja de regalo negra que contrasta y realza su frescura y luminosidad. Al descubrirla, quien la reciba sentirá una oleada de sorpresa y admiración.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549189767492__a3016cf7-ab49-4280-9643-a4ad77b4d7fd-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_ac043a03-d198-4108-8c8b-cc617d3e964c.png",
-            "caption": "",
-            "heading": "<strong>¿A Quién Regalar una Rosa eterna Verde?<\/strong>",
-            "text": "<p>El verde es el color de la esperanza, del renacimiento y de lo nuevo. Una rosa verde es ideal para:<br\/><br\/><strong>Nuevos Comienzos<\/strong>: Celebrando un nuevo trabajo, una mudanza o un nuevo capítulo en la vida.<br\/><strong>Personas Creativas<\/strong>: Aquellas que siempre ven más allá de lo convencional.<br\/><strong>Días de San Patricio<\/strong>: Un detalle único para esta festividad.<br\/><strong>Deseo de Bienestar<\/strong>: Para transmitir energía positiva y buenos deseos.<br\/><strong>Amantes de la Naturaleza<\/strong>: Quienes encuentran paz y alegría en el verde del mundo.<br\/><strong>A ti mismo<\/strong>: Un recordatorio de que siempre hay esperanza y oportunidades para crecer y renovarse.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19549189767492__a3016cf7-ab49-4280-9643-a4ad77b4d7fd-row-1",
-        "template--19549189767492__a3016cf7-ab49-4280-9643-a4ad77b4d7fd-row-2",
-        "template--19549189767492__a3016cf7-ab49-4280-9643-a4ad77b4d7fd-row-3"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "judgeme_section_review_widget_e9f8": {
@@ -260,7 +162,6 @@
   },
   "order": [
     "main",
-    "a3016cf7-ab49-4280-9643-a4ad77b4d7fd",
     "judgeme_section_review_widget_e9f8",
     "related-products",
     "loox-product-reviews-app-section"
