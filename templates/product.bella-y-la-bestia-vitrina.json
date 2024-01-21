@@ -9,12 +9,13 @@
           }
         },
         "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
+            "layout": "",
             "textColor": "",
             "starColor": "",
             "showAllReviews": false,
@@ -55,33 +56,6 @@
           "settings": {
           }
         },
-        "15623151-6abd-49b0-a8d1-191884b122e5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué es una rosa preservada?🤔",
-            "icon": "heart",
-            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal.<strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "700bb950-ce35-401e-a7b6-79d7ab5f7939": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Significado rosa roja  🌹",
-            "icon": "star",
-            "content": "<p>La rosa roja simboliza el amor apasionado y la admiración profunda. <strong>Es el regalo perfecto para expresar tus sentimientos más sinceros y demostrar tu amor incondicional.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "8ba6beec-cf89-475d-8c96-22850e611521": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensiones y Peso",
-            "icon": "ruler",
-            "content": "<p><strong>Altura: <\/strong>29cm<\/p><p><strong>Ancho: <\/strong>17cm<\/p><p><strong>Peso: <\/strong>770g<\/p>",
-            "page": ""
-          }
-        },
         "2f31e912-7a29-49db-9cde-29e159548845": {
           "type": "collapsible_tab",
           "settings": {
@@ -116,9 +90,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "15623151-6abd-49b0-a8d1-191884b122e5",
-        "700bb950-ce35-401e-a7b6-79d7ab5f7939",
-        "8ba6beec-cf89-475d-8c96-22850e611521",
         "2f31e912-7a29-49db-9cde-29e159548845",
         "def38eb8-c46f-4510-945f-0cc48767eeea",
         "share"
@@ -139,87 +110,6 @@
         "enable_video_looping": false,
         "padding_top": 16,
         "padding_bottom": 0
-      }
-    },
-    "bd245466-04f8-4de0-a0e2-2a8d16a05f13": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19549261398340__bd245466-04f8-4de0-a0e2-2a8d16a05f13-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1>¿Por que comprar rosas preservadas en FS Rose?<\/h1>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--19549261398340__bd245466-04f8-4de0-a0e2-2a8d16a05f13-heading-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "d0b6a337-608e-46ab-aca1-c0037c9f2b62": {
-      "type": "multirow",
-      "blocks": {
-        "template--19549261398340__d0b6a337-608e-46ab-aca1-c0037c9f2b62-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7_989d0441-fd42-4031-9f07-d286c6e5bdee.png",
-            "caption": "",
-            "heading": "Rosas preservadas de alta calidad",
-            "text": "<p>Seleccionamos cuidadosamente solo las rosas más hermosas para nuestro proceso de preservación. Cada rosa que ofrecemos ha sido elegida por su belleza excepcional.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549261398340__d0b6a337-608e-46ab-aca1-c0037c9f2b62-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_5967f8e7-8f0d-4ff9-afcf-bbdcea3baf8b.png",
-            "caption": "",
-            "heading": "Nuestros clientes son nuestra prioridad",
-            "text": "<p>Entendemos que tu satisfacción es lo más importante. Si no estás conforme con tu compra, <strong>tienes 30 días para devolver el producto de forma GRATUITA y sin dar explicaciones<\/strong>. Además, ofrecemos <strong>envíos GRATUITOS <\/strong>y rápidos a través de CORREOS EXPRESS para que disfrutes de tus rosas cuanto antes.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549261398340__d0b6a337-608e-46ab-aca1-c0037c9f2b62-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_32.png",
-            "caption": "",
-            "heading": "Servicio al cliente espléndido",
-            "text": "<p>Estamos aquí para ti. Nuestro equipo de servicio al cliente está listo para ayudarte en todo momento. Si tienes alguna pregunta o deseas consultar el estado de tus pedidos, no dudes en contactarnos a través de <strong>WhatsApp al +34 646124371.<\/strong><\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19549261398340__d0b6a337-608e-46ab-aca1-c0037c9f2b62-row-1",
-        "template--19549261398340__d0b6a337-608e-46ab-aca1-c0037c9f2b62-row-2",
-        "template--19549261398340__d0b6a337-608e-46ab-aca1-c0037c9f2b62-row-3"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -246,7 +136,7 @@
       "type": "apps",
       "blocks": {
         "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -266,8 +156,6 @@
   },
   "order": [
     "main",
-    "bd245466-04f8-4de0-a0e2-2a8d16a05f13",
-    "d0b6a337-608e-46ab-aca1-c0037c9f2b62",
     "related-products",
     "loox-product-reviews-app-section"
   ]
