@@ -168,41 +168,41 @@
         "settings": {
         }
       },
-      "10289465198983418879": {
-        "type": "shopify:\/\/apps\/giftit-gift-message-gift-wrap\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
+      "17418022395263233305": {
+        "type": "shopify:\/\/apps\/evlop-order-limits-min-max\/blocks\/cart-validator\/5faf2f1c-0e1b-4196-9655-09598ebe59b0",
         "disabled": false,
         "settings": {
-          "displayText": "This is gift?",
+        }
+      },
+      "giftit": {
+        "type": "shopify:\/\/apps\/giftit\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
+        "disabled": true,
+        "settings": {
+          "displayText": "Add gift options",
           "cartPageDisplayText": "Manage gift options",
-          "descriptionText": "Gift this product",
-          "cartPageDescriptionText": "Gift this product",
+          "descriptionText": "Gift this product ",
+          "cartPageDescriptionText": "Gift this product ",
           "textColor": "#000000",
           "cartPageTextColor": "#000000",
           "modalTitle": "Gift options",
-          "modalGiftWrapCheckLabel": "Gift Wrap",
+          "modalGiftWrapCheckLabel": "Gift wraps",
           "modalGiftMessageCheckLabel": "Gift message",
           "modalGiftMessageTextLabel": "Text",
           "modalGiftReceiptCheckLabel": "Gift receipt",
-          "modalGiftWrapEmptyState": "There are no any giftwrap options to show",
+          "modalGiftWrapEmptyState": "There are no any gift wrap options to show",
           "modalSubtotal": "Subtotal",
-          "modalPositiveButton": "Save",
-          "modalPositiveButtonColor": "#008060",
+          "modalPositiveButton": "Add",
+          "modalPositiveButtonColor": "#006E52",
           "modalNegativeButton": "Cancel",
           "booleanSettings": "0,0,0,1,1,1,1,1,0",
           "cartPageModalTitle": "Manage gift options",
           "cartPageEditButtonText": "Edit",
           "cartPageAddButtonText": "Add",
-          "cartPageBatchWrappingButtonText": "Consider all items as one gift.",
+          "cartPageBatchWrappingButtonText": "This order will be a gift",
           "cartPageBatchWrappingButtonTextColor": "#000000",
           "cartPageConfirmationText": "This will remove all your current gift options. Are you sure?",
           "cartPageConfirmationYesButtonText": "Yes",
           "cartPageConfirmationNoButtonText": "No"
-        }
-      },
-      "17418022395263233305": {
-        "type": "shopify:\/\/apps\/evlop-order-limits-min-max\/blocks\/cart-validator\/5faf2f1c-0e1b-4196-9655-09598ebe59b0",
-        "disabled": false,
-        "settings": {
         }
       }
     }
