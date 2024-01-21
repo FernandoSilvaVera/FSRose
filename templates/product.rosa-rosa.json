@@ -50,42 +50,6 @@
           "settings": {
           }
         },
-        "10e8b0fb-78b5-4f32-a44c-2697aab769f5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué es una rosa preservada?🤔",
-            "icon": "heart",
-            "content": "<p>La rosa rosa es símbolo de dulzura, gratitud y adUna rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal. <strong>Disfruta de su belleza eterna y duradera.<\/strong>miración. Es ideal para expresar aprecio, alegría y cariño hacia esa persona especial. <strong>¡Una elección encantadora para celebrar momentos alegres!<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "15623151-6abd-49b0-a8d1-191884b122e5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Significado rosa rosa 🌸",
-            "icon": "star",
-            "content": "<p>La rosa rosa es símbolo de dulzura, gratitud y admiración. Es ideal para expresar aprecio, alegría y cariño hacia esa persona especial. <strong>¡Una elección encantadora para celebrar momentos alegres!<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "693012f2-1c3f-43af-8b08-56e914c9ed9f": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensiones y peso",
-            "icon": "ruler",
-            "content": "<p><strong>Altura: <\/strong>14cm<\/p><p><strong>Ancho:<\/strong>12cm<\/p><p><strong>Peso: <\/strong>310g<\/p>",
-            "page": ""
-          }
-        },
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué incluye?",
-            "icon": "clipboard",
-            "content": "<p><strong>Tres Cartas de Amor:<\/strong> Incluye tres cartas de amor dentro de un sobre.<br\/><strong>Manual de Instruccione<\/strong>s: Incluido un manual para conservar el producto.<\/p>",
-            "page": ""
-          }
-        },
         "2f31e912-7a29-49db-9cde-29e159548845": {
           "type": "collapsible_tab",
           "settings": {
@@ -119,10 +83,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "10e8b0fb-78b5-4f32-a44c-2697aab769f5",
-        "15623151-6abd-49b0-a8d1-191884b122e5",
-        "693012f2-1c3f-43af-8b08-56e914c9ed9f",
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
         "2f31e912-7a29-49db-9cde-29e159548845",
         "def38eb8-c46f-4510-945f-0cc48767eeea",
         "share"
