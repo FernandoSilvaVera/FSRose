@@ -155,6 +155,55 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "7555218208816688692": {
+        "type": "shopify:\/\/apps\/rivo-popups-email-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8208493610395315515": {
+        "type": "shopify:\/\/apps\/dondy-whatsapp-chat-marketing\/blocks\/app-block\/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10289465198983418879": {
+        "type": "shopify:\/\/apps\/giftit-gift-message-gift-wrap\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
+        "disabled": false,
+        "settings": {
+          "displayText": "This is gift?",
+          "cartPageDisplayText": "Manage gift options",
+          "descriptionText": "Gift this product",
+          "cartPageDescriptionText": "Gift this product",
+          "textColor": "#000000",
+          "cartPageTextColor": "#000000",
+          "modalTitle": "Gift options",
+          "modalGiftWrapCheckLabel": "Gift Wrap",
+          "modalGiftMessageCheckLabel": "Gift message",
+          "modalGiftMessageTextLabel": "Text",
+          "modalGiftReceiptCheckLabel": "Gift receipt",
+          "modalGiftWrapEmptyState": "There are no any giftwrap options to show",
+          "modalSubtotal": "Subtotal",
+          "modalPositiveButton": "Save",
+          "modalPositiveButtonColor": "#008060",
+          "modalNegativeButton": "Cancel",
+          "booleanSettings": "0,0,0,1,1,1,1,1,0",
+          "cartPageModalTitle": "Manage gift options",
+          "cartPageEditButtonText": "Edit",
+          "cartPageAddButtonText": "Add",
+          "cartPageBatchWrappingButtonText": "Consider all items as one gift.",
+          "cartPageBatchWrappingButtonTextColor": "#000000",
+          "cartPageConfirmationText": "This will remove all your current gift options. Are you sure?",
+          "cartPageConfirmationYesButtonText": "Yes",
+          "cartPageConfirmationNoButtonText": "No"
+        }
+      },
+      "17418022395263233305": {
+        "type": "shopify:\/\/apps\/evlop-order-limits-min-max\/blocks\/cart-validator\/5faf2f1c-0e1b-4196-9655-09598ebe59b0",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
