@@ -176,7 +176,7 @@
       },
       "giftit": {
         "type": "shopify:\/\/apps\/giftit\/blocks\/gift-wrap-view\/1707cbba-a86f-4470-8050-49adecd487da",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "displayText": "Add gift options",
           "cartPageDisplayText": "Manage gift options",
@@ -194,7 +194,7 @@
           "modalPositiveButton": "Add",
           "modalPositiveButtonColor": "#006E52",
           "modalNegativeButton": "Cancel",
-          "booleanSettings": "0,0,0,1,1,1,1,1,0",
+          "booleanSettings": "0,1,0,1,1,1,1,1,0",
           "cartPageModalTitle": "Manage gift options",
           "cartPageEditButtonText": "Edit",
           "cartPageAddButtonText": "Add",
