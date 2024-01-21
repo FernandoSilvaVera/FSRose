@@ -9,12 +9,13 @@
           }
         },
         "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
+            "layout": "",
             "textColor": "",
             "starColor": "",
             "showAllReviews": false,
@@ -55,42 +56,6 @@
           "settings": {
           }
         },
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué es una rosa preservada?🤔",
-            "icon": "heart",
-            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal.<strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "ef5e7da0-3d9c-4a06-a838-08b5473b7edc": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Significado rosa roja 🌹",
-            "icon": "star",
-            "content": "<p><strong>Tres Cartas de Amor<\/strong>: Incluye tres cartas de amor.<br\/><strong>Manual de Instrucciones<\/strong>: Incluye un manual para conservar el producto.<\/p>",
-            "page": ""
-          }
-        },
-        "4d0f7592-0b97-4b62-9769-fe15a014fc05": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensiones y peso",
-            "icon": "ruler",
-            "content": "<p><strong>Largo: <\/strong>37cm<\/p><p><strong>Ancho: <\/strong>24cm<\/p><p><strong>Alto: <\/strong>13cm<\/p><p><strong>Peso: <\/strong>500g<\/p>",
-            "page": ""
-          }
-        },
-        "4f1a475b-c531-4aaf-aa33-36b21938ccf2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué incluye?",
-            "icon": "clipboard",
-            "content": "<p><strong>Manual de Instrucciones<\/strong>: Incluye un manual para conservar el producto.<\/p><p><strong>Pilas<\/strong><\/p>",
-            "page": ""
-          }
-        },
         "2f31e912-7a29-49db-9cde-29e159548845": {
           "type": "collapsible_tab",
           "settings": {
@@ -125,10 +90,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
-        "ef5e7da0-3d9c-4a06-a838-08b5473b7edc",
-        "4d0f7592-0b97-4b62-9769-fe15a014fc05",
-        "4f1a475b-c531-4aaf-aa33-36b21938ccf2",
         "2f31e912-7a29-49db-9cde-29e159548845",
         "def38eb8-c46f-4510-945f-0cc48767eeea",
         "share"
@@ -149,87 +110,6 @@
         "enable_video_looping": false,
         "padding_top": 16,
         "padding_bottom": 0
-      }
-    },
-    "adc16462-5e4f-4b16-8b18-9feca4c9fdd4": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19549261234500__adc16462-5e4f-4b16-8b18-9feca4c9fdd4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1>¿Por que comprar en FS Rose?<\/h1>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--19549261234500__adc16462-5e4f-4b16-8b18-9feca4c9fdd4-heading-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "d1cf3e8f-fdb2-4588-bff2-37ec7699e87e": {
-      "type": "multirow",
-      "blocks": {
-        "template--19549261234500__d1cf3e8f-fdb2-4588-bff2-37ec7699e87e-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7_989d0441-fd42-4031-9f07-d286c6e5bdee.png",
-            "caption": "",
-            "heading": "Rosas de alta calidad",
-            "text": "<p>Seleccionamos cuidadosamente solo las rosas más hermosas para nuestro proceso de preservación. Cada rosa que ofrecemos ha sido elegida por su belleza excepcional.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549261234500__d1cf3e8f-fdb2-4588-bff2-37ec7699e87e-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_5967f8e7-8f0d-4ff9-afcf-bbdcea3baf8b.png",
-            "caption": "",
-            "heading": "Nuestros clientes son nuestra prioridad",
-            "text": "<p>Entendemos que tu satisfacción es lo más importante. Si no estás conforme con tu compra, <strong>tienes 30 días para devolver el producto de forma GRATUITA y sin dar explicaciones<\/strong>. Además, ofrecemos <strong>envíos GRATUITOS <\/strong>y rápidos a través de CORREOS EXPRESS para que disfrutes de tus rosas cuanto antes.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549261234500__d1cf3e8f-fdb2-4588-bff2-37ec7699e87e-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_32.png",
-            "caption": "Caption",
-            "heading": "Servicio al cliente espléndido",
-            "text": "<p>Estamos aquí para ti. Nuestro equipo de servicio al cliente está listo para ayudarte en todo momento. Si tienes alguna pregunta o deseas consultar el estado de tus pedidos, no dudes en contactarnos a través de <strong>WhatsApp al +34 646124371.<\/strong><\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19549261234500__d1cf3e8f-fdb2-4588-bff2-37ec7699e87e-row-1",
-        "template--19549261234500__d1cf3e8f-fdb2-4588-bff2-37ec7699e87e-row-2",
-        "template--19549261234500__d1cf3e8f-fdb2-4588-bff2-37ec7699e87e-row-3"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -256,7 +136,7 @@
       "type": "apps",
       "blocks": {
         "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -276,8 +156,6 @@
   },
   "order": [
     "main",
-    "adc16462-5e4f-4b16-8b18-9feca4c9fdd4",
-    "d1cf3e8f-fdb2-4588-bff2-37ec7699e87e",
     "related-products",
     "loox-product-reviews-app-section"
   ]
