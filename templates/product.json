@@ -56,42 +56,6 @@
           "settings": {
           }
         },
-        "15623151-6abd-49b0-a8d1-191884b122e5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué es una rosa preservada?🤔",
-            "icon": "heart",
-            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal.<strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "700bb950-ce35-401e-a7b6-79d7ab5f7939": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Significado rosa roja  🌹",
-            "icon": "star",
-            "content": "<p>La rosa roja simboliza el amor apasionado y la admiración profunda. <strong>Es el regalo perfecto para expresar tus sentimientos más sinceros y demostrar tu amor incondicional.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "8ba6beec-cf89-475d-8c96-22850e611521": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensiones y Peso",
-            "icon": "ruler",
-            "content": "<p><strong>Dimensiones: <\/strong>12x12x13 cm<\/p><p><strong>Peso: <\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué incluye?",
-            "icon": "clipboard",
-            "content": "<p><strong>Tres Cartas de Amor:<\/strong> Incluye tres cartas de amor dentro de un sobre.<br\/><strong>Manual de Instruccione<\/strong>s: Incluido un manual para conservar el producto.<\/p>",
-            "page": ""
-          }
-        },
         "2f31e912-7a29-49db-9cde-29e159548845": {
           "type": "collapsible_tab",
           "settings": {
@@ -126,10 +90,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "15623151-6abd-49b0-a8d1-191884b122e5",
-        "700bb950-ce35-401e-a7b6-79d7ab5f7939",
-        "8ba6beec-cf89-475d-8c96-22850e611521",
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
         "2f31e912-7a29-49db-9cde-29e159548845",
         "def38eb8-c46f-4510-945f-0cc48767eeea",
         "share"
