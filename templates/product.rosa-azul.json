@@ -56,42 +56,6 @@
           "settings": {
           }
         },
-        "15623151-6abd-49b0-a8d1-191884b122e5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué es una rosa preservada?🤔",
-            "icon": "heart",
-            "content": "<p>Una rosa preservada es una flor natural que se conserva sin marchitarse. Retiene su belleza y frescura durante mucho tiempo, no necesita cuidados especiales y es un regalo ideal. <strong>Disfruta de su belleza eterna y duradera.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "0e40a3d4-05cb-4170-a40f-b80e1e931bd9": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Significado rosa azul💙",
-            "icon": "star",
-            "content": "<p>La rosa azul representa lo imposible y lo misterioso. Regalar una rosa azul simboliza la singularidad y el deseo de alcanzar lo inalcanzable. <strong>Es un detalle perfecto para sorprender y cautivar a alguien con su aura de enigma.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "3c415efc-31f7-4f9a-9929-8ab1f4c8b312": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensiones y Peso",
-            "icon": "ruler",
-            "content": "<p><strong>Altura: <\/strong>14cm<\/p><p><strong>Ancho:<\/strong>12cm<\/p><p><strong>Peso: <\/strong>310g<\/p>",
-            "page": ""
-          }
-        },
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué incluye?",
-            "icon": "clipboard",
-            "content": "<p><strong>Tres Cartas de Amor:<\/strong> Incluye tres cartas de amor dentro de un sobre.<br\/><strong>Manual de Instruccione<\/strong>s: Incluido un manual para conservar el producto.<\/p>",
-            "page": ""
-          }
-        },
         "2f31e912-7a29-49db-9cde-29e159548845": {
           "type": "collapsible_tab",
           "settings": {
@@ -126,10 +90,6 @@
         "buy_buttons",
         "variant_picker",
         "description",
-        "15623151-6abd-49b0-a8d1-191884b122e5",
-        "0e40a3d4-05cb-4170-a40f-b80e1e931bd9",
-        "3c415efc-31f7-4f9a-9929-8ab1f4c8b312",
-        "b3e80a90-d583-436b-9fb2-a0bf7a12df2d",
         "2f31e912-7a29-49db-9cde-29e159548845",
         "def38eb8-c46f-4510-945f-0cc48767eeea",
         "share"
@@ -156,64 +116,6 @@
       "type": "apps",
       "settings": {
         "include_margins": true
-      }
-    },
-    "cbedbd13-3687-40c3-ac7e-31a547f71a49": {
-      "type": "multirow",
-      "blocks": {
-        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/33.png",
-            "caption": "",
-            "heading": "Rosas que Duran Años:",
-            "text": "<p>Una rosa eterna azul que no se marchita en días, sino que mantiene su belleza y frescura durante años<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/333333333_9dd76c37-d758-4b67-bfbc-d342b0209f1c.png",
-            "caption": "",
-            "heading": "<strong>Empaque Perfecto para un Regalo Perfecto:<\/strong>",
-            "text": "<p>Sabemos que cada detalle cuenta cuando se trata de regalar. Por eso, nuestras rosas eternas vienen en una sofisticada caja de regalo negra, añadiendo un toque de elegancia y misterio. Al abrir, el destinatario se encontrará con una joya que nunca olvidará.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_6bd06b88-8903-4e07-b394-f35600c7d8b4.png",
-            "caption": "",
-            "heading": "<strong>¿A Quién Regalar una Rosa Azul?<\/strong>",
-            "text": "<p><strong>Personas Especiales<\/strong>: Aquellas que destacan, que tienen un brillo y carácter únicos.<br\/><strong>Cumpleaños<\/strong>: Para desear calma, paz y serenidad en el año venidero.<br\/><strong>Amigos<\/strong>: Para celebrar una amistad profunda y genuina.<br\/><strong>Momentos de Reflexión<\/strong>: Como un recordatorio de que después de la tempestad viene la calma.<br\/><strong>Graduaciones<\/strong>: Simbolizando nuevos horizontes y metas alcanzadas.<br\/><strong>A ti mismo<\/strong>: Porque a veces necesitamos un recordatorio de lo extraordinarios que somos.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-1",
-        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-2",
-        "template--19549188849988__cbedbd13-3687-40c3-ac7e-31a547f71a49-row-3"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -261,7 +163,6 @@
   "order": [
     "main",
     "judgeme_section_review_widget_e9f8",
-    "cbedbd13-3687-40c3-ac7e-31a547f71a49",
     "related-products",
     "loox-product-reviews-app-section"
   ]
