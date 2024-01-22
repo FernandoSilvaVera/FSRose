@@ -191,7 +191,7 @@
           "modalGiftReceiptCheckLabel": "Gift receipt",
           "modalGiftWrapEmptyState": "",
           "modalSubtotal": "",
-          "modalPositiveButton": "Add",
+          "modalPositiveButton": "Añadir",
           "modalPositiveButtonColor": "#006E52",
           "modalNegativeButton": "",
           "booleanSettings": "0,1,0,1,1,1,1,1,0",
